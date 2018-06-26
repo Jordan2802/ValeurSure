@@ -1,0 +1,85 @@
+
+/**Colcarou Item **/
+.colcarou-item {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    float: left;
+    margin:0 auto;
+}
+
+.colcarou-item.active .colcarou-textbox {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    display:table;
+    width:60%;
+}
+.colcarou-item.active .colcarou-textbox h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.colcarou-item.active .colcarou-textbox p {
+    margin: 0;
+    line-height: 20px;
+     width: 80%
+}
+.colcarou-item.inactive .colcarou-textbox {
+    display:table;
+}
+.colcarou-item.inactive .colcarou-textbox h2 {
+    display: table-cell !important;
+    vertical-align: middle;
+}
+.colcarou-item.inactive .colcarou-textbox {
+    position: absolute;
+    width: 500px;
+}
+.colcarou-item h2, .colcarou-item p {
+    cursor: default;
+}
+/**Colcarou elements**/
+.colcarou-textbox {
+    position: absolute;
+    top:0;
+    z-index: 5;
+}
+.colcarou-textbox h2,
+.colcarou-textbox p {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.colcarou-text {
+    width : 50%;
+}
+.colcarou-button {
+    text-decoration: none;
+    float:left;
+}
+.titre{
+  background-color: black;
+  border: 2px solid white;
+}
+
+
+/**Special class for rotation**/
+.colcarou-rotate {
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}

@@ -1,0 +1,122 @@
+#menuSlide, #menuSlide ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menuSlide li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menuSlide ul li{
+display:inherit;
+border-radius:0;
+}
+#menuSlide ul li:hover{
+border-radius:0;
+}
+#menuSlide ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menuSlide ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .5s all .2s;
+-webkit-transition: .5s all .2s;
+transition: .5s all .2s;
+}
+#menuSlide li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menuSlide li:first-child{
+  background-color: #F6AD1A;
+  background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+  background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+  }
+#menuSlide li:nth-child(2){
+  background-color: #F6AD1A;
+  background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+  background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+  }
+#menuSlide li:nth-child(3){
+background-color: #F6AD1A;
+background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+}
+#menuSlide li:nth-child(4){
+  background-color: #F6AD1A;
+  background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+  background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+  }
+#menuSlide li:nth-child(5){
+  background-color: #F6AD1A;
+  background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+  background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+  }
+#menuSlide li:last-child{
+  background-color: #F6AD1A;
+  background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+  background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+  }
+/* background des liens sous menus */
+#menuSlide li:first-child li{
+background:#9F391A;
+}
+#menuSlide li:nth-child(2) li{
+background:#9F391A;
+}
+#menuSlide li:nth-child(3) li{
+background:#9F391A;
+}
+#menuSlide li:nth-child(4) li{
+background:#9F391A;
+}
+#menuSlide li:nth-child(5) li{
+background:#9F391A;
+}
+#menuSlide li:last-child li{
+background:#9F391A;
+}
+/* background des liens menus et sous menus au survol */
+#menuSlide li:first-child:hover, #menuSlide li:first-child li:hover{
+background:#F6AD1A;
+}
+#menuSlide li:nth-child(2):hover, #menuSlide li:nth-child(2) li:hover{
+background:#F6AD1A;
+}
+#menuSlide li:nth-child(3):hover, #menuSlide li:nth-child(3) li:hover{
+background:#F6AD1A;
+}
+#menuSlide li:nth-child(4):hover, #menuSlide li:nth-child(2) li:hover{
+background:#F6AD1A;
+}
+#menuSlide li:nth-child(5):hover, #menuSlide li:nth-child(3) li:hover{
+background:#F6AD1A;
+}
+#menuSlide li:last-child:hover, #menuSlide li:last-child li:hover{
+background:#F6AD1A;
+}
+/* les a href */
+#menuSlide a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#menuSlide ul a{
+padding:8px 0;
+}
+#menuSlide li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menuSlide li:hover a, #menuSlide li li:hover a{
+color:#000;
+}

@@ -1,0 +1,60 @@
+#categories{
+  display: grid;
+  margin: 0 30px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  grid-row-gap: 100px;
+  grid-column-gap: 90px;
+  grid-template-areas:  "simul simul simul simul cred-pro cred-pro"
+                        "simul simul simul simul cred-pro cred-pro"
+                        "conseil conseil assu-empr assu-empr cred-pro cred-pro"
+                        "conseil conseil assu-empr assu-empr cred-immo cred-immo"
+                        "conseil conseil assu-empr assu-empr cred-immo cred-immo"
+                        "conseil conseil assu-empr assu-empr cred-immo cred-immo"
+                        "twi twi twi lin lin lin"
+                        "twi twi twi lin lin lin";
+}
+
+.sec-simul{
+  grid-area: simul;
+}
+
+.sec-cred-pro{
+  grid-area: cred-pro;
+}
+
+.sec-conseil{
+  grid-area: conseil;
+}
+
+.sec-assu-empr{
+  grid-area: assu-empr;
+}
+
+.sec-cred-immo{
+  grid-area: cred-immo;
+}
+
+.media-twi{
+  grid-area: twi;
+}
+
+.media-lin{
+  grid-area: lin;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ededed;
+  border: 1px solid #000;
+}
+
+.section-name{
+
+}
+.description{
+  margin: 0 10%;
+}

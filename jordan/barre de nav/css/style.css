@@ -14,19 +14,22 @@ background-color: rgba(255,255,255,0.6);
 }
 .fa-wordpress{
   font-size: 80px;
-  position: absolute;
+  position: relative;
   top: 20%;
   left: 5%;
 }
 body .first{
   z-index: 2;
   position: absolute;
-  font-size: 300px;
-  top: 30%;
-  left: 40%;
+  font-size: 20vw;
+  top: 30vh;
+  left: 40vw;
 }
 nav #menuSlide{
-  margin-top: 50px;
+  margin-top: -55px;
+}
+.logop{
+  margin-top: 25px;
 }
 .info{
   width: 100%;
@@ -35,7 +38,7 @@ nav #menuSlide{
 }
 #menuSlide, #menuSlide ul{
 padding:0;
-margin-top: 64px;
+
 list-style:none;
 text-align:center;
 }
@@ -93,52 +96,84 @@ text-transform:inherit;
 
 /* ==== Carrousel ==== */
 
+.slider {
+    display: block;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+.slide {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    animation: slide 10s infinite;
+    overflow: hidden;
+    z-index: 99;
+}
 
-div#slider {
-   width: 100%;
-   margin: auto;
-  }
-div#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  text-align: left;
-}
-div#slider figure img {
-  width: 20%;
-  height: 75vh;
-  float: left;
-}
-div#slider {
-  width: 100%;
-  overflow: hidden;
 
+.slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -0.5s;
+    background-image: url(../img/index.jpg);
+    background-size: cover;
+    background-position: center;
 }
-@keyframes slidy {
-  0% { left: 0%; }
-  20% { left: 0%; }
-  30% { left: -100%; }
-  40% { left: -100%; }
-  50% { left: -200%; }
-  60% { left: -200%; }
-  70% { left: -300%; }
-  80% { left: -300%; }
-  90% { left: -400%; }
-  100% { left: -400%; }
+
+.slide:nth-child(2) {
+    left: 100%;
+    animation-delay: 2s;
+    background-image: url(../img/img3.png);
+    background-size: cover;
+    background-position: center;
 }
-div#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  left: 0;
-  text-align: left;
-  animation: 20s slidy infinite;
-  animation-direction:normal;
+
+.slide:nth-child(3) {
+    left: 100%;
+    animation-delay: 4.5s;
+    background-image: url(../img/index.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+.slide:nth-child(4) {
+    left: 100%;
+    animation-delay: 7s;
+    background-image: url(../img/img3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@keyframes slide {
+    0% {
+        left: 100%;
+        width: 100%;
+    }
+    5% {
+        left: 0%;
+    }
+    25% {
+        left: 0%;
+    }
+    30% {
+        left: -100%;
+        width: 100%;
+    }
+    31% {
+        left: -100%;
+        width: 0%;
+    }
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+
 /*contact rapide*/
 
 .fa-mobile-alt{
@@ -158,6 +193,7 @@ form{
   width: 250px;
   padding: 10px;
   border: 2px solid black;
+  background-color: white;
 }
 textarea{
   overflow: auto;
@@ -167,7 +203,7 @@ textarea{
   justify-content: space-between;
   margin-bottom: 15px;
   position: fixed;
-  top: 850px;
+  top: 55vh;
   right: 0px;
 }
 

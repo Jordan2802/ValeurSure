@@ -5,7 +5,7 @@
 
 #categories{
   display: grid;
-  margin: 0 5vw;
+  margin: 5vw;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 100px);
   grid-gap: 5vw;

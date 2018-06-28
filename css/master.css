@@ -1,60 +1,181 @@
+
+/*---------------
+     Layout
+---------------*/
+
 #categories{
   display: grid;
-  margin: 0 30px;
+  margin: 0 5vw;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 100px);
-  grid-row-gap: 100px;
-  grid-column-gap: 90px;
-  grid-template-areas:  "simul simul simul simul cred-pro cred-pro"
-                        "simul simul simul simul cred-pro cred-pro"
-                        "conseil conseil assu-empr assu-empr cred-pro cred-pro"
+  grid-gap: 5vw;
+  grid-template-areas:  "simul   simul   simul     simul     cred-pro   cred-pro"
+                        "simul   simul   simul     simul     cred-pro   cred-pro"
+                        "conseil conseil assu-empr assu-empr cred-pro   cred-pro"
                         "conseil conseil assu-empr assu-empr cred-immo cred-immo"
                         "conseil conseil assu-empr assu-empr cred-immo cred-immo"
                         "conseil conseil assu-empr assu-empr cred-immo cred-immo"
-                        "twi twi twi lin lin lin"
-                        "twi twi twi lin lin lin";
+                        "twi     twi     twi       lin       lin        lin"
+                        "twi     twi     twi       lin lin lin";
 }
 
-.sec-simul{
-  grid-area: simul;
+.sec-simul{grid-area: simul;}
+.sec-cred-pro{grid-area: cred-pro;}
+.sec-conseil{grid-area: conseil;}
+.sec-assu-empr{grid-area: assu-empr;}
+.sec-cred-immo{grid-area: cred-immo;}
+.media-twi{grid-area: twi;}
+.media-lin{grid-area: lin;}
+
+
+
+html{
+  font-family: "calibri";
 }
 
-.sec-cred-pro{
-  grid-area: cred-pro;
-}
 
-.sec-conseil{
-  grid-area: conseil;
-}
 
-.sec-assu-empr{
-  grid-area: assu-empr;
-}
 
-.sec-cred-immo{
-  grid-area: cred-immo;
-}
 
-.media-twi{
-  grid-area: twi;
-}
-
-.media-lin{
-  grid-area: lin;
-}
+/*---------------
+    General
+---------------*/
 
 section{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #ededed;
+  background-color: rgba(237, 237, 237, 0.5);
   border: 1px solid #000;
 }
 
 .section-name{
-
+  color: #C79400
 }
-.description{
+
+.description, .section-name{
+  text-align: center;
   margin: 0 10%;
 }
+
+
+
+
+
+/*---------------
+    selector
+---------------*/
+.selecteur{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+.selecteur>*{
+  flex-grow: 1;
+}
+select{
+  background: #FFC400;
+  padding: 1em;
+
+}
+
+.button-simul{
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.slide {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    animation: slide 10s infinite;
+    overflow: hidden;
+    z-index: 99;
+}
+
+
+.slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -0.5s;
+    background-image: url(../img/slider4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide:nth-child(2) {
+    left: 100%;
+    animation-delay: 2s;
+    background-image: url(../img/slider2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide:nth-child(3) {
+    left: 100%;
+    animation-delay: 4.5s;
+    background-image: url(../img/slider3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide:nth-child(4) {
+    left: 100%;
+    animation-delay: 7s;
+    background-image: url(../img/slider1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@keyframes slide {
+    0% {
+        left: 100%;
+        width: 100%;
+    }
+    5% {
+        left: 0%;
+    }
+    25% {
+        left: 0%;
+    }
+    30% {
+        left: -100%;
+        width: 100%;
+    }
+    31% {
+        left: -100%;
+        width: 0%;
+    }
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+-}
+<div class="slider">
+
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+
+</div>

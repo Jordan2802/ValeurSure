@@ -139,19 +139,38 @@ div#slider figure {
   animation: 20s slidy infinite;
   animation-direction:normal;
 }
-/*parallax*/
+/*contact rapide*/
 
-#slide1 {
-   background: url(../img/fond.jpg) center 0 no-repeat fixed;
+.fa-mobile-alt{
+font-size: 50px;
+margin-left: 5px;
+height: 50px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  height: 370px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 10px;
+  width: 250px;
+  padding: 10px;
+  border: 2px solid black;
+}
+textarea{
+  overflow: auto;
+}
+ .tel{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  position: fixed;
+  top: 850px;
+  right: 0px;
 }
 
-#slide2 {
-   background: url(../img/index.jpg) center 0 no-repeat fixed;
-}
-
-#slide3 {
-   background: url(../img/img3.png) center 0 no-repeat fixed;
-}
-#slide1,#slide2,#slide3{
-  height: 1000px;
+.cache{
+  display: none;
 }

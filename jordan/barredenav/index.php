@@ -13,6 +13,17 @@
   <body>
 <header id="head">
 <?php include('nav.php'); ?>
+<div id="slider">
+<i class="fab fa-wordpress first"></i>
+<div class="slider">
+
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+  <div class="slide"></div>
+
+</div>
+</div>
   </header>
   <div class="info"></div>
   <div class="tel" id="tel">

@@ -31,14 +31,3 @@
 <li><a href="#">Contact</a></li>
 </ul>
 </nav>
-<div id="slider">
-<i class="fab fa-wordpress first"></i>
-<div class="slider">
-
-  <div class="slide"></div>
-  <div class="slide"></div>
-  <div class="slide"></div>
-  <div class="slide"></div>
-
-</div>
-</div>

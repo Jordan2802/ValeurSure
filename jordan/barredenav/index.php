@@ -28,7 +28,6 @@
     </div>
   </div>
 
-
   <main>
 
     <div id="categories">

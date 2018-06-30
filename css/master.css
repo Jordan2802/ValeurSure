@@ -3,35 +3,94 @@
      Layout
 ---------------*/
 
+/* IE support for grid */
+
 #categories{
-  display: grid;
   margin: 10vw 5vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 100px);
-  grid-gap: 5vw;
-  grid-template-areas:  "simul     simul     simul     simul     cred-pro   cred-pro"
-                        "simul     simul     simul     simul     cred-pro   cred-pro"
-                        "conseil   conseil   assu-empr assu-empr cred-pro   cred-pro"
-                        "conseil   conseil   assu-empr assu-empr cred-immo  cred-immo"
-                        "conseil   conseil   assu-empr assu-empr cred-immo  cred-immo"
-                        "twi twi lin lin cred-immo  cred-immo"
-                        "twi       twi       lin       lin       formation        formation"
-                        "twi       twi       lin       lin       formation        formation";
 }
 
-.sec-simul{      grid-area: simul;}
-.sec-cred-pro{   grid-area: cred-pro;}
-.sec-conseil{    grid-area: conseil;}
-.sec-assu-empr{  grid-area: assu-empr;}
-.sec-cred-immo{  grid-area: cred-immo;}
-.sec-formation{  grid-area: formation}
-.media-twi{      grid-area: twi;}
-.media-lin{      grid-area: lin;}
+
+.sec-simul{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+}
+.sec-cred-pro{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+}
+.sec-conseil{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+}
+.sec-assu-empr{
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+}
+.sec-cred-immo{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+}
+.sec-formation{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+}
+.media-twi{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+}
+.media-lin{
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+}
+
+/* Grid for recent browsers */
+
+@supports (grid-gap: 5vw) {
+
+  #categories{
+    grid-gap: 5vw;
+    grid-template-areas:  "simul     simul     simul     simul     cred-pro   cred-pro"
+                          "simul     simul     simul     simul     cred-pro   cred-pro"
+                          "conseil   conseil   assu-empr assu-empr cred-pro   cred-pro"
+                          "conseil   conseil   assu-empr assu-empr cred-immo  cred-immo"
+                          "conseil   conseil   assu-empr assu-empr cred-immo  cred-immo"
+                          "twi       twi       lin       lin       cred-immo  cred-immo"
+                          "twi       twi       lin       lin       formation  formation"
+                          "twi       twi       lin       lin       formation  formation";
+  }
 
 
+  .sec-simul{      grid-area: simul;}
+  .sec-cred-pro{   grid-area: cred-pro;}
+  .sec-conseil{    grid-area: conseil;}
+  .sec-assu-empr{  grid-area: assu-empr;}
+  .sec-cred-immo{  grid-area: cred-immo;}
+  .sec-formation{  grid-area: formation}
+  .media-twi{      grid-area: twi;}
+  .media-lin{      grid-area: lin;}
 
-html{
-  font-family: "calibri";
 }
 
 
@@ -42,19 +101,14 @@ html{
     General
 ---------------*/
 
+html{
+  font-family: "calibri";
+}
+
 section{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: rgba(237, 237, 237, 0.5);
   border: 1px solid #000;
 }
@@ -75,19 +129,15 @@ section{
 /*---------------
     selector
 ---------------*/
+
 .selecteur{
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0 10%;
 }
 
 .selecteur>*{
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 select{
@@ -111,18 +161,16 @@ select{
 @media screen and (max-width: 768px) {
 
   #categories{
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(11, 150px);
-    grid-template-areas:  "simul"
-                          "simul"
-                          "cred-pro"
-                          "conseil"
-                          "assu-empr"
-                          "formation"
-                          "cred-immo"
-                          "twi"
-                          "twi"
-                          "lin"
-                          "lin";
+    display: flex;
+    flex-direction: column;
   }
+
+  section{
+    margin-bottom: 5vw;
+  }
+
+  .media-twi{
+    height: 500px;
+  }
+
 }

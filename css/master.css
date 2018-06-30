@@ -65,6 +65,8 @@
   -ms-grid-row-span: 3;
 }
 
+
+
 /* Grid for recent browsers */
 
 @supports (grid-gap: 5vw) {
@@ -103,6 +105,7 @@
 
 html{
   font-family: "calibri";
+  min-width: 320px;
 }
 
 section{

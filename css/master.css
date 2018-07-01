@@ -6,6 +6,7 @@
 /* IE support for grid */
 
 #categories{
+
   margin: 10vw 5vw;
   display: -ms-grid;
   display: grid;
@@ -15,8 +16,11 @@
   grid-template-rows: repeat(8, 100px);
 }
 
-
+section{
+  margin: 2vw;
+}
 .sec-simul{
+  clip-path
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   -ms-grid-row: 1;
@@ -69,7 +73,7 @@
 
 /* Grid for recent browsers */
 
-@supports (grid-gap: 5vw) {
+@supports (display: grid) {
 
   #categories{
     grid-gap: 5vw;
@@ -83,7 +87,9 @@
                           "twi       twi       lin       lin       formation  formation";
   }
 
-
+  section{
+    margin: 0;
+  }
   .sec-simul{      grid-area: simul;}
   .sec-cred-pro{   grid-area: cred-pro;}
   .sec-conseil{    grid-area: conseil;}
@@ -105,14 +111,16 @@
 
 html{
   font-family: "calibri";
-  min-width: 320px;
+  min-width: 350px;
+  background-color: #f8f8f8;
 }
 
 section{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(237, 237, 237, 0.5);
+  background-color: white;
+  border-radius: 25px;
   border: 1px solid #000;
 }
 
@@ -121,8 +129,16 @@ section{
 }
 
 .description, .section-name{
-  text-align: center;
+  text-align: ;
   margin: 0 10%;
+}
+
+.LI-profile-badge{
+  margin: auto;
+}
+
+.media-twi, .media-lin{
+  overflow: hidden;
 }
 
 
@@ -170,6 +186,7 @@ select{
 
   section{
     margin-bottom: 5vw;
+    height: 300px;
   }
 
   .media-twi{

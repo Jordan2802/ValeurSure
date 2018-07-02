@@ -32,7 +32,6 @@ footer{
   height: 50px;
   width: 100%;
   background-color: #BBBBBB;
-  position: absolute;
   bottom: 0px;
   display: flex;
   justify-content: space-between;
@@ -45,4 +44,16 @@ footer{
 
 .fa-twitter, .fa-linkedin-in{
   padding: 5px;
+}
+
+@media screen and (max-width: 768px){
+  footer{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .accueil, .valeursur, .prestation, .simulation{
+    height: 150px;
+    width: 150px;
+  }
 }

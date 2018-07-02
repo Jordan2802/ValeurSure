@@ -16,6 +16,10 @@ h3{
   margin: 10px 0 10px 0;
 }
 
+li{
+  list-style-type: none;
+}
+
 /* ==== Footer ==== */
 
 footer{
@@ -51,14 +55,14 @@ footer{
   padding: 5px;
 }
 
+.accueil, .valeursur, .prestation, .simulation{
+  height: 150px;
+  width: 200px;
+
 @media screen and (max-width: 768px){
-  footer{
+  .footer{
     height: 300px;
     display: flex;
     flex-wrap: wrap;
-  }
-  .accueil, .valeursur, .prestation, .simulation{
-    height: 150px;
-    width: 150px;
   }
 }

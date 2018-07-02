@@ -1,0 +1,59 @@
+/* ==== Master ==== */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+h3{
+  font-size: 28px;
+  margin: 10px 0 10px 0;
+}
+
+/* ==== Footer ==== */
+
+footer{
+  height: 225px;
+  width: 100%;
+  background: #EDEDED;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.legal{
+  height: 50px;
+  width: 100%;
+  background-color: #BBBBBB;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.legal p{
+  margin: 10px;
+}
+
+.fa-twitter, .fa-linkedin-in{
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px){
+  footer{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .accueil, .valeursur, .prestation, .simulation{
+    height: 150px;
+    width: 150px;
+  }
+}

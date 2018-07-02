@@ -8,7 +8,7 @@
   </head>
   <body>
     <footer>
-  <div class="footer">      
+  <div class="footer">
     <div class="accueil">
       <h3><a href="#">Accueil</a></h3>
       <ul>

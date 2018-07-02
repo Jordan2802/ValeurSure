@@ -3,20 +3,22 @@
   padding: 0;
 }
 
+/*body *{
+  border: 1px solid black;
+}*/
+
 nav{
-background-color: rgba(255,255,255,0.6);
+background-color: lightblue/*rgba(255,255,255,0.6)*/;
   top: 5%;
   width: 80%;
-  height: 15vh;
+  height: 16vh;
   left: 10%;
   position: fixed;
   z-index: 100;
 }
 .fa-wordpress{
-  font-size: 80px;
-  position: relative;
-  top: 20%;
-  left: 5%;
+  font-size:  5vw;
+  margin-top: 30px;
 }
 body .first{
   z-index: 3;
@@ -27,6 +29,7 @@ body .first{
 }
 nav #menuSlide{
   margin-top: -55px;
+
 }
 .logop{
   margin-top: 25px;
@@ -54,7 +57,7 @@ background-color: rgba(255,255,255,0.6);
 
 #menuSlide ul{
 position:absolute;
-z-index: 1000;
+/*z-index: 1000;*/
 max-height:0;
 left: 0;
 right: 0;
@@ -81,12 +84,21 @@ border-bottom: 2px solid #c79400;
 #menuSlide a{
 text-decoration:none;
 display:block;
-padding:8px 32px;
+padding:8px 1vh;
 color:black;
-font-family:arial;
+font-family:"calibri";
 font-size: 16px;
 }
-
+@media screen and (min-width: 768px) {
+  #menuSlide a {
+    font-size: calc(9.5px + 6 * ((100vw - 768px) / 292));
+  }
+}
+@media screen and (min-width: 1060px) {
+  #menuSlide a {
+    font-size: 16px;
+  }
+}
 #menuSlide ul a{
 padding:8px 0;
 }

@@ -3,34 +3,101 @@
      Layout
 ---------------*/
 
+/* IE support for grid */
+
 #categories{
+
+  margin: 10vw 5vw;
+  display: -ms-grid;
   display: grid;
-  margin: 5vw;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw);
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(8, 100px);
-  grid-gap: 5vw;
-  grid-template-areas:  "simul   simul   simul     simul     cred-pro   cred-pro"
-                        "simul   simul   simul     simul     cred-pro   cred-pro"
-                        "conseil conseil assu-empr assu-empr cred-pro   cred-pro"
-                        "conseil conseil assu-empr assu-empr cred-immo cred-immo"
-                        "conseil conseil assu-empr assu-empr cred-immo cred-immo"
-                        "conseil conseil assu-empr assu-empr cred-immo cred-immo"
-                        "twi     twi     twi       lin       lin        lin"
-                        "twi     twi     twi       lin lin lin";
 }
 
-.sec-simul{grid-area: simul;}
-.sec-cred-pro{grid-area: cred-pro;}
-.sec-conseil{grid-area: conseil;}
-.sec-assu-empr{grid-area: assu-empr;}
-.sec-cred-immo{grid-area: cred-immo;}
-.media-twi{grid-area: twi;}
-.media-lin{grid-area: lin;}
+section{
+  margin: 2vw;
+}
+.sec-simul{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+}
+.sec-cred-pro{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+}
+.sec-conseil{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+}
+.sec-assu-empr{
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+}
+.sec-cred-immo{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+}
+.sec-formation{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+}
+.media-twi{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+}
+.media-lin{
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+}
 
 
 
-html{
-  font-family: "calibri";
+/* Grid for recent browsers */
+
+@supports (display: grid) {
+
+  #categories{
+    grid-gap: 5vw;
+    grid-template-areas:  "simul     simul     simul     simul     cred-pro   cred-pro"
+                          "simul     simul     simul     simul     cred-pro   cred-pro"
+                          "conseil   conseil   assu-empr assu-empr cred-pro   cred-pro"
+                          "conseil   conseil   assu-empr assu-empr cred-immo  cred-immo"
+                          "conseil   conseil   assu-empr assu-empr cred-immo  cred-immo"
+                          "twi       twi       lin       lin       cred-immo  cred-immo"
+                          "twi       twi       lin       lin       formation  formation"
+                          "twi       twi       lin       lin       formation  formation";
+  }
+
+  section{
+    margin: 0;
+  }
+  .sec-simul{      grid-area: simul;}
+  .sec-cred-pro{   grid-area: cred-pro;}
+  .sec-conseil{    grid-area: conseil;}
+  .sec-assu-empr{  grid-area: assu-empr;}
+  .sec-cred-immo{  grid-area: cred-immo;}
+  .sec-formation{  grid-area: formation}
+  .media-twi{      grid-area: twi;}
+  .media-lin{      grid-area: lin;}
+
 }
 
 
@@ -41,22 +108,39 @@ html{
     General
 ---------------*/
 
+html{
+  font-family: "calibri";
+  min-width: 350px;
+  background-color: #f8f8f8;
+}
+
 section{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  background-color: rgba(237, 237, 237, 0.5);
+  background-color: white;
+  border-radius: 25px;
   border: 1px solid #000;
 }
 
 .section-name{
-  color: #C79400
+  color: #C79400;
+  text-align: center;
+}
+.description{
+  text-align: justify;
 }
 
 .description, .section-name{
-  text-align: center;
   margin: 0 10%;
+}
+
+.LI-profile-badge{
+  margin: auto;
+}
+
+.media-twi, .media-lin{
+  overflow: hidden;
 }
 
 
@@ -66,14 +150,17 @@ section{
 /*---------------
     selector
 ---------------*/
+
 .selecteur{
   display: flex;
   flex-wrap: wrap;
   margin: 0 10%;
 }
+
 .selecteur>*{
   flex-grow: 1;
 }
+
 select{
   background: #FFC400;
   padding: 1em;
@@ -82,4 +169,30 @@ select{
 
 .button-simul{
   padding: 1em;
+}
+
+
+
+
+
+/*---------------
+    media query
+---------------*/
+
+@media screen and (max-width: 768px) {
+
+  #categories{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section{
+    margin-bottom: 5vw;
+    height: 300px;
+  }
+
+  .media-twi{
+    height: 500px;
+  }
+
 }

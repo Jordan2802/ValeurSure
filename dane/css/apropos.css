@@ -1,0 +1,36 @@
+/* ==== Master ==== */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  margin-bottom: 70px;
+  text-align: center;
+  color: #C79400;
+}
+
+/* ==== Body ==== */
+
+.propos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.presentation, .engagements, .valeurs{
+  background-color: #EDEDED;
+  margin: 20px 0;
+  padding: 20px;
+  width: 300px;
+  min-width: 250px;
+  flex-grow: 1 0 auto;
+}
+
+@media screen and (max-width: 780px){
+  article{
+    display: flex;
+    flex-direction: column;
+  }
+}

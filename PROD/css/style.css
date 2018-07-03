@@ -13,13 +13,13 @@ nav{
 background-color:rgba(255,255,255,0.6);
   top: 5%;
   width: 80%;
-  height: 110px;
+  height: 16vh;
   left: 10%;
   position: fixed;
   z-index: 100;
 }
 .fa-wordpress{
-
+  font-size:  5vw;
   margin-top: 30px;
 }
 body .first{
@@ -35,7 +35,6 @@ nav #menuSlide{
 }
 .logop{
   margin-top: 25px;
-  font-size:  5vw;
 }
 .info{
   width: 100%;
@@ -45,6 +44,7 @@ nav #menuSlide{
 }
 #menuSlide, #menuSlide ul{
 padding:0;
+
 list-style:none;
 text-align:center;
 }
@@ -59,6 +59,7 @@ background-color: rgba(255,255,255,0.6);
 
 #menuSlide ul{
 position:absolute;
+/*z-index: 1000;*/
 max-height:0;
 left: 0;
 right: 0;
@@ -80,13 +81,12 @@ border-bottom: 2px solid #c79400;
 
 #menuSlide li li:hover{
   background-color: #c79400;
-  border-bottom: 0px;
 }
 /* les a href */
 #menuSlide a{
 text-decoration:none;
 display:block;
-padding:8px 2vh;
+padding:8px 1vh;
 color:black;
 font-family:"calibri";
 font-size: 16px;
@@ -94,12 +94,6 @@ font-size: 16px;
 @media screen and (min-width: 768px) {
   #menuSlide a {
     font-size: calc(9.5px + 6 * ((100vw - 768px) / 292));
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .fa-mobile-alt{
-    font-size: 0;
   }
 }
 @media screen and (min-width: 1060px) {

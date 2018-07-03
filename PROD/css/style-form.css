@@ -43,6 +43,9 @@ table {
 }
 /* FIN du reset CSS */
 
+html{
+	font-size: 62.5%;
+}
 .progression{
   display: flex;
   justify-content: center;
@@ -50,8 +53,7 @@ table {
 
 .form-container{
 	margin: auto;
-	margin-top: 250px;
-	width: 300px;
+	width: 50%
 }
 
 .bulle{
@@ -67,6 +69,7 @@ table {
 .etape{
   text-align: center;
   padding-top: 16px;
+	font-size: 1.6rem;
 }
 .formulaire{
   text-align: center;
@@ -76,14 +79,31 @@ table {
 .bande{
     background-color: #F68121;
     padding: 10px 0 10px 100px;
+		margin-top: 250px;
 }
 .envoi{
   background-color: #F68121;
   padding: 10px;
   border-radius: 20px;
+	font-size: 3rem;
+	align-items: center;
 }
 input.line{
   background-color: inherit;
   border: none;
   border-bottom: 2px solid #F68121;
+	text-align: center;
+	font-size: 2.2rem;
+}
+.mrmme{
+	background-color: inherit;
+	justify-content: center;
+	border-color: #F68121;
+	font-size: 2.2rem;
+}
+label{
+	font-size: 2.5rem;
+}
+.option{
+	font-size: 2rem;
 }

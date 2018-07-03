@@ -17,9 +17,9 @@ session_start();
     <header>
       <?php include('nav.php'); ?>
     </header>
+    <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
     <div class="form-container">
 
-    <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
     <div class="progression">
       <div class="bulle actuel">
         <p class="etape">1</p>
@@ -35,9 +35,9 @@ session_start();
     <form class="formulaire" id="formulaire1" action="formfinance2.php" method="post">
       <br>
       <label for="sexe">Civilité: </label>
-      <select id="sexe" name="sexe">
-        <option value="homme">Mr</option>
-        <option value="femme">Mme</option>
+      <select id="sexe" class="mrmme" name="sexe">
+        <option class="option" value="homme">Homme</option>
+        <option class="option" value="femme">Femme</option>
       </select><br><br>
       <label for="nom">Nom: </label><br>
       <input type="text" name="nom" class="line" id="nom" value="" required><br><br>
@@ -54,7 +54,7 @@ session_start();
 
       <input class="envoi" type="submit" name="" value="ETAPE SUIVANTE"><br><br><br>
     </form>
-  </div>
+  </div><br>
     <footer>
       <?php include('footer.php'); ?>
     </footer>

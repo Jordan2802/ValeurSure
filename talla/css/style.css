@@ -42,7 +42,9 @@ table {
 	border-spacing: 0;
 }
 /* FIN du reset CSS */
-
+html{
+  font-family:
+}
 .progression{
   display: flex;
   justify-content: center;

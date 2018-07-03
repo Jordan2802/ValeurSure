@@ -6,6 +6,7 @@
 }
 
 h2{
+  font-size: 35px;
   margin-bottom: 70px;
   text-align: center;
   color: #C79400;
@@ -21,14 +22,17 @@ h2{
 
 .presentation, .engagements, .valeurs{
   background-color: #EDEDED;
-  margin: 20px 0;
-  padding: 20px;
   width: 300px;
+  padding: 50px;
+  margin: 50px 0;
   min-width: 250px;
-  flex-grow: 1 0 auto;
+  text-align: justify;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 768px){
   article{
     display: flex;
     flex-direction: column;

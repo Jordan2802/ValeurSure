@@ -11,8 +11,8 @@
     <title>nav responsive</title>
   </head>
   <body>
-    
-<nav>
+
+<nav id="tailleNav">
 <ul id="menuSlide">
   <div class="logop">
   <i class="fab fa-wordpress"></i>

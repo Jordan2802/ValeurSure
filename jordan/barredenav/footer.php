@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style-footer.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <title>Footer</title>
-  </head>
-  <body>
+
     <footer>
   <div class="footer">
     <div class="accueil">
@@ -52,5 +44,3 @@
      <a href="#"><i class="fab fa-linkedin-in"></i></a></p>
    </div>
     </footer>
-  </body>
-</html>

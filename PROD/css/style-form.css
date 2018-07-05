@@ -80,6 +80,7 @@ html{
     background-color: #F68121;
     padding: 10px 0 10px 100px;
 		margin-top: 250px;
+		font-size: 3.5rem;
 }
 .envoi{
   background-color: #F68121;
@@ -94,6 +95,7 @@ input.line{
   border-bottom: 2px solid #F68121;
 	text-align: center;
 	font-size: 2.2rem;
+	width: 100%;
 }
 .mrmme{
 	background-color: inherit;
@@ -106,4 +108,15 @@ label{
 }
 .option{
 	font-size: 2rem;
+}
+.ui-menu-item{
+	background-color: white;
+	text-align: center;
+	width: 50%;
+}
+.ui-menu-item:hover{
+	cursor: pointer;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #CFCFCF inset;
 }

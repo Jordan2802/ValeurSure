@@ -7,7 +7,9 @@
   </head>
   <body>
     <header>
-      <!-- Include -->
+      <?php
+      include ('nav.php');
+       ?>
     </header>
 
      <div class="propos">
@@ -25,7 +27,9 @@
       </div>
     </div>
     <footer>
-      <!-- Include -->
+      <?php
+      include ('footer.php');
+       ?>
     </footer>
   </body>
 </html>

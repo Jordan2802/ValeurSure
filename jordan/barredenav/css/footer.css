@@ -1,38 +1,38 @@
 /* ==== Master ==== */
-
-*{
-  padding: 0;
-  margin: 0;
+html{
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: #111111;
   font-size: 14px;
 }
 
 h3{
   font-size: 28px;
-  margin: 10px 0 10px 0;
+}
+
+li{
+  list-style-type: none;
 }
 
 /* ==== Footer ==== */
 
 footer{
-  height: 225px;
+  left: 0;
   width: 100%;
-  background: #EDEDED;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
+  background: #EDEDED;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .legal{
   height: 50px;
   width: 100%;
   background-color: #BBBBBB;
-  bottom: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,14 +46,7 @@ footer{
   padding: 5px;
 }
 
-@media screen and (max-width: 768px){
-  footer{
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .accueil, .valeursur, .prestation, .simulation{
-    height: 150px;
-    width: 150px;
-  }
+.accueil, .valeursur, .prestation, .simulateurs{
+  min-width: 300px;
+  min-height: 200px;
 }

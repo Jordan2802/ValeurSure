@@ -14,7 +14,7 @@ $_SESSION['ville'] = $_POST['ville'];
    <head>
      <meta charset="utf-8">
      <title>Formulaire de demande de financement</title>
-     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/style-form.css">
    </head>
    <body>
      <h1 class="bande">DEMANDE DE FINANCEMENT</h1>

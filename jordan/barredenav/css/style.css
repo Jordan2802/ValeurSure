@@ -244,7 +244,7 @@ height: 50px;
   .fa-mobile-alt{
     font-size: 0;
   }
-}
+  
 
 @media screen and (min-width: 1060px) {
   #menuSlide a {

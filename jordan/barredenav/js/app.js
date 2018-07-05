@@ -17,8 +17,10 @@ window.onscroll = function() {
   var logo = document.getElementById("logoNav");
   var tailleHead = head.offsetHeight;
   var a = document.getElementsByTagName("a");
+  //var w = window.innerWidth;
+//if (w>='768px') {
 
-	if ( document.documentElement.scrollTop > tailleHead ) {
+	if ( document.documentElement.scrollTop > tailleHead) {
     tel.style.display = 'block';
     nav.style.top = "0";
     nav.style.left = "0";
@@ -39,4 +41,5 @@ window.onscroll = function() {
         a[i].className = "#menuSlide li li:hover";
     }
 	}
+  //}
 };

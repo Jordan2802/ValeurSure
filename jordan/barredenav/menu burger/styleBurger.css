@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.barre{
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 35px;
+  height: 50px;
+  background-color: red;
+}
+
+.barre::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 0;
+  top: 10px;
+  left: 10px;
+  box-shadow: 0 10px 0 1px black,
+              0 16px 0 1px black,
+              0 22px 0 1px black;
+
+}
+
+nav{
+  position: absolute;
+  width:250px;
+  top:0;
+  left: 0;
+  height: 0;
+  bottom: 0;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.navBurger ul{
+  list-style:none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.navBurger ul li{
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.menuBurger a {
+  text-decoration: none;
+  color: black;
+}
+/*#slider{
+  display: none;
+}
+.barre{
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 35px;
+  height: 50px;
+  background-color: red;
+}
+
+.barre::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 0;
+  top: 10px;
+  left: 10px;
+  box-shadow: 0 10px 0 1px black,
+              0 16px 0 1px black,
+              0 22px 0 1px black;
+
+}
+
+nav{
+  position: absolute;
+  width:250px;
+  top:0;
+  left: 0;
+  height: auto;
+  bottom: 0;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+#menuSlide ul{
+position:relative;
+overflow:inherit;
+}
+
+#menuSlide li:hover{
+background-color: inherit;
+border-bottom: 0px;
+}
+
+#menuSlide li li:hover{
+  background-color: inherit;
+  border-bottom: 0px;
+}
+
+#menuSlide ul li{
+background-color: inherit;
+}
+
+#menuSlide, #menuSlide ul{
+  text-align: left;
+}
+
+#menuSlide li:hover ul{
+max-height:0;
+}
+
+.navBurger ul{
+  list-style:none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.navBurger ul li{
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.menuBurger a {
+  text-decoration: none;
+  color: black;
+}
+
+}*/

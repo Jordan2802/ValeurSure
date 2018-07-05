@@ -1,7 +1,7 @@
 
 
-<nav id="tailleNav">
-<ul id="menuSlide">
+<nav id="tailleNav" >
+<ul id="menuSlide" >
   <div class="logop">
   <i class="fab fa-wordpress"></i>
   </div>

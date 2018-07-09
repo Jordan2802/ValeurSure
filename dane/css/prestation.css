@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h2{
+  color: #C79400;
+}
+
+.professionnels{
+  padding: 100px;
+  background-color: #EDEDED;
+  border: 1px solid black;
+  text-align: center;
+}

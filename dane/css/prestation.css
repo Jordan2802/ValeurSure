@@ -5,10 +5,12 @@
 
 h2{
   color: #C79400;
+  margin-bottom: 50px;
 }
 
-.professionnels{
-  padding: 100px;
+.prestations{
+  margin: 30px;
+  padding: 80px;
   background-color: #EDEDED;
   border: 1px solid black;
   text-align: center;

@@ -69,6 +69,7 @@ nav #menuSlide {
 
 #tailleNav2 {
   position: fixed;
+  overflow: auto;
   width: 250px;
   top: 0;
   left: 0;

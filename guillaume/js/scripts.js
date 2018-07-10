@@ -1,4 +1,8 @@
+// Open the first tab by default //
+document.querySelector('#defaultOpen').click();
 
+
+// Open the calculator by clicking on the corresponding tab //
 
 function openCalc(evt, tabName) {
 
@@ -19,5 +23,4 @@ function openCalc(evt, tabName) {
   evt.currentTarget.classList.add('active');
   document.querySelector(tabName).classList.remove('hidden');
 
-
-}
+};

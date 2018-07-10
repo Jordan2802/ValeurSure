@@ -18,10 +18,11 @@
   </header>
 
   <main>
+
     <div class="selecteur">
       <div class="tab">
-        <button class="tablinks" onclick="openCalc(event, '#emprunt')">Capacité d'emprunt</button>
-        <button class="tablinks" onclick="openCalc(event, '#capital')">Capital</button>
+        <button class="tablinks" onclick="openCalc(event, '#emprunt')" id="defaultOpen">Capacité d'emprunt</button>
+        <button class="tablinks central-border" onclick="openCalc(event, '#capital')">Capital</button>
         <button class="tablinks" onclick="openCalc(event, '#mensualite')">Mensualité</button>
       </div>
 

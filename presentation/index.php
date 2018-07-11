@@ -26,6 +26,7 @@
 
 </div>
 </div>
+<button id="hamburger-button" onclick="cacher();"></button>
   </header>
   <div class="info"></div>
   <div class="tel" id="tel">

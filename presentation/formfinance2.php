@@ -14,11 +14,11 @@ $_SESSION['ville'] = $_POST['ville'];
    <head>
      <meta charset="utf-8">
      <title>Formulaire de demande de financement</title>
-     <link rel="stylesheet" href="../css/normalize.css">
-     <link rel="stylesheet" href="../css/style-form.css">
-     <link rel="stylesheet" href="../css/style2.css">
-     <link rel="stylesheet" href="../css/footer.css">
-     <link rel="stylesheet" href="../css/media.css">
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/style-form.css">
+     <link rel="stylesheet" href="css/style2.css">
+     <link rel="stylesheet" href="css/footer.css">
+     <link rel="stylesheet" href="css/media.css">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 
@@ -26,6 +26,7 @@ $_SESSION['ville'] = $_POST['ville'];
    <body>
      <header>
        <?php include('includes/nav.php'); ?>
+       <button id="hamburger-button" onclick="cacher();"></button>
      </header>
      <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
      <div class="progression">
@@ -57,8 +58,8 @@ $_SESSION['ville'] = $_POST['ville'];
      <footer>
        <?php include('includes/footer.php'); ?>
      </footer>
-     <script type="text/javascript" src="../js/burger.js"></script>
-     <script type="text/javascript" src="../js/contact.js"></script>
+     <script type="text/javascript" src="js/burger.js"></script>
+     <script type="text/javascript" src="js/contact.js"></script>
    </body>
    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script type="text/javascript" src="jquery.validate.min.js"></script>

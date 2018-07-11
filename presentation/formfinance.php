@@ -7,11 +7,11 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title>Formulaire de demande de financement</title>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style-form.css">
-    <link rel="stylesheet" href="../css/style2.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style-form.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
@@ -19,6 +19,7 @@ session_start();
   <body>
     <header>
       <?php include('includes/nav.php'); ?>
+      <button id="hamburger-button" onclick="cacher();"></button>
     </header>
     <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
     <div class="form-container">
@@ -71,9 +72,9 @@ session_start();
 
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.validate.min.js"></script> -->
-  <script type="text/javascript" src="../js/formfinance.js"></script>
-  <script type="text/javascript" src="../js/burger.js"></script>
-  <script type="text/javascript" src="../js/contact.js"></script>
+  <script type="text/javascript" src="js/formfinance.js"></script>
+  <script type="text/javascript" src="js/burger.js"></script>
+  <script type="text/javascript" src="js/contact.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 

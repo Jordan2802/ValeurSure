@@ -4,19 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style2.css">
-    <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Contact</title>
   </head>
   <body>
     <header>
-      <?php
-      include ('includes/nav.php');
-       ?>
-       
+    <?php include('includes/nav.php'); ?>
+    <button id="hamburger-button" onclick="cacher();"></button>
     </header>
     <div class=formulaire>
       <form class="form" action="#" method="post">
@@ -28,10 +26,8 @@
       </form>
     </div>
     <footer>
-      <?php
-      include ('includes/footer.php');
-       ?>
+      <?php include('includes/footer.php'); ?>
     </footer>
-    <script type="text/javascript" src="../js/burger.js"></script>
+    <script type="text/javascript" src="js/burger.js"></script>
   </body>
 </html>

@@ -14,8 +14,9 @@
   <body>
     <header>
       <?php
-      include ('nav.php');
+      include ('includes/nav.php');
        ?>
+       
     </header>
     <div class=formulaire>
       <form class="form" action="#" method="post">
@@ -28,7 +29,7 @@
     </div>
     <footer>
       <?php
-      include ('footer.php');
+      include ('includes/footer.php');
        ?>
     </footer>
     <script type="text/javascript" src="../js/burger.js"></script>

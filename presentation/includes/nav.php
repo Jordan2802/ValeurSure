@@ -3,12 +3,12 @@
     <div id="logoNav" class="logop">
       <i class="fab fa-wordpress"></i>
     </div>
-    <li><a href="#">Accueil</a></li>
-    <li><a href="#">A	propos de ValeurSure</a>
+    <li><a href="../index.php">Accueil</a></li>
+    <li><a href="../apropos.php">A	propos de ValeurSure</a>
       <ul>
-        <li><a href="#">Présentation</a></li>
-        <li><a href="#">Engagements</a></li>
-        <li><a href="#">Valeurs</a></li>
+        <li><a href="../apropos.php#lien-presentation">Présentation</a></li>
+        <li><a href="../apropos.php#lien-engagement">Engagements</a></li>
+        <li><a href="../apropos.php#lien-valeur">Valeurs</a></li>
       </ul>
     </li>
     <li><a href="#">Nos prestations</a>
@@ -37,12 +37,13 @@
     <div id="logoNav2" class="logop2">
       <i class="fab fa-wordpress "></i>
     </div>
-    <li><a href="#">Accueil</a></li>
-    <li class="menu--ss"><a href="#">A	propos de ValeurSure</a>
+    <li><a href="../index.php">Accueil</a></li>
+    <li class="menu--ss"><a href="../apropos.php">A	propos de ValeurSure</a>
       <ul class="hide-ss-menu">
-        <li><a href="#">Présentation</a></li>
-        <li><a href="#">Engagements</a></li>
-        <li><a href="#">Valeurs</a></li>
+        <li><a href="../apropos.php#lien-presentation">Présentation</a></li>
+        <li><a href="../apropos.php#lien-engagement">Engagements</a></li>
+        <li><a href="../apropos.php#lien-valeur">Valeurs</a></li>
+        
       </ul>
     </li>
     <li class="menu--ss"><a href="#">Nos prestations</a>

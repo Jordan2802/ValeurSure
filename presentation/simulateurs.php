@@ -14,10 +14,11 @@
 <body>
 
   <header>
-    <?php include('nav.php'); ?>
+    <?php include('includes/nav.php'); ?>
   </header>
 
   <main>
+
 
     <div class="selecteur">
       <div class="tab">
@@ -42,7 +43,7 @@
   </main>
 
   <footer>
-    <?php include('footer.php'); ?>
+    <?php include('includes/footer.php'); ?>
   </footer>
 
   <script type="text/javascript" src="../js/scripts.js"></script>

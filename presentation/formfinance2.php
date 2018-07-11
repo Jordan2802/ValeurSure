@@ -21,10 +21,11 @@ $_SESSION['ville'] = $_POST['ville'];
      <link rel="stylesheet" href="../css/media.css">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
+
    </head>
    <body>
      <header>
-       <?php include('nav.php'); ?>
+       <?php include('includes/nav.php'); ?>
      </header>
      <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
      <div class="progression">
@@ -54,7 +55,7 @@ $_SESSION['ville'] = $_POST['ville'];
        <input class="envoi" type="submit" name="" value="ENVOYER LE DEVIS"><br><br>
      </form>
      <footer>
-       <?php include('footer.php'); ?>
+       <?php include('includes/footer.php'); ?>
      </footer>
      <script type="text/javascript" src="../js/burger.js"></script>
      <script type="text/javascript" src="../js/contact.js"></script>

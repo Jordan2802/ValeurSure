@@ -14,7 +14,7 @@
   </head>
   <body>
 <header id="head">
-<?php include('pages/nav.php'); ?>
+<?php include('includes/nav.php'); ?>
 <div id="slider">
 <i class="fab fa-wordpress first"></i>
 <div class="slider">
@@ -95,10 +95,9 @@
 
     </div>
 
-
   </main>
   <footer>
-    <?php include('pages/footer.php'); ?>
+    <?php include('includes/footer.php'); ?>
   </footer>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>

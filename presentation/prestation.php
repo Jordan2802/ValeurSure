@@ -14,9 +14,10 @@
   <body>
     <header>
       <?php
-      include ('nav.php');
+      include ('includes/nav.php');
        ?>
     </header>
+
 
     <div class="prestations">
       <h2>Courtier en crédits professionnels</h2><br>
@@ -45,7 +46,7 @@
 
     <footer>
       <?php
-      include ('nav.php');
+      include ('includes/nav.php');
        ?>
     </footer>
     <script type="text/javascript" src="../js/burger.js"></script>

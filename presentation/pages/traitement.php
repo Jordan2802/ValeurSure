@@ -7,7 +7,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title>TRAITEMENT</title>
-    <link rel="stylesheet" href="./css/style-form.css">
+    <link rel="stylesheet" href="../css/style-form.css">
   </head>
   <body>
     <h1 class="bande">DEMANDE DE FINANCEMENT</h1>

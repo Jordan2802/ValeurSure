@@ -14,7 +14,7 @@
   </head>
   <body>
 <header id="head">
-<?php include('nav.php'); ?>
+<?php include('pages/nav.php'); ?>
 <div id="slider">
 <i class="fab fa-wordpress first"></i>
 <div class="slider">
@@ -98,9 +98,11 @@
 
   </main>
   <footer>
-    <?php include('footer.php'); ?>
+    <?php include('pages/footer.php'); ?>
   </footer>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/contact.js"></script>
+  <script type="text/javascript" src="js/burger.js"></script>
 </body>
 </html>

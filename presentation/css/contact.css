@@ -1,0 +1,48 @@
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+
+textarea{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  resize: none;
+  border: 1px solid black;
+}
+
+textarea:focus{
+  border: 1px solid #555;
+}
+textarea, input{
+  box-sizing: border-box;
+}
+
+.button{
+  padding:10px 0 10px 0;
+  font:bold 13px;
+  background:#C79400;
+  color:#fff;
+  border-radius:2px;
+  width:100px;
+  margin-top: 10px;
+}
+
+.formulaire{
+  display: flex;
+  justify-content: center;
+  background-color: #EDEDED;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  max-width: 700px;
+  margin:auto;
+}

@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h2{
+  color: #C79400;
+  margin-bottom: 50px;
+}
+
+.prestations{
+  margin: 30px;
+  padding: 80px;
+  background-color: #EDEDED;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.prestations:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

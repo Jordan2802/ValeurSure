@@ -1,6 +1,6 @@
 
-    <footer>
-  <div class="footer">
+
+  
     <div class="accueil">
       <h3><a href="#">Accueil</a></h3>
       <ul>
@@ -37,10 +37,9 @@
         <li><a href="#">Mensualité</a></li>
       </ul>
     </div>
-  </div>
+
    <div class="legal">
      <p><a href="#">Mentions Légales</a></p>
      <p><a href="#"><i class="fab fa-twitter"></a></i>
      <a href="#"><i class="fab fa-linkedin-in"></i></a></p>
    </div>
-    </footer>

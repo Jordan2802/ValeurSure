@@ -1,8 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /*barre de nav*/
 
-nav{
-background-color:rgba(255,255,255,0.6);
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
   top: 5%;
   width: 90%;
   height: 110px;
@@ -10,100 +14,157 @@ background-color:rgba(255,255,255,0.6);
   position: fixed;
   z-index: 100;
 }
-.fa-wordpress{
+
+.fa-wordpress {
   margin-top: 30px;
 }
 
-nav #menuSlide{
+nav #menuSlide {
   margin-top: -55px;
 }
-.logop{
+
+.logop {
   margin-top: 25px;
   font-size: 60px;
 }
-.info{
+
+.info {
   width: 100%;
   height: 10vh;
   background-color: #ededed;
 }
-#menuSlide, #menuSlide ul{
-padding:0;
-list-style:none;
-text-align:center;
-}
-#menuSlide li{
-display:inline-block;
-position:relative;
 
-}
-#menuSlide ul li{
-display:inherit;
-background-color: rgba(255,255,255,0.6);
+#menuSlide, #menuSlide ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
-#menuSlide ul{
-position:absolute;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .5s all .2s;
--webkit-transition: .5s all .2s;
-transition: .5s all .2s;
-}
-#menuSlide li:hover ul{
-max-height:15em;
+#menuSlide li {
+  display: inline-block;
+  position: relative;
 }
 
+#menuSlide ul li {
+  display: inherit;
+  background-color: rgba(255, 255, 255, 0.6);
+}
 
+#menuSlide ul {
+  position: absolute;
+  max-height: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: .5s all .2s;
+  -webkit-transition: .5s all .2s;
+  transition: .5s all .2s;
+}
+
+#menuSlide li:hover ul {
+  max-height: 15em;
+}
+
+/*barre de nav 2*/
+
+#tailleNav2 {
+  position: fixed;
+  overflow: auto;
+  width: 250px;
+  top: 0;
+  left: 0;
+  height: auto;
+  bottom: 0;
+  border: 1px solid black;
+  background-color: #f8f8f8;
+}
+#menuSlide2{
+  margin-left: 30px;
+}
+#menuSlide2 li li:hover a{
+  background-color: #c79400;
+}
+
+.hide-ss-menu{
+  display: none;
+}
+.navBurger2 ul {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.navBurger2 ul li {
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.menuBurger2 a {
+  text-decoration: none;
+  color: black;
+}
+#logoNav2 {
+  margin: 0;
+}
+#logoNav2 .fa-wordpress{
+  font-size: 50px;
+  margin: 70px;
+
+}
 /* background des liens menus et sous menus au survol */
-#menuSlide li:hover{
-background-color: rgba(255,255,255,0.8);
-border-bottom: 2px solid #c79400;
+
+#menuSlide li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid #c79400;
 }
 
-#menuSlide li li:hover{
+#menuSlide li li:hover {
   background-color: #c79400;
   border-bottom: 0px;
 }
 
 /*class js*/
-.back{
+
+.back {
   background-color: #ededed;
 }
 
-.back:hover{
+.back:hover {
   background-color: #c79400;
 }
 
-.nav--js{
+.nav--js {
   width: 100%;
   background-color: #ededed;
   height: 60px;
   border: 1px solid black;
   padding-top: 20px;
 }
+
 /* les a href */
-#menuSlide a{
-text-decoration:none;
-display:block;
-padding:8px 15px;
-color:black;
-font-family:"calibri";
-font-size: 16px;
+
+#menuSlide a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+  color: black;
+  font-family: "calibri";
+  font-size: 16px;
 }
 
-#menuSlide ul a{
-padding:8px 0;
+#menuSlide ul a {
+  padding: 8px 0;
 }
 
-#menuSlide li:hover li a{
-color:black;
-text-transform:inherit;
+#menuSlide li:hover li a {
+  color: black;
+  text-transform: inherit;
 }
 
 /* ==== Carrousel ==== */
-body .first{
+
+body .first {
   z-index: 3;
   position: absolute;
   font-size: 20vw;
@@ -112,95 +173,93 @@ body .first{
 }
 
 .slider {
-    display: block;
-    width: 100%;
-    height: 75vh;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
+  display: block;
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 
 .slide {
-    position: absolute;
-    display: block;
-    width: 100vw;
-    height: calc(100vh - 50px);
-    animation: slide 10s infinite;
-    overflow: hidden;
-    z-index: 99;
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: calc(100vh - 50px);
+  animation: slide 10s infinite;
+  overflow: hidden;
+  z-index: 99;
 }
 
-
 .slide:nth-child(1) {
-    left: 0%;
-    animation-delay: -0.5s;
-    background-image: url(../img/index.jpg);
-    background-size: cover;
-    background-position: center;
+  left: 0%;
+  animation-delay: -0.5s;
+  background-image: url(../img/index.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-child(2) {
-    left: 100%;
-    animation-delay: 2s;
-    background-image: url(../img/img3.png);
-    background-size: cover;
-    background-position: center;
+  left: 100%;
+  animation-delay: 2s;
+  background-image: url(../img/img3.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-child(3) {
-    left: 100%;
-    animation-delay: 4.5s;
-    background-image: url(../img/index.jpg);
-    background-size: cover;
-    background-position: center;
+  left: 100%;
+  animation-delay: 4.5s;
+  background-image: url(../img/index.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-child(4) {
-    left: 100%;
-    animation-delay: 7s;
-    background-image: url(../img/img3.png);
-    background-size: cover;
-    background-position: center;
+  left: 100%;
+  animation-delay: 7s;
+  background-image: url(../img/img3.png);
+  background-size: cover;
+  background-position: center;
 }
-
 
 @keyframes slide {
-    0% {
-        left: 100%;
-        width: 100%;
-    }
-    5% {
-        left: 0%;
-    }
-    25% {
-        left: 0%;
-    }
-    30% {
-        left: -100%;
-        width: 100%;
-    }
-    31% {
-        left: -100%;
-        width: 0%;
-    }
-    100% {
-        left: 100%;
-        width: 0%;
-    }
+  0% {
+    left: 100%;
+    width: 100%;
+  }
+  5% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  30% {
+    left: -100%;
+    width: 100%;
+  }
+  31% {
+    left: -100%;
+    width: 0%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
 }
 
-
 /*contact rapide*/
-textarea{
+
+textarea {
   overflow: auto;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
 
-.text{
+.text {
   height: 370px;
   line-height: 20px;
   text-align: center;
@@ -211,13 +270,13 @@ form{
   background-color: white;
 }
 
-.fa-mobile-alt{
-font-size: 50px;
-margin-left: 5px;
-height: 50px;
+.fa-mobile-alt {
+  font-size: 50px;
+  margin-left: 5px;
+  height: 50px;
 }
 
-.tel{
+.tel {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
@@ -226,6 +285,19 @@ height: 50px;
   right: 0px;
 }
 
-.cache{
+.cache {
   display: none;
+}
+
+#hamburger-button {
+  z-index: 9950;
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 30px;
+  vertical-align: top;
+  padding: 0;
+  line-height: 47px;
+  margin-right: 32px;
 }

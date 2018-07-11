@@ -2,7 +2,7 @@
 html{
 }
 
-a{
+.accueil a, .valeursur a, .prestation a, .simulateurs a, .legal a{
   text-decoration: none;
   color: #111111;
   font-size: 14px;
@@ -12,8 +12,9 @@ h3{
   font-size: 28px;
 }
 
-li{
+footer li{
   list-style-type: none;
+  padding-bottom: 0.3em;
 }
 
 /* ==== Footer ==== */
@@ -21,8 +22,6 @@ li{
 footer{
   left: 0;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   background: #EDEDED;
   display: flex;
   justify-content: space-around;
@@ -47,6 +46,6 @@ footer{
 }
 
 .accueil, .valeursur, .prestation, .simulateurs{
-  min-width: 300px;
+  width: 200px;
   min-height: 200px;
 }

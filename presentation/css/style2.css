@@ -99,7 +99,19 @@ max-height:15em;
 #logoNav2 .fa-wordpress{
   font-size: 50px;
   margin: 70px;
+}
 
+#hamburger-button {
+  z-index: 9950;
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 30px;
+  vertical-align: top;
+  padding: 0;
+  line-height: 47px;
+  margin-right: 32px;
 }
 
 /* background des liens menus et sous menus au survol */

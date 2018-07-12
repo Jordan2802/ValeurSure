@@ -9,12 +9,15 @@
   <link rel="stylesheet" href="css/sim.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
   <title>Document</title>
 </head>
 <body>
 
   <header>
     <?php include('includes/nav.php'); ?>
+    <button id="hamburger-button" onclick="cacher();"></button>
   </header>
 
   <main>

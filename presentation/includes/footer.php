@@ -1,6 +1,6 @@
 
 
-  
+
     <div class="accueil">
       <h3><a href="#">Accueil</a></h3>
       <ul>
@@ -31,11 +31,7 @@
     </div>
     <div class="simulateurs">
       <h3><a href="#">Simulateurs</a></h3>
-      <ul>
-        <li><a href="#">Capacité d'emprunt</a></li>
-        <li><a href="#">Capital</a></li>
-        <li><a href="#">Mensualité</a></li>
-      </ul>
+      
     </div>
 
    <div class="legal">

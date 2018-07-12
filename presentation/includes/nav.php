@@ -11,24 +11,20 @@
         <li><a href="./apropos.php#lien-valeur">Valeurs</a></li>
       </ul>
     </li>
-    <li><a href="#">Nos prestations</a>
+    <li><a href="./prestation.php">Nos prestations</a>
       <ul>
-        <li><a href="#">Crédits professionnels</a></li>
-        <li><a href="#">Crédit immobiliers</a></li>
-        <li><a href="#">Assurances Emprunteurs</a></li>
-        <li><a href="#">Conseils pour gérer les finances de votre entreprise</a></li>
-        <li><a href="#">Formation</a></li>
+        <li><a href="./prestation.php#lien-creditpro">Crédits professionnels</a></li>
+        <li><a href="./prestation.php#lien-creditimmo">Crédit immobiliers</a></li>
+        <li><a href="./prestation.php#lien-emprunt">Assurances Emprunteurs</a></li>
+        <li><a href="./prestation.php#lien-finances">Conseils pour gérer les finances de votre entreprise</a></li>
+        <li><a href="./prestation.php#lien-formation">Formation</a></li>
       </ul>
     </li>
-    <li><a href="#">Simulateurs</a>
-      <ul>
-        <li><a href="#">Capacité d'emprunt</a></li>
-        <li><a href="#">Capital</a></li>
-        <li><a href="#">Mensualité</a></li>
-      </ul>
+    <li><a href="./Simulateurs.php">Simulateurs</a>
+
     </li>
-    <li><a href="#">Demande de financement</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="./formfinance.php">Demande de financement</a></li>
+    <li><a href="./contact.php">Contact</a></li>
   </ul>
 </nav>
 
@@ -48,21 +44,17 @@
     </li>
     <li class="menu--ss"><a href="#">Nos prestations</a>
       <ul class="hide-ss-menu">
-        <li><a href="#">Crédits professionnels</a></li>
-        <li><a href="#">Crédit immobiliers</a></li>
-        <li><a href="#">Assurances Emprunteurs</a></li>
-        <li><a href="#">Conseils pour gérer les finances de votre entreprise</a></li>
-        <li><a href="#">Formation</a></li>
+        <li><a href="./prestation.php#lien-creditpro">Crédits professionnels</a></li>
+        <li><a href="./prestation.php#lien-creditimmo">Crédit immobiliers</a></li>
+        <li><a href="./prestation.php#lien-emprunt">Assurances Emprunteurs</a></li>
+        <li><a href="./prestation.php#lien-finances">Conseils pour gérer les finances de votre entreprise</a></li>
+        <li><a href="./prestation.php#lien-formation">Formation</a></li>
       </ul>
     </li>
-    <li class="menu--ss"><a href="#">Simulateurs</a>
-      <ul class="hide-ss-menu">
-        <li><a href="#">Capacité d'emprunt</a></li>
-        <li><a href="#">Capital</a></li>
-        <li><a href="#">Mensualité</a></li>
-      </ul>
+    <li class="menu--ss"><a href="./Simulateurs.php">Simulateurs</a>
+
     </li>
-    <li><a href="#">Demande de financement</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="./formfinance.php">Demande de financement</a></li>
+    <li><a href="./contact.php">Contact</a></li>
   </ul>
 </nav>

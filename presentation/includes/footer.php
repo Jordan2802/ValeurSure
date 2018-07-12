@@ -13,7 +13,7 @@
     </div>
     <div class="prestation">
       <h3><a href="./prestation.php">Nos prestations</a></h3>
-      <<ul>
+      <ul>
         <li><a href="./prestation.php#lien-creditpro">Crédits professionnels</a></li>
         <li><a href="./prestation.php#lien-creditimmo">Crédit immobiliers</a></li>
         <li><a href="./prestation.php#lien-emprunt">Assurances Emprunteurs</a></li>

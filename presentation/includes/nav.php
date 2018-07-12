@@ -5,11 +5,11 @@
     </div>
     <li><a href="./index.php">Accueil</a></li>
     <li><a href="./apropos.php">A	propos de ValeurSure</a>
-      <ul>
+    <!--  <ul>
         <li><a href="./apropos.php#lien-presentation">Présentation</a></li>
         <li><a href="./apropos.php#lien-engagement">Engagements</a></li>
         <li><a href="./apropos.php#lien-valeur">Valeurs</a></li>
-      </ul>
+      </ul>-->
     </li>
     <li><a href="./prestation.php">Nos prestations</a>
       <ul>
@@ -35,12 +35,11 @@
     </div>
     <li><a href="./index.php">Accueil</a></li>
     <li class="menu--ss"><a href="#">A	propos de ValeurSure</a>
-      <ul class="hide-ss-menu">
-        <li><a href="./apropos.php#lien-presentation">Présentation</a></li>
-        <li><a href="./apropos.php#lien-engagement">Engagements</a></li>
-        <li><a href="./apropos.php#lien-valeur">Valeurs</a></li>
-
-      </ul>
+      <!--  <ul>
+          <li><a href="./apropos.php#lien-presentation">Présentation</a></li>
+          <li><a href="./apropos.php#lien-engagement">Engagements</a></li>
+          <li><a href="./apropos.php#lien-valeur">Valeurs</a></li>
+        </ul>-->
     </li>
     <li class="menu--ss"><a href="#">Nos prestations</a>
       <ul class="hide-ss-menu">

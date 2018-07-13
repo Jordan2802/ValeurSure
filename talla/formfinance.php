@@ -15,9 +15,6 @@ session_start();
 
   <body>
 
-    <header>
-      <?php include('nav.php'); ?>
-    </header>
     <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
     <div class="form-container">
 
@@ -54,7 +51,7 @@ session_start();
           <input type="text" id="postal" name="postal" class="line" value="" maxlength="5" required><br><br>
         </div>
         <div class="control-group">
-          <label for="Ville">Ville: </label><br>
+          <label for="ville">Ville: </label><br>
           <input type="text" id="ville" name="ville" class="line" value="" required><br><br><br>
         </div>
 
@@ -62,9 +59,7 @@ session_start();
       </form>
       <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
     </div><br>
-    <footer>
-      <?php include('footer.php'); ?>
-    </footer>
+
   </body>
 
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

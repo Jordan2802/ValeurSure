@@ -194,7 +194,7 @@ body .first {
 .slide:nth-child(1) {
   left: 0%;
   animation-delay: -0.5s;
-  background-image: url(../img/index.jpg);
+  background-image: url(../img/image1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -202,7 +202,7 @@ body .first {
 .slide:nth-child(2) {
   left: 100%;
   animation-delay: 2s;
-  background-image: url(../img/img3.png);
+  background-image: url(../img/image2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -210,7 +210,7 @@ body .first {
 .slide:nth-child(3) {
   left: 100%;
   animation-delay: 4.5s;
-  background-image: url(../img/index.jpg);
+  background-image: url(../img/image3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -218,7 +218,7 @@ body .first {
 .slide:nth-child(4) {
   left: 100%;
   animation-delay: 7s;
-  background-image: url(../img/img3.png);
+  background-image: url(../img/image4.jpg);
   background-size: cover;
   background-position: center;
 }

@@ -33,6 +33,16 @@
   .media-twi{
     height: 500px;
   }
+
+  .intro{
+    flex-direction: column;
+  }
+
+  .info{
+    border-bottom: 1px solid #000;
+    border-right: none;
+  }
+
   #hamburger-button {
     display: block;
     position: absolute;

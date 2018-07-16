@@ -18,12 +18,10 @@
 <div id="slider">
 <i class="fab fa-wordpress first"></i>
 <div class="slider">
-
-  <div class="slide"></div>
-  <div class="slide"></div>
-  <div class="slide"></div>
-  <div class="slide"></div>
-
+  <div class="slide"><a href="#">Notre métier? Financer l’activité et le patrimoine de l’Entrepreneur <br><span>Plus d'infos...</span> </a></div>
+  <div class="slide"><a href="#">Gérez votre activité, nous gérons vos finances <br><span>Plus d'infos...</span></a> </div>
+  <div class="slide"><a href="#">ValeureSûre, et se financer devient un jeu d’enfant <br><span>Plus d'infos...</span></a> </div>
+  <div class="slide"><a href="#">Un projet? Parlez-­en à votre expert <br><span>Plus d'infos...</span></a></div>
 </div>
 </div>
 <button id="hamburger-button" onclick="cacher();"></button>

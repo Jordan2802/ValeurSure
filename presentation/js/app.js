@@ -24,7 +24,7 @@ var tel = document.getElementById("tel");
 var nav = document.getElementById("tailleNav");
 var logo = document.getElementById("logoNav");
 var tailleHead = head.offsetHeight;
-var a = document.getElementsByTagName("a");
+var a = document.getElementsByClassName("nav-lien");
 
 
 window.onscroll = function() {
@@ -36,7 +36,7 @@ window.onscroll = function() {
     $(nav).addClass('nav--js');
     logo.style.fontSize = "0px";
     for (var i = 0; i < a.length; i++) {
-      a[i].className = "backup back:hover";
+      a[i].className = "backup backup:hover";
     }
   } else {
     tel.style.display = "none";

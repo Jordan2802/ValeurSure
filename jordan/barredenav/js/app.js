@@ -36,7 +36,7 @@ window.onscroll = function() {
     $(nav).addClass('nav--js');
     logo.style.fontSize = "0px";
     for (var i = 0; i < a.length; i++) {
-      a[i].className = "back back:hover";
+      a[i].className = "backup back:hover";
     }
   } else {
     tel.style.display = "none";

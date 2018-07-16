@@ -18,15 +18,18 @@
     <?php include('includes/nav.php'); ?>
     <button id="hamburger-button" onclick="cacher();"></button>
     </header>
-    <div class=formulaire>
-      <form class="form" action="#" method="post">
-        <input type="text" placeholder="Nom"><br>
-        <input type="text" placeholder="Email"><br>
-        <input type="text" placeholder="Objet"><br>
-        <textarea rows="8" cols="80"></textarea><br>
-        <input class="button" type="submit" value="Valide">
-      </form>
-    </div>
+    <main>
+
+      <div class="formulaire-contact">
+        <form class="form" action="#" method="post">
+          <input type="text" placeholder="Nom"><br>
+          <input type="text" placeholder="Email"><br>
+          <input type="text" placeholder="Objet"><br>
+          <textarea rows="8" cols="80"></textarea><br>
+          <input class="button" type="submit" value="Valider">
+        </form>
+      </div>
+    </main>
     <footer>
       <?php include('includes/footer.php'); ?>
     </footer>

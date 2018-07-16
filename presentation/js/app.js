@@ -1,6 +1,22 @@
+//faire apparaitre le form contact rapide au clic.
 
+function slideTel() {
+  if ($('.text').hasClass('cache')) {
+    $('.text').removeClass('cache');
+  } else {
+    $('.text').addClass('cache');
+  }
+}
 
+//menu appBurger
 
+function cacher() {
+  $('.navBurger2').toggleClass('cache--burger2');
+}
+
+$('#menuSlide2 .menu--ss').click(function() {
+  $(this).children('ul').toggleClass('hide-ss-menu');
+})
 
 //faire apparaitre le contact rapide + nav scroll
 var head = document.getElementById("head");
@@ -20,7 +36,7 @@ window.onscroll = function() {
     $(nav).addClass('nav--js');
     logo.style.fontSize = "0px";
     for (var i = 0; i < a.length; i++) {
-      a[i].className = "back back:hover";
+      a[i].className = "backup back:hover";
     }
   } else {
     tel.style.display = "none";

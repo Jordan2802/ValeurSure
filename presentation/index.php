@@ -16,7 +16,7 @@
 <header id="head">
 <?php include('includes/nav.php'); ?>
 <div id="slider">
-<i class="fab fa-wordpress first"></i>
+
 <div class="slider">
   <div class="slide"><a href="prestation.php">Notre métier? Financer l’activité et le patrimoine de l’Entrepreneur <br><span>Plus d'infos...</span> </a></div>
   <div class="slide"><a href="prestation.php#lien-finances">Gérez votre activité, nous gérons vos finances <br><span>Plus d'infos...</span></a> </div>

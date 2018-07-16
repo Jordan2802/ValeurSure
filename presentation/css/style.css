@@ -203,7 +203,7 @@ body .first {
 
 .slide a span{
   font-weight: bold;
-  margin-left: 85%;
+  float: right;
 }
 .slide:nth-child(1) {
   left: 0%;

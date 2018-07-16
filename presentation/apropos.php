@@ -38,7 +38,7 @@
     </div>
     <div class="engagements">
       <h2 id="lien-engagement">Engagements</h2>
-      <img src="img/credis.jpg">
+      <img src="img/credits.jpg">
       <p><b>Assurer un service de qualité :</b> Un dossier complet, clair et bien résumé, c’est l’assurance d’une réponse rapide en toute sérénité. ValeurSûre exige de ses équipes une expérience dans le domaine bancaire pour anticiper les exigences de la
         banque et réduire le délai de réponse.<br><br>
         <b>Défendre vos projets :</b> Au-delà des éléments écrits et des pièces constituant le dossier,

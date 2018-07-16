@@ -186,7 +186,7 @@ body .first {
   display: block;
   width: 100vw;
   height: calc(100vh - 50px);
-  animation: slide 10s infinite;
+  animation: slide 22s infinite;
   overflow: hidden;
   z-index: 99;
 }
@@ -221,7 +221,7 @@ body .first {
 
 .slide:nth-child(2) {
   left: 100%;
-  animation-delay: 2s;
+  animation-delay: 5s;
   background-image: url(../img/image2.jpg);
   background-size: cover;
   background-position: center;
@@ -229,7 +229,7 @@ body .first {
 
 .slide:nth-child(3) {
   left: 100%;
-  animation-delay: 4.5s;
+  animation-delay: 10.5s;
   background-image: url(../img/image3.jpg);
   background-size: cover;
   background-position: center;
@@ -237,7 +237,7 @@ body .first {
 
 .slide:nth-child(4) {
   left: 100%;
-  animation-delay: 7s;
+  animation-delay: 16s;
   background-image: url(../img/image4.jpg);
   background-size: cover;
   background-position: center;

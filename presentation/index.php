@@ -54,7 +54,7 @@
 
       <section class="sec-simul">
         <h2 class="section-name">Simulateurs</h2>
-        <p class="description">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
+        <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
 <!--
         <div class="selecteur">
           <select name="" id="">
@@ -70,27 +70,27 @@
 
       <section class="sec-cred-pro">
         <h2 class="section-name">Courtier en crédits professionnels</h2>
-        <p class="description">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
+        <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
       </section>
 
       <section class="sec-conseil">
         <h2 class="section-name">Conseil</h2>
-        <p class="description">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
+        <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
       </section>
 
       <section class="sec-assu-empr">
         <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
-        <p class="description">Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
+        <p class="description show--hover">Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
       </section>
 
       <section class="sec-cred-immo">
         <h2 class="section-name">Courtier en crédits immobiliers</h2>
-        <p class="description">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
+        <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
       </section>
 
       <section class="sec-formation">
         <h2 class="section-name">Formation</h2>
-        <p class="description">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
+        <p class="description show--hover">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
       </section>
 
       <section class="media-twi">

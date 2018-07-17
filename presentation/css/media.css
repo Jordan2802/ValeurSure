@@ -43,6 +43,11 @@
     border-right: none;
   }
 
+  .show--hover{
+    display: block;
+  }
+
+
   #hamburger-button {
     display: block;
     position: absolute;
@@ -79,6 +84,7 @@
   #slider {
     display: none;
   }
+
 }
 
 @media screen and (min-width: 1060px) {

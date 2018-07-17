@@ -24,7 +24,10 @@
   <div class="slide"><a href="contact.php">Un projet? Parlez-­en à votre expert <br><span>Plus d'infos...</span></a></div>
 </div>
 </div>
-<button id="hamburger-button" onclick="cacher();"></button>
+<div class="barre-burger">
+  <button id="hamburger-button" onclick="cacher();"></button>
+</div>
+
   </header>
   <div class="tel" id="tel">
     <div class="fas fa-mobile-alt" onclick="slideTel()"></div>

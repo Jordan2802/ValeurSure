@@ -7,7 +7,7 @@
   .cache--burger2 {
     display: none;
   }
-  .navBurger2{
+  .navBurger2 {
     display: none;
   }
   .cache--burger {
@@ -16,38 +16,33 @@
 }
 
 @media screen and (max-width: 768px) {
-  #categories{
+  #categories {
     display: flex;
     flex-direction: column;
   }
-
-  .fa-mobile-alt{
+  .barre-burger {
+    display: block;
+  }
+  .fa-mobile-alt {
     font-size: 0;
   }
-
-  section{
+  section {
     margin-bottom: 5vw;
     height: 300px;
   }
-
-  .media-twi{
+  .media-twi {
     height: 500px;
   }
-
-  .intro{
+  .intro {
     flex-direction: column;
   }
-
-  .info{
+  .info {
     border-bottom: 1px solid #000;
     border-right: none;
   }
-
-  .show--hover{
+  .show--hover {
     display: block;
   }
-
-
   #hamburger-button {
     display: block;
     position: absolute;
@@ -57,7 +52,7 @@
   }
   #hamburger-button {
     position: fixed;
-    top: 5%;
+    top: 2%;
     left: 95%;
     z-index: 9950;
     display: block;
@@ -84,12 +79,10 @@
   #slider {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 1060px) {
   #menuSlide a {
     font-size: 16px;
   }
-
 }

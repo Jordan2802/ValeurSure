@@ -26,7 +26,9 @@ $_SESSION['ville'] = $_POST['ville'];
    <body>
      <header>
        <?php include('includes/nav.php'); ?>
-       <button id="hamburger-button" onclick="cacher();"></button>
+       <div class="barre-burger">
+         <button id="hamburger-button" onclick="cacher();"></button>
+       </div>
      </header>
      <h1 class="bande">DEMANDE DE FINANCEMENT</h1>
      <div class="progression">

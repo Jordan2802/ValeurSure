@@ -51,21 +51,9 @@
     </div>
 
     <div id="categories">
-
-      <section class="sec-simul">
-        <h2 class="section-name">Simulateurs</h2>
-        <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
-<!--
-        <div class="selecteur">
-          <select name="" id="">
-            <option value="">Selectionnez un simulateur</option>
-            <option value="cap-emprunt">Capacité d'emprunt</option>
-            <option value="capital">Capital</option>
-            <option value="mensualite">Mensualité</option>
-          </select>
-          <input class="button-simul" type="button" value="Aller au simulateur">
-        </div>
--->
+      <section class="sec-conseil">
+        <h2 class="section-name">Conseil</h2>
+        <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
       </section>
 
       <section class="sec-cred-pro">
@@ -73,14 +61,26 @@
         <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
       </section>
 
-      <section class="sec-conseil">
-        <h2 class="section-name">Conseil</h2>
-        <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
-      </section>
+
+      <section class="sec-simul">
+        <h2 class="section-name">Simulateurs</h2>
+        <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
+        <!--
+        <div class="selecteur">
+        <select name="" id="">
+        <option value="">Selectionnez un simulateur</option>
+        <option value="cap-emprunt">Capacité d'emprunt</option>
+        <option value="capital">Capital</option>
+        <option value="mensualite">Mensualité</option>
+      </select>
+      <input class="button-simul" type="button" value="Aller au simulateur">
+    </div>
+  -->
+</section>
 
       <section class="sec-assu-empr">
         <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
-        <p class="description show--hover">Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
+        <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
       </section>
 
       <section class="sec-cred-immo">

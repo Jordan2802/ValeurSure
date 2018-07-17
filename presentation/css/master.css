@@ -128,6 +128,7 @@ section{
 }
 
 .section-name{
+  font-size: 35px;
   color: #C79400;
   text-align: center;
 }
@@ -199,11 +200,12 @@ section:hover .show--hover{
 main{
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .intro{
   width: 80vw;
-  margin: 8vw;
+  margin: 150px auto;
   text-align: justify;
   display: flex;
   align-items: center;

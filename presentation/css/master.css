@@ -128,8 +128,8 @@ section{
 }
 
 .section-name{
-  font-size: 35px;
-  color: #C79400;
+  font-size: 3vw;
+  color: #002366;
   text-align: center;
 }
 .description{
@@ -180,6 +180,7 @@ select{
 
 .show--hover{
   display: none;
+  overflow: hidden;
 }
 section:hover .show--hover{
   display: block;
@@ -187,12 +188,12 @@ section:hover .show--hover{
   -moz-animation: slide-down 0.3s ease-in-out;
 }
 @-webkit-keyframes slide-down {
-  0% {opacity: 0; -webkit-transform: translateY(100%);}
-  100% {opacity: 1; -webkit-transform: translateY(0%);}
+  0% {opacity: 0; height: 0; -webkit-transform: translateY(100%);}
+  100% {opacity: 1;height: auto; -webkit-transform: translateY(0%);}
 }
 @-moz-keyframes slide-down {
-  0% {opacity: 0; -moz-transform: translateY(100%);}
-  100% {opacity: 1; -moz-transform: translateY(0%);}
+  0% {opacity: 0; height: 0; -moz-transform: translateY(100%);}
+  100% {opacity: 1; height: auto; -moz-transform: translateY(0%);}
 }
 
 

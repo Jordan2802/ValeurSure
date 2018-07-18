@@ -37,7 +37,7 @@ position:relative;
 
 #menuSlide ul li{
 display:inherit;
-background-color: rgba(255,255,255,0.6);
+background-color: rgba(255,255,255,1);
 }
 
 #menuSlide ul{

@@ -5,6 +5,7 @@ body{
 }
 
 main{
+  margin-top: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +48,10 @@ main{
 }
 
 .active{
-  background-color: #FFC400;
+  letter-spacing: 0.05em;
+  color: #fefefe;
+  font-weight: bold;
+  background-color: #002366;
 }
 
 .tabcontent{

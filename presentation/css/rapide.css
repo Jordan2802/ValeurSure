@@ -1,0 +1,46 @@
+/*contact rapide*/
+
+#valeur--coor {
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+textarea {
+  overflow: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  height: 370px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 10px;
+  width: 250px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.fa-mobile-alt {
+  font-size: 50px;
+  margin-left: 5px;
+  height: 50px;
+}
+
+.tel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  position: fixed;
+  top: 30vh;
+  right: 0px;
+}
+
+.cache {
+  display: none;
+}

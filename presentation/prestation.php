@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/prestation.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/rapide.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <title></title>
@@ -20,7 +21,9 @@
         <button id="hamburger-button" onclick="cacher();"></button>
       </div>
     </header>
-
+    <?php
+    include('includes/rapide.php');
+     ?>
 
     <div class="prestations">
       <h2 id="lien-creditpro">Courtier en crédits professionnels</h2><br>
@@ -51,6 +54,7 @@
       <?php include('includes/footer.php'); ?>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
   </body>

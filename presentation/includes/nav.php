@@ -1,8 +1,6 @@
 <nav id="tailleNav" class="navBurger cache--burger">
   <ul id="menuSlide" class="menuBurger">
-    <div id="logoNav" class="logop">
-      <i class="fab fa-wordpress"></i>
-    </div>
+    
     <li><a class="nav-lien" href="./index.php">Accueil</a></li>
     <li>|</li>
     <li><a class="nav-lien" href="./apropos.php">A	propos de ValeurSure</a>

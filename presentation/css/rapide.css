@@ -3,11 +3,13 @@
 #valeur--coor {
   text-decoration: underline;
   font-weight: bold;
-
+  color: #002366;
 }
 
 textarea {
   overflow: auto;
+  resize:none;
+
 }
 
 form {
@@ -22,7 +24,7 @@ form {
   margin-left: 10px;
   width: 250px;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid #bbb;
   background-color: white;
 }
 
@@ -39,9 +41,21 @@ form {
   position: fixed;
   top: 30vh;
   right: 0px;
-  z-index: 1
+  z-index: 1;
 }
 
 .cache {
-  display: none;
+  animation: slideContact 0.7s alternate;
+  margin-right: -280px;
+}
+@keyframes slideContact {
+  100%{
+    margin-right: -280px;
+  }
+  50%{
+    margin-right::-125px;
+  }
+  0%{
+    margin-right: 0;
+  }
 }

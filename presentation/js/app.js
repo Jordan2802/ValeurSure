@@ -16,7 +16,7 @@ window.onscroll = function() {
     nav.style.top = "0";
     nav.style.left = "0";
     $(nav).addClass('nav--js');
-    logo.style.fontSize = "0px";
+
     for (var i = 0; i < a.length; i++) {
       a[i].className = "backup backup:hover";
     }
@@ -25,7 +25,7 @@ window.onscroll = function() {
     nav.style.top = "5%";
     nav.style.left = "5%";
     $(nav).removeClass('nav--js');
-    logo.style.fontSize = "60px";
+    
     for (var i = 0; i < a.length; i++) {
       a[i].className = "#menuSlide li li:hover";
     }

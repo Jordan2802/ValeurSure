@@ -82,6 +82,9 @@ include('includes/rapide.php');
           <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
         </section>
 
+        <section class="img-2">
+        </section>
+
         <section class="sec-cred-immo">
           <h2 class="section-name">Courtier en crédits immobiliers</h2>
           <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
@@ -97,21 +100,14 @@ include('includes/rapide.php');
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
 
-<<<<<<< HEAD
-      <section class="media-lin">
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
-      </section>
-      <section class="img-1">
-      </section>
-      <section class="img-2">
-      </section>
-=======
+
         <section class="media-lin">
           <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-          <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
+          <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
         </section>
->>>>>>> 3f6e20d29b62e758527c0346c9f4d57029228d73
+
+        <section class="img-1">
+        </section>
 
       </div>
 

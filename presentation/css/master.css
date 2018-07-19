@@ -77,10 +77,10 @@ section{
   #categories{
     grid-column-gap: 4vw;
     grid-row-gap: 35px;
-    grid-template-areas:  "cred-pro cred-pro .   conseil   conseil   conseil"
-                          "cred-pro cred-pro .   conseil   conseil   conseil"
-                          "cred-pro  cred-pro   assu-empr assu-empr .   ."
-                          "simul   simul   assu-empr assu-empr .  ."
+    grid-template-areas:  "cred-pro cred-pro img-1   conseil   conseil   conseil"
+                          "cred-pro cred-pro img-1   conseil   conseil   conseil"
+                          "cred-pro  cred-pro   assu-empr assu-empr img-2   img-2"
+                          "simul   simul   assu-empr assu-empr img-2  img-2"
                           "simul   simul   assu-empr assu-empr cred-immo  cred-immo"
                           "twi     twi     lin       lin       cred-immo  cred-immo"
                           "twi     twi     lin       lin       formation  formation"
@@ -99,6 +99,8 @@ section{
   .sec-formation{  grid-area: formation}
   .media-twi{      grid-area: twi;}
   .media-lin{      grid-area: lin;}
+  .img-1{          grid-area: img-1;}
+  .img-2{          grid-area: img-2;}
 
 }
 
@@ -135,6 +137,23 @@ section:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
+
+
+.img-1{
+  background-image: url(../img/gold_egg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-2{
+  background-image: url(../img/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .section-name{
   font-size: 3vw;

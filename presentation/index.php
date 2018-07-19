@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/rapide.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <title>ValeurSure</title>
-  </head>
-  <body>
-<header id="head">
-<?php include('includes/nav.php'); ?>
-<div id="slider">
 
-<div class="slider">
-  <div class="slide"><a href="prestation.php">Notre métier? Financer l’activité et le patrimoine de l’Entrepreneur <br><span>Plus d'infos...</span> </a></div>
-  <div class="slide"><a href="prestation.php#lien-finances">Gérez votre activité, nous gérons vos finances <br><span>Plus d'infos...</span></a> </div>
-  <div class="slide"><a href="apropos.php#lien-engagement">ValeureSûre, et se financer devient un jeu d’enfant <br><span>Plus d'infos...</span></a> </div>
-  <div class="slide"><a href="contact.php">Un projet? Parlez-­en à votre expert <br><span>Plus d'infos...</span></a></div>
-</div>
-</div>
-<div class="barre-burger">
-  <button id="hamburger-button" onclick="cacher();"></button>
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/rapide.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>ValeurSure</title>
+</head>
+
+<body>
+  <header id="head">
+    <?php include('includes/nav.php'); ?>
+    <div id="slider">
+
+      <div class="slider">
+        <div class="slide"><a href="prestation.php">Notre métier? Financer l’activité et le patrimoine de l’Entrepreneur <br><span>Plus d'infos...</span> </a></div>
+        <div class="slide"><a href="prestation.php#lien-finances">Gérez votre activité, nous gérons vos finances <br><span>Plus d'infos...</span></a> </div>
+        <div class="slide"><a href="apropos.php#lien-engagement">ValeureSûre, et se financer devient un jeu d’enfant <br><span>Plus d'infos...</span></a> </div>
+        <div class="slide"><a href="contact.php">Un projet? Parlez-­en à votre expert <br><span>Plus d'infos...</span></a></div>
+      </div>
+    </div>
+    <div class="barre-burger">
+      <button id="hamburger-button" onclick="cacher();"></button>
+    </div>
 
   </header>
   <?php
 include('includes/rapide.php');
    ?>
 
-  <main>
-    <div class="intro">
+    <main>
+      <div class="intro">
 
-      <div class="info"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>
+        <div class="info"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>
 
-      <div class="introduction">
-          Pour financer votre entreprise, il est important de déterminer sa solvabilité. Et pour financer votre patrimoine, il faut vérifier que l’entreprise est suffisamment pérenne pour vous assurer des revenus réguliers. C’est pourquoi tous vos projets de financement, qu’ils soient privés ou professionnels, sont gérés en banque par un Conseiller spécialisé, ayant les compétences requises. <br><br> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet. <br><br>Le crédit professionnel ou crédit immobilier à destination des professionnels, est un métier à part entière.
+        <div class="introduction">
+          Pour financer votre entreprise, il est important de déterminer sa solvabilité. Et pour financer votre patrimoine, il faut vérifier que l’entreprise est suffisamment pérenne pour vous assurer des revenus réguliers. C’est pourquoi tous vos projets de financement,
+          qu’ils soient privés ou professionnels, sont gérés en banque par un Conseiller spécialisé, ayant les compétences requises. <br><br> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur,
+          qualifié et compétent, afin de mener à bien votre projet. <br><br>Le crédit professionnel ou crédit immobilier à destination des professionnels, est un métier à part entière.
+        </div>
+
       </div>
 
-    </div>
+      <div id="categories">
+        <section class="sec-conseil">
+          <h2 class="section-name">Conseil</h2>
+          <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
+        </section>
 
-    <div id="categories">
-      <section class="sec-conseil">
-        <h2 class="section-name">Conseil</h2>
-        <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
-      </section>
-
-      <section class="sec-cred-pro">
-        <h2 class="section-name">Courtier en crédits professionnels</h2>
-        <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
-      </section>
+        <section class="sec-cred-pro">
+          <h2 class="section-name">Courtier en crédits professionnels</h2>
+          <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
+        </section>
 
 
-      <section class="sec-simul">
-        <h2 class="section-name">Simulateurs</h2>
-        <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
-        <!--
+        <section class="sec-simul">
+          <h2 class="section-name">Simulateurs</h2>
+          <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
+          <!--
         <div class="selecteur">
         <select name="" id="">
         <option value="">Selectionnez un simulateur</option>
@@ -71,41 +75,54 @@ include('includes/rapide.php');
       <input class="button-simul" type="button" value="Aller au simulateur">
     </div>
   -->
-</section>
+        </section>
 
-      <section class="sec-assu-empr">
-        <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
-        <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
-      </section>
+        <section class="sec-assu-empr">
+          <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
+          <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
+        </section>
 
-      <section class="sec-cred-immo">
-        <h2 class="section-name">Courtier en crédits immobiliers</h2>
-        <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
-      </section>
+        <section class="sec-cred-immo">
+          <h2 class="section-name">Courtier en crédits immobiliers</h2>
+          <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
+        </section>
 
-      <section class="sec-formation">
-        <h2 class="section-name">Formation</h2>
-        <p class="description show--hover">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
-      </section>
+        <section class="sec-formation">
+          <h2 class="section-name">Formation</h2>
+          <p class="description show--hover">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
+        </section>
 
-      <section class="media-twi">
-        <a class="twitter-timeline" data-height="5000" href="https://twitter.com/_Valloa_?ref_src=twsrc%5Etfw">Tweets by _Valloa_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </section>
+        <section class="media-twi">
+          <a class="twitter-timeline" data-height="5000" href="https://twitter.com/_Valloa_?ref_src=twsrc%5Etfw">Tweets by _Valloa_</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
 
+<<<<<<< HEAD
       <section class="media-lin">
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
       </section>
+      <section class="img-1">
+      </section>
+      <section class="img-2">
+      </section>
+=======
+        <section class="media-lin">
+          <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+          <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
+        </section>
+>>>>>>> 3f6e20d29b62e758527c0346c9f4d57029228d73
 
-    </div>
+      </div>
 
-  </main>
-  <footer>
-    <?php include('includes/footer.php'); ?>
-  </footer>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/contact.js"></script>
-  <script type="text/javascript" src="js/burger.js"></script>
+    </main>
+    <footer>
+      <?php include('includes/footer.php'); ?>
+    </footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/burger.js"></script>
 </body>
+
 </html>

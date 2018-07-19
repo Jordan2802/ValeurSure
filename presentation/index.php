@@ -96,6 +96,10 @@ include('includes/rapide.php');
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
       </section>
+      <section class="img-1">
+      </section>
+      <section class="img-2">
+      </section>
 
     </div>
 

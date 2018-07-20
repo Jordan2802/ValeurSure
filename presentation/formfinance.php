@@ -14,6 +14,9 @@ session_start();
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
   </head>
 
   <body>
@@ -36,37 +39,56 @@ session_start();
         <div class="bulle">
           <p class="etape">fin</p>
         </div>
-      </div><br><br><br>
+      </div> <br> <br> <br>
 
-      <form class="formulaire" id="formulaire1" action="formfinance2.php" method="post">
+      <form class="formulaire z-depth-3" id="formulaire1" action="formfinance2.php" method="post">
         <br>
-        <label for="sexe">Civilité: </label>
-        <select id="sexe" class="mrmme" name="sexe">
-          <option class="option" value="homme">Homme</option>
-          <option class="option" value="femme">Femme</option>
-        </select><br><br>
-        <label for="nom">Nom: </label><br>
-        <input type="text" name="nom" class="line" id="nom" value="" required><br><br>
-        <label for="prenom">Prenom: </label><br>
-        <input type="text" name="prenom" class="line" id="prenom" value="" required><br><br>
-        <label for="tel">Téléphone: </label><br>
-        <input type="text" id="tel" name="tel" class="line" value="" required><br><br>
-        <label for="adresse">Adresse: </label><br>
-        <input type="text" id="adresse" name="adresse" class="line" value="" required><br><br>
+        <div class="input-field">
+
+          <select id="sexe" class="mrmme">
+            <option class="option" value="homme">Homme</option>
+            <option class="option" value="femme">Femme</option>
+          </select>
+          <label>Civilité: </label>
+
+        </div>
+        <div class="input-field">
+          <input type="text" name="nom" class="line" id="nom" value="" required>
+          <label for="nom">Nom: </label>
+        </div>
+        <div class="input-field">
+          <input type="text" name="prenom" class="line" id="prenom" value="" required>
+          <label for="prenom">Prenom: </label>
+        </div>
+        <div class="input-field">
+          <input type="text" id="tel" name="tel" class="line" value="" required>
+          <label for="tel">Téléphone: </label>
+        </div>
+        <div class="input-field">
+          <input type="text" id="adresse" name="adresse" class="line" value="" required>
+          <label for="adresse">Adresse: </label>
+        </div>
 
         <div id="zipbox"class="control-group">
-          <label for="postal">Code postal: </label><br>
-          <input type="text" id="postal" name="postal" class="line" value="" maxlength="5" required><br><br>
+          <div class="input-field">
+            <input type="text" id="postal" name="postal" class="line" value="" maxlength="5" required>
+            <label for="postal">Code postal: </label>
+          </div>
         </div>
         <div class="control-group">
-          <label for="Ville">Ville: </label><br>
-          <input type="text" id="ville" name="ville" class="line" value="" required><br><br><br>
-        </div>
+          <div class="input-field">
+            <input type="text" id="city" name="city" class="line" value="" required>
+            <label for="city">Ville: </label>
+          </div>
 
-        <input class="envoi" type="submit" name="" value="ETAPE SUIVANTE"><br><br><br>
+    <button class="large-btn waves-effect waves-light envoi z-depth-2" type="submit" name="action">ÊTAPE SUIVANTE
+    </button>
+
+
       </form>
       <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
-    </div><br>
+    </div>
+  </div>
     <footer>
       <?php include('includes/footer.php'); ?>
     </footer>
@@ -79,5 +101,12 @@ session_start();
   <script type="text/javascript" src="js/burger.js"></script>
   <script type="text/javascript" src="js/contact.js"></script>
 
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+ $('select').formSelect();
+});
+  </script>
 
 </html>

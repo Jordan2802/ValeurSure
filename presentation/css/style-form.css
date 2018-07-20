@@ -30,11 +30,14 @@ html{
 	font-size: 16px;
 }
 .formulaire{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
   text-align: center;
-  -webkit-box-shadow: 2px 3px 79px 0px rgba(189,189,189,1);
-  -moz-box-shadow: 2px 3px 79px 0px rgba(189,189,189,1);
-  box-shadow: 2px 3px 2vw 0px rgba(189,189,189,1);
-  background-color: rgb(207, 207, 207);
+  background-color: #fff;
 }
 .bande{
     background-color: #F68121;
@@ -43,12 +46,15 @@ html{
 		font-size: 35px;
 }
 .envoi{
-  background-color: #F68121;
+  color: #fff;
+  background-color: #002366;
   padding: 10px;
-  border-radius: 20px;
+  margin: 30px;
 	font-size: 30px;
 	align-items: center;
+  border: 0 !important;
 }
+
 input.line{
   background-color: inherit;
   border: none;
@@ -85,4 +91,28 @@ input:-webkit-autofill {
   width: 50%;
   margin: auto;
   margin-bottom: 100px;
+}
+
+.control-group{
+  width: 100%;
+}
+
+form .input-field{
+  margin: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+input:not([type]):focus:not([readonly])+ label, input[type="text"]:not(.browser-default):focus:not([readonly])+ label, input[type="password"]:not(.browser-default):focus:not([readonly])+ label, input[type="email"]:not(.browser-default):focus:not([readonly])+ label, input[type="url"]:not(.browser-default):focus:not([readonly])+ label, input[type="time"]:not(.browser-default):focus:not([readonly])+ label, input[type="date"]:not(.browser-default):focus:not([readonly])+ label, input[type="datetime"]:not(.browser-default):focus:not([readonly])+ label, input[type="datetime-local"]:not(.browser-default):focus:not([readonly])+ label, input[type="tel"]:not(.browser-default):focus:not([readonly])+ label, input[type="number"]:not(.browser-default):focus:not([readonly])+ label, input[type="search"]:not(.browser-default):focus:not([readonly])+ label, textarea.materialize-textarea:focus:not([readonly]) + label{
+  color: #2C75FF !important;
+}
+
+
+
+input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default):focus:not([readonly]), input[type="password"]:not(.browser-default):focus:not([readonly]), input[type="email"]:not(.browser-default):focus:not([readonly]), input[type="url"]:not(.browser-default):focus:not([readonly]), input[type="time"]:not(.browser-default):focus:not([readonly]), input[type="date"]:not(.browser-default):focus:not([readonly]), input[type="datetime"]:not(.browser-default):focus:not([readonly]), input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), input[type="tel"]:not(.browser-default):focus:not([readonly]), input[type="number"]:not(.browser-default):focus:not([readonly]), input[type="search"]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  box-shadow: 0 1px 0 0 #002366 !important;
+}
+
+.g-recaptcha{
+  margin: 0 auto !important;
 }

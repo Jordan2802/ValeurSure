@@ -23,7 +23,11 @@
   </header>
 
   <main>
-
+    <div class="">
+      <h2>Simulateurs</h2>
+      <p>Vous souhaitez connaître vos mensualités, le montant que vous pouvez emprunter et sur quelle
+durée ? Obtenez ces informations en quelques clics.</p>
+    </div>
 
     <div class="selecteur">
       <div class="tab">

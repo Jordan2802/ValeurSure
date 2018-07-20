@@ -7,9 +7,10 @@ body{
 main{
   margin-top: 250px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  flex: 1 0 auto
+  flex: 1 0 auto;
 }
 
 

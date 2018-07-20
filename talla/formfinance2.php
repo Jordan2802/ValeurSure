@@ -39,7 +39,7 @@ $_SESSION['ville'] = $_POST['ville'];
        </select><br><br>
        <label for="cni">Photocopie carte d'identité: </label><br>
        <input type="file" id="cni" name="cni" value="" accept=".jpg, .jpeg, .png, .pdf"><br><br>
-       <label for="impots">Avis d'imposition: </label><br>
+       <label for="impot">Avis d'imposition: </label><br>
        <input type="file" id="impot" name="impot" value=""><br><br>
 
        <input class="envoi" type="submit" name="" value="ENVOYER LE DEVIS"><br><br>

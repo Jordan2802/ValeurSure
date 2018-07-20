@@ -8,7 +8,7 @@ html{
 
 .form-container{
 	margin: auto;
-	width: 50%
+	width: 60%
 }
 
 .bulle{
@@ -39,16 +39,16 @@ html{
 		font-size: 3.5rem;
 }
 .envoi{
-  background-color: #F68121;
+  background-color: #002366;
+	color: white;
   padding: 10px;
   border-radius: 20px;
 	font-size: 3rem;
-	align-items: center;
+	margin: 0 auto;
 }
 input.line{
-  background-color: inherit;
-  border: none;
-  border-bottom: 2px solid #F68121;
+  border-color: #002366;
+
 	text-align: center;
 	font-size: 2.2rem;
 	width: 100%;
@@ -57,7 +57,7 @@ input.line{
 .mrmme{
 	background-color: inherit;
 	justify-content: center;
-	border-color: #F68121;
+	border-color: #002366;
 	font-size: 2.2rem;
 }
 label{
@@ -79,6 +79,7 @@ input:-webkit-autofill {
 }
 .textarea{
 	resize: none;
+	border-color: #002366;
 }
 #comptepro1{
 	font-size: 15px;
@@ -92,6 +93,38 @@ input:-webkit-autofill {
 #compteimmo2{
 	font-size: 15px;
 }
+#assurer1{
+	display: none;
+}
+#assurer2{
+	display: none;
+}
+
 .fieldform{
 	margin-bottom: 20px;
+	border-color: #002366;
+}
+.fieldassurer{
+	width: 100%;
+}
+.infoassurer{
+	display: flex;
+}
+.bandeaufile{
+	font-size: 4rem;
+	color: white;
+	background-color: #002366;
+}
+.file{
+	font-size: 2rem;
+}
+#formassupart2{
+	display: none;
+}
+#formassupart3{
+	display: none;
+}
+
+#finform{
+	display: none;
 }

@@ -12,7 +12,7 @@
       <form class="formulaire" action="index.html" method="post">
         <p class="bandeaufile">Financement professionnel</p>
 
-        <fieldset class="fieldform">
+        <fieldset class="fieldform" id="formpropart1">
           <label for="proprojet">Objet du financement</label><br>
           <select class="mrmme" id="proprojet" name="proprojet">
             <option value="activite">Création d'activité</option>
@@ -49,7 +49,7 @@
           <textarea name="commentaire" class="textarea" id="procommentaire" rows="4" cols="80" maxlength="200"></textarea><br>
         </fieldset>
 
-        <fieldset class="fieldform">
+        <fieldset class="fieldform" id="formpropart2">
           <p class="bandeaufile">Etat civile</p>
           <label for="">Carte d'identité/Passeport/ou permis nouveau format, en cours de validité</label>
           <input type="file" class="file" id="procni" name="procni" value=""><br>
@@ -76,7 +76,7 @@
           <input type="file" class="file" id="proepargne" name="proepargne" value=""><br>
         </fieldset>
 
-        <fieldset class="fieldform">
+        <fieldset class="fieldform" id="formpropart3">
           <p class="bandeaufile">Pour société existante</p>
           <p class="bandeaufile">Identité</p>
           <label for="prokbis">K-Bis de moins de 3 mois:</label>
@@ -116,8 +116,8 @@
 
         </fieldset>
 
-        <fieldset class="fieldform">
-          
+        <fieldset class="fieldform" id="formpropart4">
+
           <p class="bandeaufile">Pour société en formation</p>
           <p class="bandeaufile">Identité</p>
           <label for="proprojetstatut">Projet de Statuts:</label>
@@ -141,7 +141,32 @@
 
         </fieldset>
 
-        <input type="submit" class="envoi" name="" value="ETAPE SUIVANTE">
+        <fieldset class="fieldform" id="formpropart5">
+          <p class="bandeaufile">Coordonnées de la personne à contacter</p>
+
+          <label for="sexecontactpro"></label>
+          <select class="mrmme" id="sexecontactpro" name="sexecontactpro">
+            <option value="homme">Mr</option>
+            <option value="femme">Mme</option>
+          </select><br>
+          <label for="nomcontactpro">Nom:</label><br>
+          <input type="text" class="line" id="nomcontactpro" name="nomcontactpro" value=""><br>
+          <label for="prenomcontactpro">Prenom:</label><br>
+          <input type="text" class="line" id="prenomcontactpro" name="prenomcontactpro" value=""><br>
+          <label for="societecontactpro">Société:</label><br>
+          <input type="text" class="line" id="societecontactpro" name="societecontactpro" value=""><br>
+          <label for="emailcontactpro">E-mail:</label><br>
+          <input type="email" class="line" id="emailcontactpro" name="emailcontactpro" value=""><br>
+          <label for="portablecontactpro">Portable:</label><br>
+          <input type="tel" class="line" id="portablecontactpro" name="portablecontactpro" value=""><br>
+          <label for="fixecontactpro">Fixe:</label><br>
+          <input type="tel"  class="line" id="fixecontactpro" name="fixecontactpro" value=""><br>
+
+        </fieldset>
+
+        <button type="button" class="envoi" id="etapesuivante" name="button">formulaire suivant</button><br>
+        <input type="submit" class="envoi" id="finform" name="" value="Fin formulaire">
+
       </form>
     </div>
   </body>

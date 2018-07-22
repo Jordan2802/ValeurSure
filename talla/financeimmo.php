@@ -81,6 +81,31 @@
         </fieldset>
 
 
+        </fieldset>
+
+        <fieldset class="fieldform" id="formimmopart5">
+          <p class="bandeaufile">Coordonnées de la personne à contacter</p>
+
+          <label for="sexecontactimmo"></label>
+          <select class="mrmme" id="sexecontactimmo" name="sexecontactimmo">
+            <option value="homme">Mr</option>
+            <option value="femme">Mme</option>
+          </select><br>
+          <label for="nomcontactimmo">Nom:</label><br>
+          <input type="text" class="line" id="nomcontactimmo" name="nomcontactimmo" value=""><br>
+          <label for="prenomcontactimmo">Prenom:</label><br>
+          <input type="text" class="line" id="prenomcontactimmo" name="prenomcontactimmo" value=""><br>
+          <label for="societecontactimmo">Société:</label><br>
+          <input type="text" class="line" id="societecontactimmo" name="societecontactimmo" value=""><br>
+          <label for="emailcontactimmo">E-mail:</label><br>
+          <input type="email" class="line" id="emailcontactimmo" name="emailcontactimmo" value=""><br>
+          <label for="portablecontactimmo">Portable:</label><br>
+          <input type="tel" class="line" id="portablecontactimmo" name="portablecontactimmo" value=""><br>
+          <label for="fixecontactimmo">Fixe:</label><br>
+          <input type="tel"  class="line" id="fixecontactimmo" name="fixecontactimmo" value=""><br>
+
+        </fieldset>
+
         <input type="submit" class="envoi" name="" value="ETAPE SUIVANTE">
       </form>
     </div>

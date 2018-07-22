@@ -14,7 +14,7 @@
 
       <form class="formulaire" id="formpresta" action="index.html" method="post">
         <p class="bandeaufile">Prestations de services</p>
-        <fieldset class="fieldform">
+        <fieldset class="fieldform" id="formprestapart1">
 
           <label for="typepresta">Type de prestation</label><br>
           <select class="mrmme" id="typepresta" name="typepresta">
@@ -37,9 +37,32 @@
           <textarea name="prestalieu" class="textarea" id="prestalieu" rows="8" cols="80" maxlength="60"></textarea><br>
 
         </fieldset>
+
+        <fieldset class="fieldform" id="formprestapart2">
+          <p class="bandeaufile">Coordonnées de la personne à contacter</p>
+
+          <label for="sexecontactpresta"></label>
+          <select class="mrmme" id="sexecontactpresta" name="sexecontactpresta">
+            <option value="homme">Mr</option>
+            <option value="femme">Mme</option>
+          </select><br>
+          <label for="nomcontactpresta">Nom:</label><br>
+          <input type="text" class="line" id="nomcontactpresta" name="nomcontactpresta" value=""><br>
+          <label for="prenomcontactpresta">Prenom:</label><br>
+          <input type="text" class="line" id="prenomcontactpresta" name="prenomcontactpresta" value=""><br>
+          <label for="societecontactpresta">Société:</label><br>
+          <input type="text" class="line" id="societecontactpresta" name="societecontactpresta" value=""><br>
+          <label for="emailcontactpresta">E-mail:</label><br>
+          <input type="email" class="line" id="emailcontactpresta" name="emailcontactpresta" value=""><br>
+          <label for="portablecontactpresta">Portable:</label><br>
+          <input type="tel" class="line" id="portablecontactpresta" name="portablecontactpresta" value=""><br>
+          <label for="fixecontactpresta">Fixe:</label><br>
+          <input type="tel"  class="line" id="fixecontactpresta" name="fixecontactpresta" value=""><br>
+
+        </fieldset>
       </form>
     </div>
   </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./js/financepro.js"></script>
+  <script type="text/javascript" src="./js/financepresta.js"></script>
 </html>

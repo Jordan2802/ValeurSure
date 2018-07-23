@@ -19,3 +19,18 @@ $(document).ready(function() {
         $('#compteimmo2').html(text_remaining4 + ' caractères restants');
     });
 });
+
+$(document).ready(function(){
+  $("#etapesuivante").click(function(){
+    if ($('#formimmopart2').css('display') == 'none'){
+    $("#formimmopart1").hide();
+    $("#formimmopart2").show(500);
+    }
+    else {
+      $("#formimmopart2").hide();
+      $("#formimmopart3").show(500);
+      $("#etapesuivante").hide();
+      $("#finform").show(500);
+    }
+  });
+})

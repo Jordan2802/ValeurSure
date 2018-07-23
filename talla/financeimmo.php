@@ -12,11 +12,11 @@
       <form class="formulaire" action="index.html" method="post">
         <p class="bandeaufile">Financement immobilier</p>
 
-        <fieldset class="fieldform">
+        <fieldset class="fieldform" id="formimmopart1">
           <label for="immoprojet">Objet du financement:</label><br>
           <select class="mrmme" name="immoprojet" id="immoprojet">
             <option value="principal">Résidence principale</option>
-            <option value="secondaire">Résidence secondire</option>
+            <option value="secondaire">Résidence secondaire</option>
             <option value="locative">Résidence locative</option>
             <option value="travaux">Travaux</option>
             <option value="renegociation">Renégociation de prêt</option>
@@ -45,7 +45,7 @@
           <textarea name="commentaire" class="textarea" id="immocommentaire" rows="4" cols="80" maxlength="200"></textarea><br>
         </fieldset>
 
-        <fieldset class="fieldform">
+        <fieldset class="fieldform" id="formimmopart2">
           <p class="bandeaufile">Etat civile</p>
           <label for="immocni">Carte d'identité/Passeport/ou permis nouveau format, en cours de validité</label>
           <input type="file" class="file" id="immocni" name="immocni" value=""><br>
@@ -81,7 +81,33 @@
         </fieldset>
 
 
-        <input type="submit" class="envoi" name="" value="ETAPE SUIVANTE">
+        </fieldset>
+
+        <fieldset class="fieldform" id="formimmopart3">
+          <p class="bandeaufile">Coordonnées de la personne à contacter</p>
+
+          <label for="sexecontactimmo"></label>
+          <select class="mrmme" id="sexecontactimmo" name="sexecontactimmo">
+            <option value="homme">Mr</option>
+            <option value="femme">Mme</option>
+          </select><br>
+          <label for="nomcontactimmo">Nom:</label><br>
+          <input type="text" class="line" id="nomcontactimmo" name="nomcontactimmo" value=""><br>
+          <label for="prenomcontactimmo">Prenom:</label><br>
+          <input type="text" class="line" id="prenomcontactimmo" name="prenomcontactimmo" value=""><br>
+          <label for="societecontactimmo">Société:</label><br>
+          <input type="text" class="line" id="societecontactimmo" name="societecontactimmo" value=""><br>
+          <label for="emailcontactimmo">E-mail:</label><br>
+          <input type="email" class="line" id="emailcontactimmo" name="emailcontactimmo" value=""><br>
+          <label for="portablecontactimmo">Portable:</label><br>
+          <input type="tel" class="line" id="portablecontactimmo" name="portablecontactimmo" value=""><br>
+          <label for="fixecontactimmo">Fixe:</label><br>
+          <input type="tel"  class="line" id="fixecontactimmo" name="fixecontactimmo" value=""><br>
+
+        </fieldset>
+
+        <button type="button" class="envoi" id="etapesuivante" name="button">formulaire suivant</button><br>
+        <input type="submit" class="envoi" id="finform" name="" value="FIN FORMULAIRE">
       </form>
     </div>
   </body>

@@ -10,7 +10,7 @@
   <body>
 
     <div class="form-container">
-      <form class="formulaire" action="index.html" method="post">
+      <form class="formulaire" action="tt.php" method="post">
 
         <p class="bandeaufile">Assurances emprunteurs</p>
 
@@ -95,7 +95,7 @@
                 <label for="civilité2">Sexe:</label><br>
                 <select class="mrmme" id="civilité2" name="civilite">
                   <option value="homme">M.</option>
-                  <option value="feme">Mme</option>
+                  <option value="femme">Mme</option>
                 </select><br>
                 <label for="nom2">Nom:</label><br>
                 <input type="text" class="line" id="nom2" name="nom2" value=""><br>
@@ -133,32 +133,32 @@
           </div>
 
 
-        <fieldset class="fieldform" id="formassupart2">
+        <fieldset class="fieldform" id="formassupart3">
           <p class="bandeaufile">Coordonnées de la personne à contacter</p>
-          <label for="sexecontact"></label>
-          <select class="mrmme" id="sexecontact" name="">
+          <label for="sexecontactassu"></label>
+          <select class="mrmme" id="sexecontactassu" name="sexecontactassu">
             <option value="homme">Mr</option>
             <option value="femme">Mme</option>
           </select><br>
-          <label for="nomcontact">Nom:</label><br>
-          <input type="text" class="line" id="nomcontact" name="nomcontact" value=""><br>
-          <label for="prenomcontact">Prenom:</label><br>
-          <input type="text" class="line" id="prenomcontact" name="prenomcontact" value=""><br>
-          <label for="societecontact">Société:</label><br>
-          <input type="text" class="line" id="societecontact" name="societecontact" value=""><br>
-          <label for="emailcontact">E-mail:</label><br>
-          <input type="email" class="line" id="emailcontact" name="emailcontact" value=""><br>
-          <label for="portablecontact">Portable:</label><br>
-          <input type="tel" class="line" id="portablecontact" name="portablecontact" value=""><br>
-          <label for="fixecontact">Fixe:</label><br>
-          <input type="tel"  class="line" id="fixecontact" name="fixeportable" value=""><br>
+          <label for="nomcontactassu">Nom:</label><br>
+          <input type="text" class="line" id="nomcontactassu" name="nomcontactassu" value=""><br>
+          <label for="prenomcontactassu">Prenom:</label><br>
+          <input type="text" class="line" id="prenomcontactassu" name="prenomcontactassu" value=""><br>
+          <label for="societecontactassu">Société:</label><br>
+          <input type="text" class="line" id="societecontactassu" name="societecontactassu" value=""><br>
+          <label for="emailcontactassu">E-mail:</label><br>
+          <input type="email" class="line" id="emailcontactassu" name="emailcontactassu" value=""><br>
+          <label for="portablecontactassu">Portable:</label><br>
+          <input type="tel" class="line" id="portablecontactassu" name="portablecontactassu" value=""><br>
+          <label for="fixecontactassu">Fixe:</label><br>
+          <input type="tel"  class="line" id="fixecontactassu" name="fixecontactassu" value=""><br>
         </fieldset>
 
-        <fieldset id="formassupart3" class="fieldform">
+        <fieldset id="formassupart2" class="fieldform">
           <p class="bandeaufile">Etat civile:</p>
           <label for="assucni">Photocopie carte d'identité (au format .pdf):</label>
           <input type="file" class="file" id="assucni" name="cni" value="" accept=".pdf"><br><br>
-          <label for="assuimpot">Justificatif de domicile datant de moins de 3 mois</label>
+          <label for="assuimpot">Justificatif de domicile datant de moins de 3 mois:</label>
           <input type="file" class="file" id="assuimpot" name="impot" value="" accept=".pdf"><br><br>
           <p class="bandeaufile">Emprunt</p>
           <label for="assucontrat">Contrat de prêt:</label>

@@ -1,0 +1,32 @@
+/!\ Ce gestionnaire ne prend en compte que les formulaire qui utilise la methode POST
+
+Implémentation:
+
+require("dossier/GestionnaireFormulaire.php");
+if(GF::checkAllField){
+  votre code...
+}
+
+
+Fonctions :
+GF::checkAllField() : Vérifie que tous les champs de formulaire sont correcte .
+GF::addCharMin("Nom du champs",Nombre_de_caractère) : Indique un nombre de caratère minimum pour un Champs
+GF::addCharMax("Nom du champs",Nombre_de_caractère) : Indique un nombre de caratère maximum pour un Champs
+GF::addEmailField("Nom du champs") : Verifie que le champs est bien un email
+GF::addIgnoredField("Nom du champs","Nom du champs 2", ect...) : permet de spécifier des champs qui seront ignoré par la vérification
+GF::sameField("nom du champ 1" , "nom du champ 2" , false ou true) : retourne "true" si deux champs sont identique (true correspond a la vérification strict donc valeur et type)
+
+
+Exemple :
+
+
+require("dossier/GestionnaireFormulaire.php");
+
+GF::addCharMin("mdp",8);
+GF::addIgnoredField("adresse","ville");
+
+if(GF::checkAllField){
+  echo "Le formulaire est correct !";
+}else{
+  echo "le formulaire est incorrect !";
+}

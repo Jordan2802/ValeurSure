@@ -164,7 +164,7 @@
 
         </fieldset>
 
-        <button type="button" class="envoi" id="etapesuivante" name="button">formulaire suivant</button><br>
+        <button type="button" class="envoi" id="etapesuivante" name="button">Formulaire suivant</button><br>
         <input type="submit" class="envoi" id="finform" name="" value="Fin formulaire">
 
       </form>

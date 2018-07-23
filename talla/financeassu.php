@@ -10,7 +10,7 @@
   <body>
 
     <div class="form-container">
-      <form class="formulaire" action="index.html" method="post">
+      <form class="formulaire" action="tt.php" method="post">
 
         <p class="bandeaufile">Assurances emprunteurs</p>
 
@@ -133,7 +133,7 @@
           </div>
 
 
-        <fieldset class="fieldform" id="formassupart2">
+        <fieldset class="fieldform" id="formassupart3">
           <p class="bandeaufile">Coordonnées de la personne à contacter</p>
           <label for="sexecontactassu"></label>
           <select class="mrmme" id="sexecontactassu" name="sexecontactassu">
@@ -154,7 +154,7 @@
           <input type="tel"  class="line" id="fixecontactassu" name="fixecontactassu" value=""><br>
         </fieldset>
 
-        <fieldset id="formassupart3" class="fieldform">
+        <fieldset id="formassupart2" class="fieldform">
           <p class="bandeaufile">Etat civile:</p>
           <label for="assucni">Photocopie carte d'identité (au format .pdf):</label>
           <input type="file" class="file" id="assucni" name="cni" value="" accept=".pdf"><br><br>

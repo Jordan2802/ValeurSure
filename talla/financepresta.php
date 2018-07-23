@@ -60,6 +60,10 @@
           <input type="tel"  class="line" id="fixecontactpresta" name="fixecontactpresta" value=""><br>
 
         </fieldset>
+
+        <button type="button" class="envoi" id="etapesuivante" name="button">Formulaire suivant</button><br>
+        <input type="submit" class="envoi" id="finform" name="" value="Fin formulaire">
+
       </form>
     </div>
   </body>

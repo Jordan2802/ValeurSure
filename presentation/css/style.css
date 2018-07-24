@@ -283,9 +283,8 @@ body .first {
 /* ==== Animation ==== */
 
 .anim {
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 /* Safari 4.0 - 8.0 */

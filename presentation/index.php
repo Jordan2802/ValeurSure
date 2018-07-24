@@ -38,7 +38,7 @@ include('includes/rapide.php');
    ?>
 
     <main>
-      <div class="intro">
+      <div class="anim animated fadeInLeftBig intro">
 
         <div class="info"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>
 
@@ -51,18 +51,18 @@ include('includes/rapide.php');
       </div>
 
       <div id="categories">
-        <section class="sec-conseil">
+        <section class="anim animated fadeInRight sec-conseil">
           <h2 class="section-name">Conseil</h2>
           <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
         </section>
 
-        <section class="sec-cred-pro">
+        <section class="anim animated fadeInLeft sec-cred-pro">
           <h2 class="section-name">Courtier en crédits professionnels</h2>
           <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
         </section>
 
 
-        <section class="sec-simul">
+        <section class="anim animated fadeInLeft sec-simul">
           <h2 class="section-name">Simulateurs</h2>
           <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
           <!--
@@ -78,36 +78,36 @@ include('includes/rapide.php');
   -->
         </section>
 
-        <section class="sec-assu-empr">
+        <section class="anim animated fadeIn sec-assu-empr">
           <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
           <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
         </section>
 
-        <section class="img-2">
+        <section class="anim animated fadeInRight img-2">
         </section>
 
-        <section class="sec-cred-immo">
+        <section class="anim animated fadeInRight sec-cred-immo">
           <h2 class="section-name">Courtier en crédits immobiliers</h2>
           <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
         </section>
 
-        <section class="sec-formation">
+        <section class="anim animated fadeInRight sec-formation">
           <h2 class="section-name">Formation</h2>
           <p class="description show--hover">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
         </section>
 
-        <section class="media-twi">
+        <section class="anim animated fadeInLeft media-twi">
           <a class="twitter-timeline" data-height="5000" href="https://twitter.com/_Valloa_?ref_src=twsrc%5Etfw">Tweets by _Valloa_</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
 
 
-        <section class="media-lin">
+        <section class="anim animated fadeIn media-lin">
           <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
           <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
         </section>
 
-        <section class="img-1">
+        <section class="anim animated fadeIn img-1">
         </section>
 
       </div>

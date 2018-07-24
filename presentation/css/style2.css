@@ -5,7 +5,7 @@
 /*barre de nav*/
 
 nav{
-  background-color: rgba(248,248,248,1);
+  background-color: rgba(248,248,248,0.5);
   top: 5%;
   width: 90%;
   height: 110px;

@@ -40,7 +40,7 @@ form {
   justify-content: space-between;
   margin-bottom: 15px;
   position: fixed;
-  top: 15vh;
+  top: 25vh;
   right: 0px;
   z-index: 1;
 }

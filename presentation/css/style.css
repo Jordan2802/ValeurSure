@@ -282,9 +282,14 @@ body .first {
 
 /* ==== Animation ==== */
 
-.anim {
+.delay_1{
     -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
     animation-delay: 1s;
+}
+
+.delay_2{
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
 }
 
 /* Safari 4.0 - 8.0 */

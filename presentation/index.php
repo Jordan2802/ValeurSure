@@ -38,7 +38,7 @@ include('includes/rapide.php');
    ?>
 
     <main>
-      <div class="anim animated fadeInLeftBig intro">
+      <div class="delay_1s animated fadeInLeftBig intro">
 
         <div class="info"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>
 
@@ -51,18 +51,18 @@ include('includes/rapide.php');
       </div>
 
       <div id="categories">
-        <section class="delay_1 animated fadeInRight sec-conseil">
+        <section class="delay_1s animated fadeInRight sec-conseil">
           <h2 class="section-name">Conseil</h2>
           <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
         </section>
 
-        <section class="delay_1 animated fadeInLeft sec-cred-pro">
+        <section class="delay_1s animated fadeInLeft sec-cred-pro">
           <h2 class="section-name">Courtier en crédits professionnels</h2>
           <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
         </section>
 
 
-        <section class="delay_1 animated fadeInLeft sec-simul">
+        <section class="delay_1s animated fadeInLeft sec-simul">
           <h2 class="section-name">Simulateurs</h2>
           <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia.</p>
           <!--
@@ -78,36 +78,36 @@ include('includes/rapide.php');
   -->
         </section>
 
-        <section class="delay_2 animated fadeIn sec-assu-empr">
+        <section class="delay_1s animated fadeIn sec-assu-empr">
           <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
           <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
         </section>
 
-        <section class="delay_1 animated fadeInRight img-2">
+        <section class="delay_1s animated fadeInRight img-2">
         </section>
 
-        <section class="delay_1 animated fadeInRight sec-cred-immo">
+        <section class="delay_1s animated fadeInRight sec-cred-immo">
           <h2 class="section-name">Courtier en crédits immobiliers</h2>
           <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
         </section>
 
-        <section class="delay_1 animated fadeInRight sec-formation">
+        <section class="delay_1s animated fadeInRight sec-formation">
           <h2 class="section-name">Formation</h2>
           <p class="description show--hover">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
         </section>
 
-        <section class="delay_1 animated fadeInLeft media-twi">
+        <section class="delay_1s animated fadeInLeft media-twi">
           <a class="twitter-timeline" data-height="5000" href="https://twitter.com/_Valloa_?ref_src=twsrc%5Etfw">Tweets by _Valloa_</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
 
 
-        <section class="delay_2 animated fadeIn media-lin">
+        <section class="delay_1s animated fadeIn media-lin">
           <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
           <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
         </section>
 
-        <section class="delay_2 animated fadeIn img-1">
+        <section class="delay_1s animated fadeIn img-1">
         </section>
 
       </div>

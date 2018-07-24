@@ -282,15 +282,11 @@ body .first {
 
 /* ==== Animation ==== */
 
-.delay_1{
+.delay_1s{
     -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
     animation-delay: 1s;
 }
 
-.delay_2{
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
-}
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {

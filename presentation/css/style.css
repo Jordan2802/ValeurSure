@@ -279,22 +279,3 @@ body .first {
   background-color: #fff;
   z-index: 1;
 }
-
-/* ==== Animation ==== */
-
-.delay_1s{
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 1s;
-}
-
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 200px;}
-}
-
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 200px;}
-}

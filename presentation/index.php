@@ -78,7 +78,7 @@ include('includes/rapide.php');
   -->
         </section>
 
-        <section class="delay_1s animated fadeIn sec-assu-empr">
+        <section class="sec-assu-empr">
           <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
           <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
         </section>
@@ -120,6 +120,8 @@ include('includes/rapide.php');
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+
 </body>
 
 </html>

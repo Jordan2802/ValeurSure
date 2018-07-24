@@ -40,11 +40,17 @@ form {
   justify-content: space-between;
   margin-bottom: 15px;
   position: fixed;
-  top: 20vh;
+  top: 15vh;
   right: 0px;
   z-index: 1;
 }
 
 .cache {
   margin-right: -280px;
+}
+
+#errormsg{
+  color: red;
+  font-size: 2em;
+  text-align: center;
 }

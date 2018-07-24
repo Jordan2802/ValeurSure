@@ -1,0 +1,270 @@
+
+/*---------------
+     Layout
+---------------*/
+
+/* IE support for grid */
+
+#categories{
+
+  margin: 0 5vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw) calc(100px + 2vw);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 100px);
+}
+
+section{
+  margin: 2vw;
+}
+.sec-simulsec-conseil{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+}
+.sec-cred-pro{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+}
+.sec-simul{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+}
+.sec-assu-empr{
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+}
+.sec-cred-immo{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+}
+.sec-formation{
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+}
+.media-twi{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+}
+.media-lin{
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 3;
+}
+
+
+
+/* Grid for recent browsers */
+
+@supports (display: grid) {
+
+  #categories{
+    grid-column-gap: 4vw;
+    grid-row-gap: 35px;
+    grid-template-areas:  "cred-pro cred-pro img-1   conseil   conseil   conseil"
+                          "cred-pro cred-pro img-1   conseil   conseil   conseil"
+                          "cred-pro  cred-pro   assu-empr assu-empr img-2   img-2"
+                          "simul   simul   assu-empr assu-empr img-2  img-2"
+                          "simul   simul   assu-empr assu-empr cred-immo  cred-immo"
+                          "twi     twi     lin       lin       cred-immo  cred-immo"
+                          "twi     twi     lin       lin       formation  formation"
+                          "twi     twi     lin       lin       formation  formation";
+  }
+
+  section{
+    margin: 0;
+  }
+
+  .sec-simul{      grid-area: simul;}
+  .sec-cred-pro{   grid-area: cred-pro;}
+  .sec-conseil{    grid-area: conseil;}
+  .sec-assu-empr{  grid-area: assu-empr;}
+  .sec-cred-immo{  grid-area: cred-immo;}
+  .sec-formation{  grid-area: formation}
+  .media-twi{      grid-area: twi;}
+  .media-lin{      grid-area: lin;}
+  .img-1{          grid-area: img-1;}
+  .img-2{          grid-area: img-2;}
+
+}
+
+
+
+
+
+/*---------------
+    General
+---------------*/
+
+html{
+  font-family: "calibri";
+  min-width: 350px;
+  background-color: #f8f8f8;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+section:hover{
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+
+.img-1{
+  background-image: url(../img/gold_egg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-2{
+  background-image: url(../img/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.section-name{
+  font-size: 2.5vw;
+  color: #002366;
+  text-align: center;
+}
+.description{
+  text-align: justify;
+}
+
+.description, .section-name{
+  margin: 0 10%;
+}
+
+.LI-profile-badge{
+  margin: auto;
+}
+
+.media-twi, .media-lin{
+  overflow: hidden;
+}
+
+
+
+
+
+/*---------------
+    selector
+---------------*/
+
+.selecteur{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+}
+
+.selecteur>*{
+  flex-grow: 1;
+}
+
+select{
+  background: #FFC400;
+  padding: 1em;
+
+}
+
+.button-simul{
+  padding: 1em;
+}
+
+
+
+.show--hover{
+  display: none;
+  overflow: hidden;
+}
+section:hover .show--hover{
+  display: block;
+  -webkit-animation: slide-down 0.3s ease-in-out;
+  -moz-animation: slide-down 0.3s ease-in-out;
+}
+@-webkit-keyframes slide-down {
+  0% {opacity: 0; height: 0; -webkit-transform: translateY(100%);}
+  100% {opacity: 1;height: auto; -webkit-transform: translateY(0%);}
+}
+@-moz-keyframes slide-down {
+  0% {opacity: 0; height: 0; -moz-transform: translateY(100%);}
+  100% {opacity: 1; height: auto; -moz-transform: translateY(0%);}
+}
+
+
+
+main{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.intro{
+  width: 80vw;
+  margin: 150px auto;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14);
+  background-color: #bbb;
+  border: 1px solid #bbb;
+  max-width: 1000px;
+
+  border-radius: 3px;
+}
+
+.info {
+  background-color: #ededed;
+  padding: 1em;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  border-right: 1px solid #000;
+
+  border-radius: 3px 0 0 3px;
+}
+.introduction{
+
+  padding: 1em;
+  text-align: justify;
+  font-size: 18px;
+  margin: auto;
+  align-self: stretch;
+}

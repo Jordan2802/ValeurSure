@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*barre de nav*/
+
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
+  top: 5%;
+  width: 90%;
+  height: 110px;
+  left: 5%;
+  position: fixed;
+  z-index: 100;
+}
+
+.fa-wordpress {
+  margin-top: 30px;
+}
+
+nav #menuSlide {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logop {
+  margin-top: 25px;
+  font-size: 60px;
+}
+
+#menuSlide, #menuSlide ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#menuSlide li {
+  display: inline-block;
+  position: relative;
+}
+
+#menuSlide ul li {
+  display: inherit;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/*barre de nav 2*/
+
+#tailleNav2 {
+  position: fixed;
+  overflow: auto;
+  width: 250px;
+  top: 0;
+  left: 0;
+  height: auto;
+  bottom: 0;
+  border: 1px solid #bbb;
+  background-color: #f8f8f8;
+}
+
+#menuSlide2 {
+  margin-left: 30px;
+}
+
+#menuSlide2 li li:hover a {
+  background-color: #c79400;
+}
+
+.hide-ss-menu {
+  display: none;
+}
+
+.navBurger2 ul {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.navBurger2 ul li {
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.menuBurger2 a {
+  text-decoration: none;
+  color: black;
+}
+
+#logoNav2 {
+  margin: 0;
+}
+
+#logoNav2 .fa-wordpress {
+  font-size: 50px;
+  margin: 70px;
+}
+
+/* background des liens menus et sous menus au survol */
+
+#menuSlide li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid #c79400;
+}
+
+#menuSlide li li:hover {
+  background-color: #c79400;
+  border-bottom: 0px;
+}
+
+/*class js*/
+
+.backup {
+  background-color: #ededed;
+}
+
+.backup:hover {
+  background-color: #c79400;
+}
+
+.nav--js {
+  width: 100%;
+  background-color: #fff;
+  height: 60px;
+  border: 1px solid #bbb;
+
+}
+
+/* les a href */
+
+#menuSlide a {
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+  color: black;
+  font-family: "calibri";
+  font-size: 16px;
+}
+
+#menuSlide ul a {
+  padding: 8px 0;
+}
+
+#menuSlide li:hover li a {
+  color: black;
+  text-transform: inherit;
+}
+
+/* ==== Carrousel ==== */
+
+body .first {
+  z-index: 3;
+  position: absolute;
+  font-size: 20vw;
+  top: 30vh;
+  left: 40vw;
+}
+
+.slider {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.slide {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: calc(100vh - 50px);
+  animation: slide 22s infinite;
+  overflow: hidden;
+  z-index: 99;
+}
+
+.slide a {
+  width: 90%;
+  margin-left: 5%;
+  text-shadow: 0px 1px 5px black;
+  height: auto;
+  color: #edd81a;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 3.5em;
+  position: absolute;
+  right: 50px;
+  top: 300px;
+}
+
+.slide a span {
+  font-weight: bold;
+  float: right;
+}
+
+.slide:nth-child(1) {
+  left: 0%;
+  animation-delay: -0.5s;
+  background-image: url(../img/image1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(2) {
+  left: 100%;
+  animation-delay: 5s;
+  background-image: url(../img/image2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(3) {
+  left: 100%;
+  animation-delay: 10.5s;
+  background-image: url(../img/image3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(4) {
+  left: 100%;
+  animation-delay: 16s;
+  background-image: url(../img/image4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes slide {
+  0% {
+    left: 100%;
+    width: 100%;
+  }
+  5% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  30% {
+    left: -100%;
+    width: 100%;
+  }
+  31% {
+    left: -100%;
+    width: 0%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+
+
+#hamburger-button {
+  z-index: 9950;
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 30px;
+  vertical-align: top;
+  padding: 0;
+  line-height: 47px;
+  margin-right: 50px;
+}
+
+.barre-burger{
+  top: 0;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  z-index: 1;
+}

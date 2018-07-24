@@ -26,6 +26,7 @@ form {
   padding: 10px;
   border: 2px solid #bbb;
   background-color: white;
+  transition:all 0.5s ease;
 }
 
 .fa-mobile-alt {
@@ -39,23 +40,11 @@ form {
   justify-content: space-between;
   margin-bottom: 15px;
   position: fixed;
-  top: 30vh;
+  top: 20vh;
   right: 0px;
   z-index: 1;
 }
 
 .cache {
-  animation: slideContact 0.7s alternate;
   margin-right: -280px;
-}
-@keyframes slideContact {
-  100%{
-    margin-right: -280px;
-  }
-  50%{
-    margin-right::-125px;
-  }
-  0%{
-    margin-right: 0;
-  }
 }

@@ -1,6 +1,7 @@
 <div class="tel" id="tel">
   <div class="fas fa-mobile-alt" onclick="slideTel()"></div>
   <div class="text cache" id="tel"><span id="valeur--coor">Coordonnées ValeurSure:</span> <br> 00-00-00-00-00, adresse@hotmail.fr <br>
+    <span id="valeur--coor">Nous Contacter :</span>
     <form class=""  method="post">
       <label for="">Nom</label><input type="text" name="nom" value="" required>
       <label for="">Prenom</label><input type="text" name="prenom" value="" required>

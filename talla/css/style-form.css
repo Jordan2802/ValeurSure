@@ -10,7 +10,13 @@ html{
 	margin: auto;
 	width: 60%
 }
-
+.textinit{
+	font-size: 4rem;
+}
+.choixprojet{
+	display: none;
+	text-align: center;
+}
 .bulle{
   width: 50px;
   height: 50px;
@@ -45,6 +51,9 @@ html{
   border-radius: 20px;
 	font-size: 3rem;
 	margin: 0 auto;
+}
+.envoi:hover{
+	cursor: pointer;
 }
 input.line{
   border-color: #002366;
@@ -118,6 +127,12 @@ input:-webkit-autofill {
 .file{
 	font-size: 2rem;
 }
+.initprojet{
+	text-align: center;
+}
+.jshide{
+	display: none;
+}
 #formassupart2{
 	display: none;
 }
@@ -147,5 +162,14 @@ input:-webkit-autofill {
 	display: none;
 }
 #formprestapart2{
+	display: none;
+}
+#finformpresta{
+	display: none;
+}
+#finformimmo{
+	display: none;
+}
+#finformassu{
 	display: none;
 }

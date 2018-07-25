@@ -43,7 +43,7 @@ html{
 nav{
   line-height: 100px !important;
 }
-main{
+ .first{
   margin-top: calc(100vh + 50px);
 }
 }

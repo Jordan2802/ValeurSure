@@ -58,7 +58,7 @@
 include('includes/rapide.php');
    ?>
 
-    <main>
+    <main class="first">
       <div class="intro">
 
         <div class="info"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>

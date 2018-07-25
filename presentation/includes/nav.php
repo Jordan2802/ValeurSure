@@ -1,5 +1,5 @@
 
-
+<link rel="stylesheet" href="css/style.css">
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">

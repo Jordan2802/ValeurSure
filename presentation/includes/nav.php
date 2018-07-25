@@ -8,7 +8,7 @@
     <li>|</li>
     <li><a class="nav-lien" href="./Simulateurs.php">Simulateurs</a></li>
     <li>|</li>
-    <li><a class="nav-lien" href="./formfinance.php">Demande de financement</a></li>
+    <li><a class="nav-lien" href="./demandefinancement.php">Demande de financement</a></li>
     <li>|</li>
     <li><a class="nav-lien" href="./contact.php">Contact</a></li>
   </ul>

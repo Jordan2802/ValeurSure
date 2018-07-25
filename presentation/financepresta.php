@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Prestations de services</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style-fixe.css">
     <link rel="stylesheet" href="./css/style-form.css">
-  </head>
-  <body>
 
     <div class="form-container">
 
@@ -68,7 +59,5 @@
 
       </form>
     </div>
-  </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/financepresta.js"></script>
-</html>

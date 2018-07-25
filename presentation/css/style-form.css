@@ -1,5 +1,10 @@
-html{
-	font-size: 62.5%;
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main{
+	flex: 1 1 auto;
 }
 .progression{
   display: flex;
@@ -129,6 +134,7 @@ input:-webkit-autofill {
 }
 .initprojet{
 	text-align: center;
+	margin-top: 100px;
 }
 .jshide{
 	display: none;

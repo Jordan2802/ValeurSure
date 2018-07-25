@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style-fixe.css">
     <link rel="stylesheet" href="css/rapide.css">
     <link rel="stylesheet" href="./css/style-form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <title>Ma demande</title>
   </head>
 
@@ -39,13 +40,15 @@
     <div class="jshide" id="prestapart">
       <?php include('financepresta.php'); ?>
     </div>
-
     <div class="jshide" id="assupart">
-      <?php include('financeassu.php'); ?>
+      <?php include'financeassu.php'; ?>
     </div>
 
 
-
+  </main>
+    <footer>
+      <?php include('includes/footerv2.php'); ?>
+    </footer>
   </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/demandefinancement.js"></script>

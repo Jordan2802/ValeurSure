@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Assurances Emprunteurs</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style-fixe.css">
+
     <link rel="stylesheet" href="./css/style-form.css">
-  </head>
-  <body>
 
     <div class="form-container">
       <form class="formulaire" action="tt.php" method="post">
@@ -176,5 +168,3 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/financeassu.js"></script>
-  </body>
-</html>

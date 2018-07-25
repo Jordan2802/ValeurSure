@@ -7,69 +7,99 @@
         <p class="bandeaufile">Assurances emprunteurs</p>
 
           <div id="formassupart1">
+
             <fieldset class="fieldform">
-              <label for="assuprojet">Type de financement:</label><br>
-              <select class="mrmme" id="assuprojet" name="assuprojet">
-                <option value="principale">Résidence principal</option>
-                <option value="secondaire">Résidence secondaire</option>
-                <option value="locative">Résidence locative</option>
-                <option value="travaux">Travaux</option>
-                <option value="consommation">Consommation</option>
-                <option value="professionnel">Professionnel</option>
-                <option value="autre">Auteurs</option>
-              </select><br>
-              <label for="nbcredit">Nombre de credit:</label><br>
-              <select class="mrmme" id="nbcredit" name="nbcredit">
-                <option value="1">1</option>
-                <option value="2">2</option>
-              </select><br>
-              <label for="montantassurer">Montant à assurer:</label><br>
-              <input type="number" class="line" name="montantassurer" id="montantassurer" value="" step="500"><br>
-              <label for="dureerestante">Durée restante en mois:</label><br>
-              <input type="number" class="line" name="dureerestante" id="dureerestante" value=""><br>
-              <label for="periodicite">Périodicité des échéances:</label><br>
-              <select class="mrmme" id="periodicite" name="periodicite">
-                <option value="mensuelle">Mensuelle</option>
-                <option value="trimestrielle">Trimestrielle</option>
-                <option value="semestrielle">Semestrielle</option>
-                <option value="annuelle">Annuelle</option>
-              </select><br>
-              <label for="nbassurer">Nombre d'emprunteurs à assurer:</label><br>
-              <select class="mrmme" id="nbassurer" name="nbassurer">
-                <option value=""></option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-              </select><br>
+              <div class="input-field">
+                <select class="mrmme" id="assuprojet" name="assuprojet">
+                  <option class="option" value="principale">Résidence principal</option>
+                  <option class="option" value="secondaire">Résidence secondaire</option>
+                  <option class="option" value="locative">Résidence locative</option>
+                  <option class="option" value="travaux">Travaux</option>
+                  <option class="option" value="consommation">Consommation</option>
+                  <option class="option" value="professionnel">Professionnel</option>
+                  <option class="option" value="autre">Auteurs</option>
+                </select>
+                <label>Type de financement:</label>
+              </div>
+
+
+              <div class="input-field">
+                <select class="mrmme" id="nbcredit" name="nbcredit">
+                  <option class="option" value="1">1</option>
+                  <option class="option" value="2">2</option>
+                </select>
+                <label>Nombre de credit:</label>
+              </div>
+
+              <div class="input-field">
+                <input type="number" class="line" name="montantassurer" id="montantassurer" value="" step="500">
+                <label for="montantassurer">Montant à assurer:</label>
+              </div>
+
+              <div class="input-field">
+                <label for="dureerestante">Durée restante en mois:</label>
+                <input type="number" class="line" name="dureerestante" id="dureerestante" value="">
+              </div>
+
+              <div class="input-field">
+                <select class="mrmme" id="periodicite" name="periodicite">
+                  <option class="option" value="mensuelle">Mensuelle</option>
+                  <option class="option" value="trimestrielle">Trimestrielle</option>
+                  <option class="option" value="semestrielle">Semestrielle</option>
+                  <option class="option" value="annuelle">Annuelle</option>
+                </select>
+                <label for="periodicite">Périodicité des échéances:</label>
+              </div>
+
+              <div class="input-field">
+                <select class="mrmme" id="nbassurer" name="nbassurer">
+                  <option class="option" value=""></option>
+                  <option class="option" value="1">1</option>
+                  <option class="option" value="2">2</option>
+                </select>
+                <label for="nbassurer">Nombre d'emprunteurs à assurer:</label>
+              </div>
+
             </fieldset>
+
+
 
             <div class="infoassurer">
 
               <fieldset class="fieldform fieldassurer" id="assurer1">
-                <label for="civilité1">Sexe:</label><br>
+
+                <label for="civilité1">Sexe:</label>
                 <select class="mrmme" id="civilité1" name="civilite">
                   <option value="homme">M.</option>
                   <option value="feme">Mme</option>
-                </select><br>
-                <label for="nom1">Nom:</label><br>
-                <input type="text" class="line" id="nom1" name="nom1" value=""><br>
-                <label for="prenom1">Prénom:</label><br>
-                <input type="text" class="line" id="prenom1" name="prenom2" value=""><br>
-                <label for="datenaissance1">Date de naissance:</label><br>
-                <input type="date" class="line" id="datenaissance1" name="datenaissance1" value=""><br>
-                <label for="pays1">Pays:</label><br>
+                </select>
+
+                <label for="nom1">Nom:</label>
+                <input type="text" class="line" id="nom1" name="nom1" value="">
+
+                <label for="prenom1">Prénom:</label>
+                <input type="text" class="line" id="prenom1" name="prenom2" value="">
+
+                <label for="datenaissance1">Date de naissance:</label>
+                <input type="date" class="line" id="datenaissance1" name="datenaissance1" value="">
+
+                <label for="pays1">Pays:</label>
                 <select class="mrmme" id="pays1" name="pays1">
                   <option value="france">France</option>
                   <option value="outremer">Outre Mer</option>
                   <option value="autre">Autres</option>
-                </select><br>
-                <label for="postal1">Code postal residence fiscale:</label><br>
-                <input type="text" class="line" id="postal1" name="postal1" value=""><br>
-                <label for="fumeur1">Vous etes:</label><br>
+                </select>
+
+                <label for="postal1">Code postal residence fiscale:</label>
+                <input type="text" class="line" id="postal1" name="postal1" value="">
+
+                <label for="fumeur1">Vous etes:</label>
                 <select class="mrmme" id="fumeur1" name="fumeur1">
                   <option value="nonfumeur">Non fumeur</option>
                   <option value="fumeur">Fumeur</option>
-                </select><br>
-                <label for="statutpro">Statut professionel</label><br>
+                </select>
+
+                <label for="statutpro">Statut professionel</label>
                 <select class="mrmme" id="statutpro1" name="statut1">
                   <option value="agriculteur">Agriculteurs exploitants</option>
                   <option value="artisan">Artisans/Commerçants</option>
@@ -80,35 +110,46 @@
                   <option value="intermediaire">Professions intermédiaires</option>
                   <option value="retraites">Retraités/Préretraités</option>
                   <option value="autre">Autres personnes sans activités professionnelles</option>
-                </select><br>
+                </select>
+
               </fieldset>
 
+
+
+
               <fieldset class="fieldform fieldassurer" id="assurer2">
-                <label for="civilité2">Sexe:</label><br>
+                <label for="civilité2">Sexe:</label>
                 <select class="mrmme" id="civilité2" name="civilite">
                   <option value="homme">M.</option>
                   <option value="femme">Mme</option>
-                </select><br>
-                <label for="nom2">Nom:</label><br>
-                <input type="text" class="line" id="nom2" name="nom2" value=""><br>
-                <label for="prenom2">Prénom:</label><br>
-                <input type="text" class="line" id="prenom2" name="prenom2" value=""><br>
-                <label for="datenaissance2">Date de naissance:</label><br>
-                <input type="date" class="line" id="datenaissance2" name="datenaissance2" value=""><br>
-                <label for="pays2">Pays:</label><br>
+                </select>
+
+                <label for="nom2">Nom:</label>
+                <input type="text" class="line" id="nom2" name="nom2" value="">
+
+                <label for="prenom2">Prénom:</label>
+                <input type="text" class="line" id="prenom2" name="prenom2" value="">
+
+                <label for="datenaissance2">Date de naissance:</label>
+                <input type="date" class="line" id="datenaissance2" name="datenaissance2" value="">
+
+                <label for="pays2">Pays:</label>
                 <select class="mrmme" id="pays2" name="pays2">
                   <option value="france">France</option>
                   <option value="outremer">Outre Mer</option>
                   <option value="autre">Autres</option>
-                </select><br>
-                <label for="postal2">Code postal residence fiscale:</label><br>
-                <input type="text" class="line" id="postal2" name="postal2" value=""><br>
-                <label for="fumeur2">Vous etes:</label><br>
+                </select>
+
+                <label for="postal2">Code postal residence fiscale:</label>
+                <input type="text" class="line" id="postal2" name="postal2" value="">
+
+                <label for="fumeur2">Vous etes:</label>
                 <select class="mrmme" id="fumeur2" name="fumeur2">
                   <option value="nonfumeur">Non fumeur</option>
                   <option value="fumeur">Fumeur</option>
-                </select><br>
-                <label for="statutpro">Statut professionel</label><br>
+                </select>
+
+                <label for="statutpro">Statut professionel</label>
                 <select class="mrmme" id="statutpro2" name="statut2">
                   <option value="agriculteur">Agriculteurs exploitants</option>
                   <option value="artisan">Artisans/Commerçants</option>
@@ -119,51 +160,77 @@
                   <option value="intermediaire">Professions intermédiaires</option>
                   <option value="retraites">Retraités/Préretraités</option>
                   <option value="autre">Autres personnes sans activités professionnelles</option>
-                </select><br>
+                </select>
+
+
               </fieldset>
             </div>
           </div>
 
 
         <fieldset class="fieldform" id="formassupart3">
+
           <p class="bandeaufile">Coordonnées de la personne à contacter</p>
+
           <label for="sexecontactassu"></label>
           <select class="mrmme" id="sexecontactassu" name="sexecontactassu">
             <option value="homme">Mr</option>
             <option value="femme">Mme</option>
-          </select><br>
-          <label for="nomcontactassu">Nom:</label><br>
-          <input type="text" class="line" id="nomcontactassu" name="nomcontactassu" value=""><br>
-          <label for="prenomcontactassu">Prenom:</label><br>
-          <input type="text" class="line" id="prenomcontactassu" name="prenomcontactassu" value=""><br>
-          <label for="societecontactassu">Société:</label><br>
-          <input type="text" class="line" id="societecontactassu" name="societecontactassu" value=""><br>
-          <label for="emailcontactassu">E-mail:</label><br>
-          <input type="email" class="line" id="emailcontactassu" name="emailcontactassu" value=""><br>
-          <label for="portablecontactassu">Portable:</label><br>
-          <input type="tel" class="line" id="portablecontactassu" name="portablecontactassu" value=""><br>
-          <label for="fixecontactassu">Fixe:</label><br>
-          <input type="tel"  class="line" id="fixecontactassu" name="fixecontactassu" value=""><br>
+          </select>
+
+          <label for="nomcontactassu">Nom:</label>
+          <input type="text" class="line" id="nomcontactassu" name="nomcontactassu" value="">
+
+          <label for="prenomcontactassu">Prenom:</label>
+          <input type="text" class="line" id="prenomcontactassu" name="prenomcontactassu" value="">
+
+          <label for="societecontactassu">Société:</label>
+          <input type="text" class="line" id="societecontactassu" name="societecontactassu" value="">
+
+          <label for="emailcontactassu">E-mail:</label>
+          <input type="email" class="line" id="emailcontactassu" name="emailcontactassu" value="">
+
+          <label for="portablecontactassu">Portable:</label>
+          <input type="tel" class="line" id="portablecontactassu" name="portablecontactassu" value="">
+
+          <label for="fixecontactassu">Fixe:</label>
+          <input type="tel"  class="line" id="fixecontactassu" name="fixecontactassu" value="">
+
         </fieldset>
+
+
 
         <fieldset id="formassupart2" class="fieldform">
+
           <p class="bandeaufile">Etat civile:</p>
+
           <label for="assucni">Photocopie carte d'identité (au format .pdf):</label>
-          <input type="file" class="file" id="assucni" name="cni" value="" accept=".pdf"><br><br>
+          <input type="file" class="file" id="assucni" name="cni" value="" accept=".pdf">
+
           <label for="assuimpot">Justificatif de domicile datant de moins de 3 mois:</label>
-          <input type="file" class="file" id="assuimpot" name="impot" value="" accept=".pdf"><br><br>
+          <input type="file" class="file" id="assuimpot" name="impot" value="" accept=".pdf">
+
           <p class="bandeaufile">Emprunt</p>
+
           <label for="assucontrat">Contrat de prêt:</label>
-          <input type="file" class="file" id="assucontrat" name="assucontrat" value="" accept=".pdf"><br>
+          <input type="file" class="file" id="assucontrat" name="assucontrat" value="" accept=".pdf">
+
           <label for="assuammortissement">Dernier tableau d’amortissement à jour:</label>
-          <input type="file" class="file" id="assuammortissement" name="assuammortissement" value=""><br>
+          <input type="file" class="file" id="assuammortissement" name="assuammortissement" value="">
+
           <p class="bandeaufile">Banque</p>
+
           <label for="assuiban">IBAN du compte sur lequel seront prélevées les cotisations:</label>
-          <input type="file" class="file" id="assuiban" name="assuiban" value=""><br>
+          <input type="file" class="file" id="assuiban" name="assuiban" value="">
+
         </fieldset>
 
-        <button type="button" class="envoi" id="etapesuivanteassu" name="button">Etape suivante</button><br>
+
+
+        <button type="button" class="envoi" id="etapesuivanteassu" name="button">Etape suivante</button>
+
         <input type="submit" class="envoi" id="finformassu" name="" value="Fin formulaire">
+
       </form>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

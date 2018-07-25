@@ -25,34 +25,32 @@
           <img src="img/image1.jpg"> <!-- random image -->
           <div class="caption left-align amber-text text-darken-2 ">
             <h3 class="titre-carou">Notre métier ? Financer l'activité et le patrimoine de l'Entrepreneur.</h3>
-            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+            <a href="#"><h5 class=" amber-text "><a class="waves-effect waves-light btn-large">Plus d'info...</a> </h5></a>
           </div>
         </li>
         <li>
           <img src="img/image2.jpg"> <!-- random image -->
           <div class="caption left-align amber-text text-darken-2">
             <h3 class="titre-carou">Gérez voter activité, nous gérons vos finances.</h3>
-            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+            <a href="#"><h5 class=" amber-text "><a class="waves-effect waves-light btn-large">Plus d'info...</a></h5></a>
           </div>
         </li>
         <li>
           <img src="img/image3.jpg"> <!-- random image -->
           <div class="caption right-align amber-text text-darken-2">
             <h3 class="titre-carou">ValeurSûre, et se financer devient un jeu d'enfant.</h3>
-            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+            <a href="#"><h5 class=" amber-text "><a class="waves-effect waves-light btn-large">Plus d'info...</a></h5></a>
           </div>
         </li>
         <li>
           <img src="img/img3.png"> <!-- random image -->
           <div class="caption right-align amber-text text-darken-2">
             <h3 class="titre-carou">Un projet ? Parlez-en à votre expert.</h3>
-            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+            <a href="#"><h5 class=" amber-text "><a class="waves-effect waves-light btn-large">Plus d'info...</a></h5></a>
           </div>
         </li>
       </ul>
     </div>
-
-
   </header>
   <?php
 include('includes/rapide.php');

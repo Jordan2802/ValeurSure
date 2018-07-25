@@ -11,6 +11,10 @@ main{
   font-family: 'calibri', sans-serif;
 }
 
+.prestations:last-child{
+  margin-bottom: 80px;
+}
+
 h2{
   margin-bottom: 50px;
 
@@ -33,7 +37,6 @@ h3, h4{
   box-sizing: border-box;
   width: 90%;
   padding: 50px;
-  margin: 50px 0;
 
   background-color: #EDEDED;
 
@@ -47,7 +50,7 @@ h3, h4{
 
 
 .intro-projet{
-  width: 80%;
+  width: 75%;
   margin-top: 150px;
   padding: 3vw 10vw;
 
@@ -117,28 +120,21 @@ h3, h4{
   justify-self: center;
   flex: 1;
 
-  width: 100%;
-  height: 60vh;
+  min-width: 230px;
+  height: 600px;
 
   overflow: hidden;
 
   border: 1px solid black;
 
-  transition: 0.7s;
+  transition: 0.85s ease-in-out;
 }
-
-.sub-menu-item:hover,
-.sub-menu-item:active{
-  flex: 2;
+.sub-menu-item:hover{
+  flex: 2.5;
 }
 
 .padded-div{
   padding: 15px;
-}
-
-.buffer{
-  display: flex;
-  flex: 1 1 auto;
 }
 
 .anchor {
@@ -150,4 +146,30 @@ h3, h4{
   margin: 0;
   height: 100px;
   text-align: center;
+}
+
+
+.divider{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 90%;
+}
+
+ #egg{
+   display: block;
+   width: 126px;
+   height: 180px;
+   background-color: #C79400;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+   transform: scale(0.2);
+}
+
+.divider-line{
+  height: 1px;
+  width: 40%;
+  background-color: #C79400;
 }

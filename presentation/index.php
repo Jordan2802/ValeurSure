@@ -120,7 +120,6 @@ include('includes/rapide.php');
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
-    <script type="text/javascript" src="js/animation.js"></script>
 
 </body>
 

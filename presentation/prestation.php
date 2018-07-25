@@ -67,6 +67,12 @@
       </div>
 
 
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div id="egg"></div>
+        <div class="divider-line"></div>
+      </div>
+
 
       <div class="prestations"  id="position">
         <div class="">
@@ -99,6 +105,12 @@
 
       </div>
 
+
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div id="egg"></div>
+        <div class="divider-line"></div>
+      </div>
 
 
       <div class="prestations" id="position2">
@@ -135,6 +147,14 @@
 
       </div>
 
+
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div id="egg"></div>
+        <div class="divider-line"></div>
+      </div>
+
+
       <div class="prestations" id="position3">
         <div class="">
           <h2 id="lien-creditpro">Assurances Emprunteurs</h2>
@@ -161,6 +181,14 @@
         </div>
 
       </div>
+
+
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div id="egg"></div>
+        <div class="divider-line"></div>
+      </div>
+
 
       <div class="prestations" id="position4">
         <div class="">

@@ -1,18 +1,7 @@
 /*@media*/
 
 @media screen and (min-width: 768px) {
-  #menuSlide a {
-    font-size: calc(9.5px + 6 * ((100vw - 768px) / 292));
-  }
-  .cache--burger2 {
-    display: none;
-  }
-  .navBurger2 {
-    display: none;
-  }
-  .cache--burger {
-    display: block;
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -20,12 +9,7 @@
     display: flex;
     flex-direction: column;
   }
-  .barre-burger {
-    display: block;
-  }
-  .fa-mobile-alt {
-    font-size: 0;
-  }
+  .
   section {
     margin-bottom: 5vw;
     height: 300px;
@@ -46,42 +30,9 @@
   .show--hover {
     display: block;
   }
-  #hamburger-button {
-    display: block;
-    position: absolute;
-    top: 5%;
-    left: 95%;
-    z-index: 9950;
-  }
-  #hamburger-button {
-    position: fixed;
-    top: 2%;
-    left: 90%;
-    z-index: 9950;
-    display: block;
-    cursor: pointer;
-    width: 35px;
-    height: 50px;
-    outline: none;
-  }
-  #hamburger-button::after {
-    content: '';
-    position: relative;
-    display: block;
-    width: 16px;
-    height: 0;
-    left: 10px;
-    box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
-  }
-  .cache--burger2 {
-    display: none;
-  }
-  .cache--burger {
-    display: none;
-  }
-  #slider {
-    display: none;
-  }
+
+
+
   .prestations h2{
     font-size: 2em;
   }
@@ -90,9 +41,7 @@
 }
 
 @media screen and (min-width: 1060px) {
-  #menuSlide a {
-    font-size: 16px;
-  }
+
 }
 @media screen and (max-width: 1200px) {
   .prestations h2{

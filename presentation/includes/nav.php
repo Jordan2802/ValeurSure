@@ -1,32 +1,26 @@
-<nav id="tailleNav" class="navBurger cache--burger">
-  <ul id="menuSlide" class="menuBurger">
+
+
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"> <img class="logoOeuf" src="img/axa.jpg" alt=""> </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="nav-lien" href="./index.php">Accueil</a></li>
+        <li><a class="nav-lien" href="./apropos.php">A	propos de ValeurSure</a></li>
+        <li><a class="nav-lien" href="./prestation.php">Nos prestations</a></li>
+        <li><a class="nav-lien" href="./Simulateurs.php">Simulateurs</a></li>
+        <li><a class="nav-lien" href="./formfinance.php">Demande de financement</a></li>
+        <li><a class="nav-lien" href="./contact.php">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <ul class="sidenav" id="mobile-demo">
     <li><a class="nav-lien" href="./index.php">Accueil</a></li>
-    <li>|</li>
     <li><a class="nav-lien" href="./apropos.php">A	propos de ValeurSure</a></li>
-    <li>|</li>
     <li><a class="nav-lien" href="./prestation.php">Nos prestations</a></li>
-    <li>|</li>
     <li><a class="nav-lien" href="./Simulateurs.php">Simulateurs</a></li>
-    <li>|</li>
     <li><a class="nav-lien" href="./formfinance.php">Demande de financement</a></li>
-    <li>|</li>
     <li><a class="nav-lien" href="./contact.php">Contact</a></li>
   </ul>
-</nav>
-
-<nav id="tailleNav2" class="navBurger2 cache--burger2">
-  <ul id="menuSlide2" class="menuBurger2">
-    <div id="logoNav2" class="logop2">
-      <i class="fab fa-wordpress "></i>
-    </div>
-    <li><a href="./index.php">Accueil</a></li>
-    <li class="menu--ss"><a href="./apropos.php">A	propos de ValeurSure</a>
-    </li>
-    <li class="menu--ss"><a href="#">Nos prestations</a>
-    </li>
-    <li class="menu--ss"><a href="./Simulateurs.php">Simulateurs</a>
-    </li>
-    <li><a href="./formfinance.php">Demande de financement</a></li>
-    <li><a href="./contact.php">Contact</a></li>
-  </ul>
-</nav>

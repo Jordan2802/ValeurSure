@@ -13,24 +13,46 @@
   <link rel="stylesheet" href="css/rapide.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <title>ValeurSure</title>
 </head>
 
 <body>
   <header id="head">
     <?php include('includes/nav.php'); ?>
-    <div id="slider">
+    <div class="slider hide-on-small-only fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="img/image1.jpg"> <!-- random image -->
+          <div class="caption left-align amber-text text-darken-2 ">
+            <h3>Notre métier ? Financer l'activité et le patrimoine de l'Entrepreneur.</h3>
+            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+          </div>
+        </li>
+        <li>
+          <img src="img/image2.jpg"> <!-- random image -->
+          <div class="caption left-align amber-text text-darken-2">
+            <h3>Gérez voter activité, nous gérons vos finances.</h3>
+            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+          </div>
+        </li>
+        <li>
+          <img src="img/image3.jpg"> <!-- random image -->
+          <div class="caption right-align amber-text text-darken-2">
+            <h3>ValeurSûre, et se financer devient un jeu d'enfant.</h3>
+            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+          </div>
+        </li>
+        <li>
+          <img src="img/img3.png"> <!-- random image -->
+          <div class="caption right-align amber-text text-darken-2">
+            <h3>Un projet ? Parlez-en à votre expert.</h3>
+            <a href="#"><h5 class=" amber-text "> Plus d'info...</h5></a>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-      <div class="slider">
-        <div class="slide"><a href="prestation.php">Notre métier? Financer l’activité et le patrimoine de l’Entrepreneur <br><span>Plus d'infos...</span> </a></div>
-        <div class="slide"><a href="prestation.php#lien-finances">Gérez votre activité, nous gérons vos finances <br><span>Plus d'infos...</span></a> </div>
-        <div class="slide"><a href="apropos.php#lien-engagement">ValeureSûre, et se financer devient un jeu d’enfant <br><span>Plus d'infos...</span></a> </div>
-        <div class="slide"><a href="contact.php">Un projet? Parlez-­en à votre expert <br><span>Plus d'infos...</span></a></div>
-      </div>
-    </div>
-    <div class="barre-burger">
-      <button id="hamburger-button" onclick="cacher();"></button>
-    </div>
 
   </header>
   <?php
@@ -120,6 +142,7 @@ include('includes/rapide.php');
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
 </body>
 

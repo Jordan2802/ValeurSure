@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin');
-h3{
+.titre-carou{
   font-weight: bold !important;
   text-shadow: 1px 2px 3px black;
   font-size: 5em !important;

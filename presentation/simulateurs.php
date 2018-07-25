@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style2.css">
   <link rel="stylesheet" href="css/sim.css">
+  <link rel="stylesheet" href="css/rapide.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -17,11 +17,11 @@
 
   <header>
     <?php include('includes/nav.php'); ?>
-    <div class="barre-burger">
-      <button id="hamburger-button" onclick="cacher();"></button>
-    </div>
-  </header>
 
+  </header>
+  <?php
+  include('includes/rapide.php');
+   ?>
   <main>
     <div class="">
       <h2>Simulateurs</h2>
@@ -57,7 +57,7 @@ durée ? Obtenez ces informations en quelques clics.</p>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
   <script type="text/javascript" src="js/contact.js"></script>
-  <script type="text/javascript" src="js/burger.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
 </body>
 </html>

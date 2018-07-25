@@ -1,5 +1,6 @@
 
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
@@ -10,7 +11,7 @@
         <li><a class="nav-lien" href="./apropos.php">A	propos de ValeurSure</a></li>
         <li><a class="nav-lien" href="./prestation.php">Nos prestations</a></li>
         <li><a class="nav-lien" href="./Simulateurs.php">Simulateurs</a></li>
-        <li><a class="nav-lien" href="./formfinance.php">Demande de financement</a></li>
+        <li><a class="nav-lien" href="./demandefinancement.php">Demande de financement</a></li>
         <li><a class="nav-lien" href="./contact.php">Contact</a></li>
       </ul>
     </div>

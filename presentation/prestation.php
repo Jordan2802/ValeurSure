@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="stylesheet" href="css/prestation.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/rapide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/rapide.css">
+    <link rel="stylesheet" href="css/prestation.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
 
     <title></title>
   </head>
   <body>
     <header>
-      <?php include('includes/nav.php'); ?>
-      <div class="barre-burger">
-        <button id="hamburger-button" onclick="cacher();"></button>
-      </div>
     </header>
+
     <?php
+    include 'includes/nav.php';
     include('includes/rapide.php');
      ?>
     <main>
@@ -36,7 +36,7 @@
         <div class="sub-menu-item">
           <a class="anchor" href="#position">
             <div class="bg1"></div>
-            <h2 class="padded-div">Financement professionnel</h2>
+            <h2 class="section-title padded-div">Financement professionnel</h2>
             <p class="sub-menu-text padded-div">A la recherche d’une solution de financement à usage professionnel ? Vous êtes au bon endroit. ValeurSûre vous propose un accompagnement sur-mesure car la solution découlera de l’expression de votre besoin et de vos attentes.</p>
           </a>
         </div>
@@ -44,7 +44,7 @@
         <div class="sub-menu-item">
           <a class="anchor" href="#position2">
             <div class="bg2"></div>
-            <h2 class="padded-div">Crédit immobilier</h2>
+            <h2 class="section-title padded-div">Crédit immobilier</h2>
             <p class="sub-menu-text padded-div">Avant toute chose, évaluez votre capacité d’emprunt pour connaître votre budget avant de rechercher le bien. Cela vous permettra de signer votre compromis en tout sérénité ou de demander des devis en conséquence.</p>
           </a>
         </div>
@@ -52,7 +52,7 @@
         <div class="sub-menu-item">
           <a class="anchor" href="#position3">
             <div class="bg3"></div>
-            <h2 class="padded-div">Assurances Emprunteurs</h2>
+            <h2 class="section-title padded-div">Assurances Emprunteurs</h2>
             <p class="sub-menu-text padded-div">Désormais, il vous est possible de déléguer ce contrat à une société d’assurance externe à la banque et qui sera plus compétitive, tout en proposant des garanties similaires.</p>
           </a>
         </div>
@@ -60,22 +60,24 @@
         <div class="sub-menu-item">
           <a class="anchor" href="#position4">
             <div class="bg4"></div>
-            <h2 class="padded-div">Conseil et prestations de services</h2>
+            <h2 class="section-title padded-div">Conseil et prestations de services</h2>
             <p class="sub-menu-text padded-div">On peut maîtriser son métier, proposer des produits et services de qualité mais si on ne gère pas les finances, cela peut être une menace pour la pérennité de son activité.</p>
           </a>
         </div>
       </div>
 
 
-      <div class="divider">
+      <div class="divider-item" id="position">
         <div class="divider-line"></div>
         <div id="egg"></div>
         <div class="divider-line"></div>
       </div>
 
 
-      <div class="prestations"  id="position">
-        <div class="">
+      <div class="prestations wow fadeInLeftBig">
+        <div class="bg1 bg-section"></div>
+
+        <div class="content">
           <h2 id="lien-creditpro">Financement professionnel</h2>
           <p class="">A la recherche d’une solution de financement à usage professionnel ? Vous êtes au bon endroit. ValeurSûre vous propose un accompagnement sur-mesure car la solution découlera de l’expression de votre besoin et de vos attentes.</p>
           <p class="">Quelques exemples de financements :</p>
@@ -98,23 +100,25 @@
 
         </div>
 
-        <div class="form">
+        <div class="form-container  z-depth-3">
           <h3>Parlez de votre projet à l’un de nos conseillers</h3>
-          :D
+          <?php include 'form_trials.php'; ?>
         </div>
 
       </div>
 
 
-      <div class="divider">
+      <div class="divider-item" id="position2">
         <div class="divider-line"></div>
         <div id="egg"></div>
         <div class="divider-line"></div>
       </div>
 
 
-      <div class="prestations" id="position2">
-        <div class="">
+      <div class="prestations wow fadeInLeftBig">
+        <div class="bg2 bg-section"></div>
+
+        <div class="content">
           <h2 id="lien-creditpro">Crédit immobilier</h2>
           <p class="">Avant toute chose, évaluez votre capacité d’emprunt pour connaître votre budget avant de rechercher le bien. Cela vous permettra de signer votre compromis en tout sérénité ou de demander des devis en conséquence. Nos conseillers se tiennent à votre disposition pour vous accompagner.</p>
         </div>
@@ -140,23 +144,25 @@
 
         </div>
 
-        <div class="form">
+        <div class="form-container z-depth-3">
           <h3>Parlez de votre projet à l’un de nos conseillers</h3>
-          :D
+          <?php include 'financepro.php'; ?>
         </div>
 
       </div>
 
 
-      <div class="divider">
+      <div class="divider-item" id="position3">
         <div class="divider-line"></div>
         <div id="egg"></div>
         <div class="divider-line"></div>
       </div>
 
 
-      <div class="prestations" id="position3">
-        <div class="">
+      <div class="prestations wow fadeInLeftBig">
+        <div class="bg3 bg-section"></div>
+
+        <div class="content">
           <h2 id="lien-creditpro">Assurances Emprunteurs</h2>
           <p class="">Les échéances de votre emprunt comprend une assurance contre les aléas de la vie qui pourraient impacter votre capacité de remboursement, comme le décès, l’invalidité ou la perte d’emploi. Il s’agit du contrat d’assurances Emprunteurs que la banque vous fait souscrire auprès d’une de ses filiales.</p>
           <p class="">Désormais, il vous est possible de déléguer ce contrat à une société d’assurance externe à la banque et qui sera plus compétitive, tout en proposant des garanties similaires. ValeurSûre met à votre dipsosition son partenariat avec des grands noms de l’assurance, tels que GENERALI, AXA ou ALLIANZ.</p>
@@ -175,31 +181,33 @@
 
         </div>
 
-        <div class="form">
+        <div class="form-container  z-depth-3">
           <h3>Demandez un comparatif</h3>
-          :D
+          <?php include 'form_trials.php'; ?>
         </div>
 
       </div>
 
 
-      <div class="divider">
+      <div class="divider-item" id="position4">
         <div class="divider-line"></div>
         <div id="egg"></div>
         <div class="divider-line"></div>
       </div>
 
 
-      <div class="prestations" id="position4">
-        <div class="">
+      <div class="prestations wow fadeInLeftBig">
+        <div class="bg4 bg-section"></div>
+
+        <div class="info-part">
           <h2 id="lien-creditpro">Conseil et prestations de services</h2>
           <p class="">On peut maîtriser son métier, proposer des produits et services de qualité mais si on ne gère pas les finances, cela peut être une menace pour la pérennité de son activité. Chez ValeurSûre, nous considérons qu’un minimum de culture financière est devenu nécessaire pour gérer une entreprise.</p>
           <p class="">C’est pourquoi, nous intervenons régulièrement auprès d’Entrepreneurs ou de futurs Entrepreneurs, afin de partager notre connaissance et notre expérience en la matière : par le biais d’organismes de formation, d’association d’aide à la création et développement d’entreprises, des chambres consulaires, ou directement auprès des entreprises pour du conseil.</p>
         </div>
 
-        <div class="form">
+        <div class="form-container  z-depth-3">
           <h3>Conférence, séminaire, formation, besoin d’un diagnostic ou conseil en finances, n’attendez plus et soumettez-nous votre projet</h3>
-          :D
+          <?php include 'form_trials.php'; ?>
         </div>
 
       </div>
@@ -209,8 +217,21 @@
       <?php include('includes/footer.php'); ?>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+     $('select').formSelect();
+    });
+      </script>
+
   </body>
 </html>

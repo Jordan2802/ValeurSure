@@ -19,7 +19,7 @@
       <label for="">message</label>
       <textarea class="materialize-textarea" name="message"></textarea>
     </div>
-      <button class="btn waves-effect waves-light" name="message" type="submit" name="button" value="Envoyer">Envoyer</button>
+      <button class="btn waves-effect waves-light"  type="submit" name="button" value="Envoyer">Envoyer</button>
     </form>
   </div>
 </div>

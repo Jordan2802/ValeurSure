@@ -18,7 +18,7 @@
 <body>
   <header id="head">
     <?php include('includes/nav.php'); ?>
-    <div class="slider hide-on-small-only fullscreen">
+    <div id="carou" class="slider hide-on-small-only fullscreen">
       <ul class="slides">
         <li>
           <img src="img/image1.jpg"> <!-- random image -->

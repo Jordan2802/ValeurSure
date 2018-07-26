@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.slider').slider();
+    $('.sidenav').sidenav();
   });
 
 //faire apparaitre le contact rapide + nav scroll

@@ -58,7 +58,8 @@ body
 	align-items: center;
 }
 .iconsocial{
- font-size: 4rem !important;
+	margin-right: 15px;
+ font-size: 2rem !important;
  background-color: #002366 !important;
 }
 .iconsocial:hover{

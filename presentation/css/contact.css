@@ -40,15 +40,7 @@ main{
 }
 
 
-.button{
-  padding:10px 0 10px 0;
-  font:bold 13px;
-  background:#C79400;
-  color:#fff;
-  border-radius:2px;
-  width:100px;
-  margin-top: 10px;
-}
+
 
 .formulaire-contact{
   margin: auto;
@@ -64,4 +56,7 @@ main{
   text-align: center;
   padding: 20px;
   max-width: 700px;
+}
+.form{
+  width: 80%;
 }

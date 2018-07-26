@@ -34,11 +34,11 @@
           <label for="">Objet:</label>
           </div>
           <div class="input-field">
-          <textarea rows="8" cols="80"></textarea>
+          <textarea class="materialize-textarea" name="message"></textarea>
           <label for="">Message:</label>
           </div>
           <div class="input-field">
-          <input class="button" type="submit" value="Valider">
+          <button class="btn waves-effect waves-light" name="message" type="submit" name="button" value="Envoyer">Envoyer</button>
           </div>
         </form>
       </div>

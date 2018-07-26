@@ -187,3 +187,6 @@ input:-webkit-autofill {
 .file-button{
   height: auto !important;
 }
+ul[id^="select-options-"]{
+  position: fixed !important;
+}

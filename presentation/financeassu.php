@@ -97,7 +97,7 @@
           <div class="input-field">
             <!-- <input type="date" class="line" id="datenaissance1" name="datenaissance1" value="">
             <label for="datenaissance1">Date de naissance:</label> -->
-            <input type="text" class="line datepicker" id="datenaissance2" name="datenaissance2" value="">
+            <input type="text" class="line" id="datenaissance2" name="datenaissance2" value="">
             <label for="datenaissance1">Date de naissance:</label>
           </div>
 
@@ -278,11 +278,11 @@
 
     <div class="file-field input-field">
       <div class="btn">
-        <span>Fichier</span>
+        <span>Photocopie carte d'identité (au format .pdf)</span>
         <input type="file" class="file" id="assucni" name="cni" value="" accept=".pdf">
       </div>
       <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Photocopie carte d'identité (au format .pdf)">
+        <input class="file-path validate" type="text" placeholder="Votre fichier">
       </div>
     </div>
 
@@ -295,11 +295,11 @@
 
     <div class="file-field input-field">
       <div class="btn">
-        <span>Fichier</span>
+        <span>Justificatif de domicile datant de moins de 3 mois</span>
         <input type="file" class="file" id="assuimpot" name="impot" value="" accept=".pdf">
       </div>
       <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Justificatif de domicile datant de moins de 3 mois">
+        <input class="file-path validate" type="text" placeholder="Votre fichier">
       </div>
     </div>
 
@@ -314,11 +314,11 @@
 
     <div class="file-field input-field">
       <div class="btn">
-        <span>Fichier</span>
+        <span>Contrat de prêt</span>
         <input type="file" class="file" id="assucontrat" name="assucontrat" value="" accept=".pdf">
       </div>
       <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Contrat de prêt">
+        <input class="file-path validate" type="text" placeholder="Votre fichier">
       </div>
     </div>
 
@@ -331,11 +331,11 @@
 
     <div class="file-field input-field">
       <div class="btn">
-        <span>Fichier</span>
+        <span>Dernier tableau d’amortissement à jour</span>
         <input type="file" class="file" id="assuammortissement" name="assuammortissement" value="">
       </div>
       <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Dernier tableau d’amortissement à jour">
+        <input class="file-path validate" type="text" placeholder="Votre fichier">
       </div>
     </div>
 
@@ -350,7 +350,7 @@
 
     <div class="file-field input-field">
       <div class="btn file-button">
-        <span>Photocopie carte d'identité (au format .pdf)</span>
+        <span>IBAN du compte sur lequel seront prélevées les cotisations</span>
         <input type="file" class="file" id="assuiban" name="assuiban" value="">
       </div>
       <div class="file-path-wrapper">
@@ -375,6 +375,8 @@
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.datepicker');
-  var instances = M.Datepicker.init(elems, {});
+  var instances = M.Datepicker.init(elems, {
+    selectYears: 120
+  });
 });
 </script>

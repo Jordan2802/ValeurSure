@@ -90,15 +90,19 @@ input:-webkit-autofill {
 }
 #comptepro1{
 	font-size: 15px;
+  display: inline-block;
 }
 #comptepro2{
 	font-size: 15px;
+  display: inline-block;
 }
 #compteimmo1{
 	font-size: 15px;
+  display: inline-block;
 }
 #compteimmo2{
 	font-size: 15px;
+  display: inline-block;
 }
 #assurer1{
 	display: none;

@@ -6,3 +6,6 @@ $(document).ready(function(){
     $("#finformpresta").show(500);
   });
 })
+$(document).ready(function(){
+  $('select').formSelect();
+});

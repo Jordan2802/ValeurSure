@@ -6,55 +6,84 @@
 
 
       <form class="formulaire" id="formpresta" action="index.html" method="post">
+
         <p class="bandeaufile">Prestations de services</p>
+
         <fieldset class="fieldform" id="formprestapart1">
 
-          <label for="typepresta">Type de prestation</label><br>
-          <select class="mrmme" id="typepresta" name="typepresta">
-            <option value="conference">Conférence</option>
-            <option value="intervention">Intervention pédagogique</option>
-            <option value="conseil">Conseil</option>
-          </select><br>
-          <label for="prestaobjet">Objet:</label><br>
-          <textarea name="prestaobjet" class="textarea" id="prestaobjet" rows="4" cols="80" maxlength="100"></textarea><br>
-          <label for="prestaobjet">Public:</label><br>
-          <select class="mrmme" id="prestaobjet" name="prestaobjet">
-            <option value="entrepreneur">Entrepreneur</option>
-            <option value="createur">Créateurs d'entreprise</option>
-            <option value="salaries">Salariés</option>
-            <option value="etudiants">Etudiants</option>
-          </select><br>
-          <label for="prestaduree">Durée:</label><br>
-          <textarea name="prestaduree" class="textarea" id="prestaduree" rows="8" cols="80" maxlength="60"></textarea><br>
-          <label for="prestalieu">Lieu:</label><br>
-          <textarea name="prestalieu" class="textarea" id="prestalieu" rows="8" cols="80" maxlength="60"></textarea><br>
-
+          <div class="row">
+            <div class="input-field">
+              <select class="mrmme" id="typepresta" name="typepresta">
+                <option value="conference">Conférence</option>
+                <option value="intervention">Intervention pédagogique</option>
+                <option value="conseil">Conseil</option>
+              </select>
+              <label for="typepresta">Type de prestation</label>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="prestaobjet">Objet:</label>
+            <textarea name="prestaobjet" class="textarea" id="prestaobjet" rows="4" cols="80" maxlength="100"></textarea>
+          </div>
+          <div class="row">
+            <div class="input-field">
+              <select class="mrmme" id="prestaobjet" name="prestaobjet">
+                <option value="entrepreneur">Entrepreneur</option>
+                <option value="createur">Créateurs d'entreprise</option>
+                <option value="salaries">Salariés</option>
+                <option value="etudiants">Etudiants</option>
+              </select>
+              <label for="prestaobjet">Public:</label>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="prestaduree">Durée:</label>
+            <textarea name="prestaduree" class="textarea" id="prestaduree" rows="8" cols="80" maxlength="60"></textarea>
+          </div>
+          <div class="input-field">
+            <label for="prestalieu">Lieu:</label>
+            <textarea name="prestalieu" class="textarea" id="prestalieu" rows="8" cols="80" maxlength="60"></textarea>
+          </div>
         </fieldset>
 
         <fieldset class="fieldform" id="formprestapart2">
           <p class="bandeaufile">Coordonnées de la personne à contacter</p>
-
-          <label for="sexecontactpresta"></label>
-          <select class="mrmme" id="sexecontactpresta" name="sexecontactpresta">
-            <option value="homme">Mr</option>
-            <option value="femme">Mme</option>
-          </select><br>
-          <label for="nomcontactpresta">Nom:</label><br>
-          <input type="text" class="line" id="nomcontactpresta" name="nomcontactpresta" value=""><br>
-          <label for="prenomcontactpresta">Prenom:</label><br>
-          <input type="text" class="line" id="prenomcontactpresta" name="prenomcontactpresta" value=""><br>
-          <label for="societecontactpresta">Société:</label><br>
-          <input type="text" class="line" id="societecontactpresta" name="societecontactpresta" value=""><br>
-          <label for="emailcontactpresta">E-mail:</label><br>
-          <input type="email" class="line" id="emailcontactpresta" name="emailcontactpresta" value=""><br>
-          <label for="portablecontactpresta">Portable:</label><br>
-          <input type="tel" class="line" id="portablecontactpresta" name="portablecontactpresta" value=""><br>
-          <label for="fixecontactpresta">Fixe:</label><br>
-          <input type="tel"  class="line" id="fixecontactpresta" name="fixecontactpresta" value=""><br>
-
+          <div class="row">
+            <div class="input-field">
+              <select class="mrmme" id="sexecontactpresta" name="sexecontactpresta">
+                <option value="homme">Mr</option>
+                <option value="femme">Mme</option>
+              </select>
+              <label for="sexecontactpresta"></label>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="nomcontactpresta">Nom:</label>
+            <input type="text" class="line" id="nomcontactpresta" name="nomcontactpresta" value="">
+          </div>
+          <div class="input-field">
+            <label for="prenomcontactpresta">Prenom:</label>
+            <input type="text" class="line" id="prenomcontactpresta" name="prenomcontactpresta" value="">
+          </div>
+          <div class="input-field">
+            <label for="societecontactpresta">Société:</label>
+            <input type="text" class="line" id="societecontactpresta" name="societecontactpresta" value="">
+          </div>
+          <div class="input-field">
+            <label for="emailcontactpresta">E-mail:</label>
+            <input type="email" class="line" id="emailcontactpresta" name="emailcontactpresta" value="">
+          </div>
+          <div class="input-field">
+            <label for="portablecontactpresta">Portable:</label>
+            <input type="tel" class="line" id="portablecontactpresta" name="portablecontactpresta" value="">
+          </div>
+          <div class="input-field">
+            <label for="fixecontactpresta">Fixe:</label>
+            <input type="tel"  class="line" id="fixecontactpresta" name="fixecontactpresta" value="">
+          </div>
         </fieldset>
 
-        <button type="button" class="envoi" id="etapesuivantepresta" name="button">Etape suivante</button><br>
+        <button type="button" class="envoi" id="etapesuivantepresta" name="button">Etape suivante</button>
         <input type="submit" class="envoi" id="finformpresta" name="" value="Fin formulaire">
 
       </form>

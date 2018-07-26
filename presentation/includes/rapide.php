@@ -27,10 +27,10 @@
 
 
 if (isset($_POST['button'])) {
-  $message =?> <p> Nom: <?php $_POST['nom']; ?> <br>
-                   Prénom: <?php $_POST['prenom']; ?> <br>
-                   Message: <?php $_POST['message']; ?></p>
- <?php 
+  $message =?> <p> Nom: <?php echo $_POST['nom']; ?> <br>
+                   Prénom: <?php echo $_POST['prenom']; ?> <br>
+                   Message: <?php echo $_POST['message']; ?></p>
+ <?php
 if(isset($_POST['message'])){
       $position_arobase=strpos($_POST['email'],'@');
       if($position_arobase===false)

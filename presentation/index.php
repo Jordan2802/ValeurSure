@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="css/rapide.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -133,7 +132,7 @@ include('includes/rapide.php');
 
     </main>
     <footer>
-      <?php include('includes/footerv2.php'); ?>
+      <?php include('includes/footer.php'); ?>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>

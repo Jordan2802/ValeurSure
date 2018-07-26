@@ -35,9 +35,11 @@ html {
 }
 
 .nav-lien {
-  font-size: 1.15em !important;
+  font-size: 1.1em !important;
 }
-
+.right:last-child{
+  margin-right: 20px;
+}
 .caption {
   margin-top: 200px !important;
 }

@@ -232,6 +232,6 @@
         <input type="submit" class="envoi" id="finformassu" name="" value="Fin formulaire">
 
       </form>
-
+</div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/financeassu.js"></script>

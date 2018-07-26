@@ -51,8 +51,9 @@ main{
 }
 
 .formulaire-contact{
-  margin: 0 20px;
-  margin-top: 250px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   background-color: #EDEDED;

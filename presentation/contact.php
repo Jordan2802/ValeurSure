@@ -21,11 +21,25 @@
 
       <div class="formulaire-contact">
         <form class="form" action="#" method="post">
-          <input type="text" placeholder="Nom"><br>
-          <input type="text" placeholder="Email"><br>
-          <input type="text" placeholder="Objet"><br>
-          <textarea rows="8" cols="80"></textarea><br>
+          <div class="input-field">
+          <input type="text" >
+          <label for="">Nom:</label>
+          </div>
+          <div class="input-field">
+          <input type="text" >
+          <label for="">Email:</label>
+          </div>
+          <div class="input-field">
+          <input type="text" >
+          <label for="">Objet:</label>
+          </div>
+          <div class="input-field">
+          <textarea rows="8" cols="80"></textarea>
+          <label for="">Message:</label>
+          </div>
+          <div class="input-field">
           <input class="button" type="submit" value="Valider">
+          </div>
         </form>
       </div>
     </main>

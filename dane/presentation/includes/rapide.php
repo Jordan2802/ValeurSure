@@ -1,18 +1,37 @@
+
 <div class="tel" id="tel">
   <div class="fas fa-mobile-alt" onclick="slideTel()"></div>
   <div class="text cache" id="tel"><span id="valeur--coor">Coordonnées ValeurSure:</span> <br> 00-00-00-00-00, adresse@hotmail.fr <br>
     <span id="valeur--coor">Nous Contacter :</span>
-    <form class=""  method="post">
-      <label for="">Nom</label><input type="text" name="nom" value="" required>
-      <label for="">Prenom</label><input type="text" name="prenom" value="" required>
-      <label for="">email</label><input type="mail" name="email" value="" required>
-      <label for="">message</label> <textarea name="message" rows="6" cols="30"></textarea>
-      <input type="submit" name="button" value="Envoyer">
+    <form method="post">
+    <div class="input-field">
+      <input type="text" name="nom" value="" class="validate" required>
+      <label for="">Nom</label>
+    </div>
+    <div class="input-field">
+      <input type="text" name="prenom" class="validate" value="" required>
+      <label for="">Prenom</label>
+    </div>
+    <div class="input-field">
+      <label for="">email</label>
+      <input class="validate" type="email" name="email" value="" required>
+    </div>
+    <div class="input-field">
+      <label for="">message</label>
+      <textarea class="materialize-textarea" name="message"></textarea>
+    </div>
+      <button class="btn waves-effect waves-light" name="message" type="submit" name="button" value="Envoyer">Envoyer
     </form>
   </div>
 </div>
-<?php
 
+<script type="text/javascript">
+$(document).ready(function() {
+M.updateTextFields();
+});
+</script>
+
+<?php
 
 if (isset($_POST['button'])) {
   $message = $_POST['nom'].' '.$_POST['prenom'].' '.$_POST['message'];

@@ -102,7 +102,7 @@
 
         <div class="form-container  z-depth-3">
           <h3>Parlez de votre projet à l’un de nos conseillers</h3>
-          <?php include 'financeassu.php'; ?>
+          <?php include 'form_trials.php'; ?>
         </div>
 
       </div>
@@ -183,7 +183,7 @@
 
         <div class="form-container  z-depth-3">
           <h3>Demandez un comparatif</h3>
-          <?php include 'form_trials.php'; ?>
+          <?php include 'financeassu.php'; ?>
         </div>
 
       </div>
@@ -214,7 +214,7 @@
 
     </main>
     <footer>
-      <?php include('includes/footer.php'); ?>
+      <?php include('includes/footerv2.php'); ?>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>

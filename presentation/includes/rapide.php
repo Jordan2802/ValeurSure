@@ -20,10 +20,10 @@
       <label for="mail">email</label>
     </div>
     <div class="input-field">
-      <textarea class="materialize-textarea" id="mesasge" name="message"></textarea>
+      <textarea class="materialize-textarea" id="message" name="message"></textarea>
       <label for="message">message</label>
     </div>
-      <button class="btn waves-effect waves-light"  type="submit" name="button" value="Envoyer">Envoyer</button>
+      <button class="btn waves-effect waves-light"  type="submit" name="button" id="envoyer" value="Envoyer">Envoyer</button>
     </form>
   </div>
 </div>

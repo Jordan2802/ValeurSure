@@ -22,6 +22,7 @@ $(document).ready(function(){
     else {
       $("#formassupart2").hide();
       $("#formassupart3").show(500);
+      $("#capassu").show(500);
       $("#etapesuivanteassu").hide();
       $("#finformassu").show(500);
     }

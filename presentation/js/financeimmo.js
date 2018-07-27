@@ -31,6 +31,7 @@ $(document).ready(function(){
       $("#formimmopart3").show(500);
       $("#etapesuivanteimmo").hide();
       $("#finformimmo").show(500);
+      $("#capimmo").show(500);
     }
   });
 })

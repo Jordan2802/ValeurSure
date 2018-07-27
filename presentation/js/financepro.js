@@ -37,6 +37,7 @@ $(document).ready(function(){
     else {
       $("#formpropart4").hide();
       $("#formpropart5").show(500);
+      $("#cappro").show(500);
       $("#finform").show(500);
       $("#etapesuivante").hide();
       }

@@ -232,7 +232,10 @@
           </div>
         </fieldset>
 
-        <button type="button" class="envoi" id="etapesuivanteimmo" name="button">Etape suivante</button>
-        <input type="submit" class="envoi" id="finformimmo" name="" value="FIN FORMULAIRE">
+        <a type="button" class="envoi btn-large" id="etapesuivanteimmo" name="button">étape suivante</a>
+
+        <button type="submit" class="envoi btn-large" id="finformimmo" name="" value="Fin formulaire">Fin formulaire</button>
+
 
       </form>
+      <div class="g-recaptcha" id="capimmo" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>

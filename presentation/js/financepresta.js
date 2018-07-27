@@ -4,8 +4,10 @@ $(document).ready(function(){
     $("#formprestapart2").show(500);
     $("#etapesuivantepresta").hide();
     $("#finformpresta").show(500);
+    $("#cappresta").show(500);
   });
 })
+
 $(document).ready(function(){
   $('select').formSelect();
 });

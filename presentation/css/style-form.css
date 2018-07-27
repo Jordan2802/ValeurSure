@@ -180,7 +180,18 @@ input:-webkit-autofill {
 #finformassu{
 	display: none;
 }
-
+#cappro{
+  display: none;
+}
+#capimmo{
+  display: none;
+}
+#cappresta{
+  display: none;
+}
+#capassu{
+  display: none;
+}
 
 .file-field{
   display: flex;

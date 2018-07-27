@@ -76,8 +76,10 @@
           </div>
         </fieldset>
 
-        <button type="button" class="envoi" id="etapesuivantepresta" name="button">Etape suivante</button>
-        <input type="submit" class="envoi" id="finformpresta" name="" value="Fin formulaire">
+        <a type="button" class="envoi btn-large" id="etapesuivantepresta" name="button">étape suivante</a>
+
+        <button type="submit" class="envoi btn-large" id="finformpresta" name="" value="Fin formulaire">Fin formulaire</button>
+
 
       </form>
-      <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
+      <div class="g-recaptcha" id="cappresta" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>

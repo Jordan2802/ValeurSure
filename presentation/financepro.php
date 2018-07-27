@@ -438,7 +438,10 @@
           </div>
         </fieldset>
 
-        <button type="button" class="envoi" id="etapesuivante" name="button">Etape suivante</button>
-        <input type="submit" class="envoi" id="finform" name="" value="Fin formulaire">
+        <a type="button" class="envoi btn-large" id="etapesuivante" name="button">étape suivante</a>
+
+        <button type="submit" class="envoi btn-large" id="finform" name="" value="Fin formulaire">Fin formulaire</button>
+
 
       </form>
+      <div class="g-recaptcha" id="cappro" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>

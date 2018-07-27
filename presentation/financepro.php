@@ -1,5 +1,4 @@
-    <link rel="stylesheet" href="./css/style-form.css">
-    <div class="form-container">
+
       <form class="formulaire" action="index.html" method="post">
         <p class="bandeaufile">Financement professionnel</p>
 
@@ -442,6 +441,5 @@
         <input type="submit" class="envoi" id="finform" name="" value="Fin formulaire">
 
       </form>
-    </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/financepro.js"></script>

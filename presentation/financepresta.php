@@ -1,9 +1,5 @@
-    <link rel="stylesheet" href="./css/style-form.css">
 
-    <div class="form-container">
-
-
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
       <form class="formulaire" id="formpresta" action="index.html" method="post">
 
@@ -87,6 +83,8 @@
         <input type="submit" class="envoi" id="finformpresta" name="" value="Fin formulaire">
 
       </form>
-    </div>
+      <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
+
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/financepresta.js"></script>

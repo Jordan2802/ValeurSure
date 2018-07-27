@@ -1,6 +1,3 @@
-    <link rel="stylesheet" href="./css/style-form.css">
-
-    <div class="form-container">
 
       <form class="formulaire" action="index.html" method="post">
 
@@ -240,7 +237,6 @@
 
       </form>
 
-    </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/financeimmo.js"></script>

@@ -76,7 +76,7 @@
 <script type="text/javascript" src="js/contact.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
-<script>new WOW().init();</script>
+<script>new WOW({mobile:false}).init();</script>
 </body>
 
 </html>

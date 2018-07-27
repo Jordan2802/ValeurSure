@@ -81,5 +81,3 @@
 
       </form>
       <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
-
-  <script type="text/javascript" src="./js/financepresta.js"></script>

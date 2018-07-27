@@ -236,7 +236,3 @@
         <input type="submit" class="envoi" id="finformimmo" name="" value="FIN FORMULAIRE">
 
       </form>
-
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./js/financeimmo.js"></script>

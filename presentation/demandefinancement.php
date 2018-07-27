@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style-fixe.css">
     <link rel="stylesheet" href="css/rapide.css">
-    <link rel="stylesheet" href="./css/style-form.css">
+    <link rel="stylesheet" href="css/style-form.css">
+    <link rel="stylesheet" href="css/demande.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <title>Ma demande</title>
@@ -15,9 +15,12 @@
     <header>
     <?php include('includes/nav.php'); ?>
     </header>
+    <main>
+
     <?php
     include('includes/rapide.php');
      ?>
+
     <div class="initprojet">
       <p class="textinit">Pour mieux vous accompagner, nous avons besoin de comprendre votre projet</p>
       <button type="button" name="button" id="boutonstart" class="envoi">J'ai un projet</button><br><br>
@@ -46,14 +49,20 @@
     </div>
 
   </main>
-    <footer>
-      <?php include('includes/footer.php'); ?>
-    </footer>
+
+  <footer>
+    <?php include('includes/footer.php'); ?>
+  </footer>
+
   </body>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/demandefinancement.js"></script>
+  <script type="text/javascript" src="js/financepro.js"></script>
+  <script type="text/javascript" src="js/financeassu.js"></script>
+  <script type="text/javascript" src="js/financeimmo.js"></script>
+  <script type="text/javascript" src="js/financepresta.js"></script>
   <script type="text/javascript" src="js/contact.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>

@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="./css/style-form.css">
-
 <form class="formulaire" action="tt.php" method="post">
 <!--
   <p class="bandeaufile">Assurances emprunteurs</p>
@@ -287,13 +285,6 @@
       </div>
     </div>
 
-<!--
-    <div class="input-field">
-      <input type="file" class="file" id="assuimpot" name="impot" value="" accept=".pdf">
-      <label for="assuimpot">Justificatif de domicile datant de moins de 3 mois:</label>
-    </div>
- -->
-
     <div class="file-field input-field">
       <div class="btn">
         <span>Justificatif de domicile datant de moins de 3 mois</span>
@@ -306,13 +297,6 @@
 
     <p class="bandeaufile">Emprunt</p>
 
-<!--
-    <div class="input-field">
-      <input type="file" class="file" id="assucontrat" name="assucontrat" value="" accept=".pdf">
-      <label for="assucontrat">Contrat de prêt:</label>
-    </div>
- -->
-
     <div class="file-field input-field">
       <div class="btn">
         <span>Contrat de prêt</span>
@@ -322,13 +306,6 @@
         <input class="file-path validate" type="text" placeholder="Votre fichier">
       </div>
     </div>
-
-<!--
-    <div class="input-field">
-      <input type="file" class="file" id="assuammortissement" name="assuammortissement" value="">
-      <label for="assuammortissement">Dernier tableau d’amortissement à jour:</label>
-    </div>
- -->
 
     <div class="file-field input-field">
       <div class="btn">
@@ -341,13 +318,6 @@
     </div>
 
     <p class="bandeaufile">Banque</p>
-
-<!--
-    <div class="input-field">
-      <input type="file" class="file" id="assuiban" name="assuiban" value="">
-      <label for="assuiban">IBAN du compte sur lequel seront prélevées les cotisations:</label>
-    </div>
- -->
 
     <div class="file-field input-field">
       <div class="btn file-button">
@@ -371,8 +341,6 @@
 
 </form>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./js/financeassu.js"></script>
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.datepicker');

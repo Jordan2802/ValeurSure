@@ -440,4 +440,3 @@
         <input type="submit" class="envoi" id="finform" name="" value="Fin formulaire">
 
       </form>
-  <script type="text/javascript" src="./js/financepro.js"></script>

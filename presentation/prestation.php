@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/rapide.css">
     <link rel="stylesheet" href="css/prestation.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style-form.css">
 
 
 
@@ -102,7 +103,7 @@
 
         <div class="form-container  z-depth-3">
           <h3>Parlez de votre projet à l’un de nos conseillers</h3>
-          <?php include 'form_trials.php'; ?>
+          <?php include 'financepro.php'; ?>
         </div>
 
       </div>
@@ -146,7 +147,7 @@
 
         <div class="form-container z-depth-3">
           <h3>Parlez de votre projet à l’un de nos conseillers</h3>
-          <?php include 'financepro.php'; ?>
+          <?php include 'financeimmo.php'; ?>
         </div>
 
       </div>
@@ -207,7 +208,7 @@
 
         <div class="form-container  z-depth-3">
           <h3>Conférence, séminaire, formation, besoin d’un diagnostic ou conseil en finances, n’attendez plus et soumettez-nous votre projet</h3>
-          <?php include 'form_trials.php'; ?>
+          <?php include 'financepresta.php'; ?>
         </div>
 
       </div>
@@ -220,9 +221,12 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/financepro.js"></script>
+    <script type="text/javascript" src="js/financeassu.js"></script>
+    <script type="text/javascript" src="js/financeimmo.js"></script>
+    <script type="text/javascript" src="js/financepresta.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
-
 
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>

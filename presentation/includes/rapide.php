@@ -24,17 +24,18 @@
   </div>
 </div>
 <?php
-
+     $to      = 'sha08dow@hotmail.fr';
+     $subject = $_POST['nom'].' '.$_POST['prenom'];
+     $message = $_POST['message'];
+     $headers = $_POST['email'];
 
 if (isset($_POST['button'])) {
-  $message = '<p> Nom: ' . $_POST['nom'] . ' Prénom: ' . $_POST['prenom'] . '<br>' . 'Message: ' . $_POST['message'] . '</p>';
-
 if(isset($_POST['message'])){
       $position_arobase=strpos($_POST['email'],'@');
       if($position_arobase===false)
           echo '<p id="errormsg"> Attention! Votre email n\'est pas conforme.</p>';
       else {
-          $retour=mail('sha08dow@hotmail.fr','Envoi depuis page rapide', $message, 'From : '.$_POST['email']);
+          $retour=mail($to, $subject, $message, $headers);
           if($retour)
               echo '<p>Votre message a été envoyé.</p>';
           else

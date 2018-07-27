@@ -22,7 +22,7 @@
 					<a href="#">Contact</a>
 				</p>
 				<p class="footer-company-name">Valeursûre &copy; 2018</p>
-				<a href="#" class="footer-links">Mentions légales</a>
+				<a href="#" class="footer-links mention">Mentions légales</a>
 
 				<div class="footer-icons">
 					<a href="#"><i class="fab fa-twitter iconsocial"></i></a>

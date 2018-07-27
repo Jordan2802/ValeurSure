@@ -16,3 +16,14 @@ window.onscroll = function() {
     tel.style.visibility = "hidden";
   }
 };
+
+
+
+  $(function() {
+    $('#envoyer').click(function() {
+      $('#tel').load('test.html', function() {
+        alert('Votre email a bien été envoyé.');
+      });
+    });
+
+  });

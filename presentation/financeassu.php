@@ -376,7 +376,24 @@
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.datepicker');
   var instances = M.Datepicker.init(elems, {
-    selectYears: 120
+    format: 'dd/mm/yyyy',
+    i18n: {
+      months: [
+                'Janvier',
+                'Février',
+                'Mars',
+                'Avril',
+                'Mai',
+                'Juin',
+                'Juillet',
+                'Août',
+                'Septembre',
+                'Octobre',
+                'Novembre',
+                'Decembre'
+              ]
+
+    }
   });
 });
 </script>

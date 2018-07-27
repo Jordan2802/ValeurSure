@@ -171,7 +171,7 @@
         <div class="info">
 
           <div class="info-part">
-            <h4>Quel intérêt avez-vous de déléguer vos assurances Emprunteurs ?</h4>
+            <h4>Quel intérêt avez-vous de déléguer vos assurances Emprunteurs&nbsp;?</h4>
             <p>Dans le coût global de votre financement, c’est l’un des postes de dépense le plus important avec les intérêts. La délégation d’assurances Emprunteurs vous permet ainsi de faire jouer la concurrence afin de réduire le coût de cette charge.</p>
           </div>
           <div class="info-part">

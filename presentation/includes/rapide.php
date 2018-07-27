@@ -4,20 +4,20 @@
     <span id="valeur--coor">Nous Contacter :</span>
     <form method="post">
     <div class="input-field">
-      <input type="text" name="nom" value="" class="validate" required>
-      <label for="">Nom</label>
+      <input type="text" id="nom" name="nom" value="" class="validate" required>
+      <label for="nom">Nom</label>
     </div>
     <div class="input-field">
-      <input type="text" name="prenom" class="validate" value="" required>
-      <label for="">Prenom</label>
+      <input type="text" id="prenom" name="prenom" class="validate" value="" required>
+      <label for="prenom">Prenom</label>
     </div>
     <div class="input-field">
-      <label for="">email</label>
-      <input class="validate" type="email" name="email" value="" required>
+      <input class="validate" id="mail" type="email" name="email" value="" required>
+      <label for="mail">email</label>
     </div>
     <div class="input-field">
-      <label for="">message</label>
-      <textarea class="materialize-textarea" name="message"></textarea>
+      <textarea class="materialize-textarea" id="mesasge" name="message"></textarea>
+      <label for="message">message</label>
     </div>
       <button class="btn waves-effect waves-light"  type="submit" name="button" value="Envoyer">Envoyer</button>
     </form>
@@ -34,7 +34,7 @@ if(isset($_POST['message'])){
       if($position_arobase===false)
           echo '<p id="errormsg"> Attention! Votre email n\'est pas conforme.</p>';
       else {
-          $retour=mail('From : '.$_POST['email'],'Envoi depuis page rapide', $message,'sha08dow@hotmail.fr' );
+          $retour=mail('sha08dow@hotmail.fr','Envoi depuis page rapide', $message, 'From : '.$_POST['email']);
           if($retour)
               echo '<p>Votre message a été envoyé.</p>';
           else

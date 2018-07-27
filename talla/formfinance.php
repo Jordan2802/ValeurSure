@@ -58,6 +58,8 @@ session_start();
         <input class="envoi" type="submit" name="" value="ETAPE SUIVANTE"><br><br><br>
       </form>
       <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
+      <div class="g-recaptcha" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
+
     </div><br>
 
   </body>

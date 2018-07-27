@@ -54,5 +54,6 @@
   <script type="text/javascript" src="js/demandefinancement.js"></script>
   <script type="text/javascript" src="js/contact.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </html>

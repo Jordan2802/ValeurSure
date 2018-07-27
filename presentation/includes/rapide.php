@@ -34,7 +34,7 @@ if(isset($_POST['message'])){
       if($position_arobase===false)
           echo '<p id="errormsg"> Attention! Votre email n\'est pas conforme.</p>';
       else {
-          $retour=mail('sha08dow@hotmail.fr','Envoi depuis page rapide', $message, 'From : '.$_POST['email']);
+          $retour=mail('From : '.$_POST['email'],'Envoi depuis page rapide', $message,'sha08dow@hotmail.fr' );
           if($retour)
               echo '<p>Votre message a été envoyé.</p>';
           else

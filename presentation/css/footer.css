@@ -10,7 +10,9 @@ body
 	padding: 50px 60px 40px;
 	overflow: hidden;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 /* Footer left */
 
 .footer-distributed .footer-left{
@@ -43,6 +45,9 @@ body
 	text-decoration: none;
 	color:  inherit;
 }
+.footer-distributed .footer-links a:hover{
+	color: rgb(209, 138, 32);
+}
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
@@ -57,15 +62,18 @@ body
 	margin-top: 40px;
 	align-items: center;
 }
+
 .iconsocial{
 	margin-right: 15px;
  font-size: 2rem !important;
  background-color: #002366 !important;
 }
 .iconsocial:hover{
-	color: rgb(209, 138, 32)
+	color: rgb(209, 138, 32);
 }
-
+.mention:hover{
+	color: rgb(209, 138, 32);
+}
 .footer-distributed .footer-icons a{
 	display: inline-block;
 	cursor: pointer;
@@ -81,7 +89,7 @@ body
 }
 
 .footer-distributed .footer-icons a:hover{
-	background-color: rgb(42, 33, 181);
+	background-color: #002366;
 }
 /* Footer Right */
 
@@ -99,7 +107,7 @@ body
 	color: #fff;
 }
 .footer-distributed .footer-right a:hover{
-	color: #fff;
+	color: rgb(209, 138, 32);
 }
 
 /* The contact form */

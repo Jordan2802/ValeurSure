@@ -11,6 +11,7 @@
    <link rel="stylesheet" href="css/media.css">
    <link rel="stylesheet" href="css/rapide.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    <title>A propos</title>
  </head>
  <body>
@@ -24,7 +25,7 @@
    include('includes/rapide.php');
     ?>
   <div class="propos">
-    <div class="presentation">
+    <div class="wow fadeInLeft presentation">
       <h2 id="lien-presentation">Présentation</h2>
       <img src="img/gold_egg.jpg">
       <h4>"ValeurSûre est une agence de courtage spécialisée dans la recherche de financements pour les
@@ -45,7 +46,7 @@
           statuer sur votre dossier et définir les conditions de leur accompagnement.<br><br> Faire confiance à ValeurSûre, c’est la garantie de bénéficier du conseil d’un expert en crédits professionnels.
         </p>
     </div>
-    <div class="engagements">
+    <div class="wow fadeInLeft engagements">
       <h2 id="lien-engagement">Engagements</h2>
       <img src="img/credis.jpg">
       <p><b>Assurer un service de qualité :</b> Un dossier complet, clair et bien résumé, c’est l’assurance d’une réponse rapide en toute sérénité. ValeurSûre exige de ses équipes une expérience dans le domaine bancaire pour anticiper les exigences de la
@@ -56,7 +57,7 @@
         s’envisage sur le long terme.</p>
 
     </div>
-    <div class="valeurs">
+    <div class="wow fadeInLeft valeurs">
       <h2 id="lien-valeur">Valeurs</h2>
       <img src="img/up.jpg">
       <p><b>Le sens du service :</b> Points de départ d’un service de qualité, la disponibilité et le conseil sont au cœur de nos préoccupations. <span class="gold_txt">Notre devise : devenir une valeur sûre pour nos clients. Notre
@@ -74,6 +75,8 @@
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/contact.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
 </body>
 
 </html>

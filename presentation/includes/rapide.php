@@ -29,7 +29,7 @@
 </div>
 <?php
      $to      = 'sha08dow@hotmail.fr';
-     $subject = $_POST['objet'];
+     $subject ='ValeurSure : ' .$_POST['objet'];
      $message = $_POST['message'];
      $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
 

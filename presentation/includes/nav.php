@@ -1,8 +1,9 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <div class="navbar-fixed">
-  <nav>
+  <nav class="wow fadeInDown"data-wow-delay="1s">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo"> <img class="logoOeuf" src="img/axa.jpg" alt=""> </a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>

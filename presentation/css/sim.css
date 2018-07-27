@@ -5,8 +5,7 @@ body{
 }
 
 main{
-  margin-top: 250px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +18,7 @@ main{
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 
@@ -30,7 +29,7 @@ main{
   overflow: hidden;
   width: 100%;
   background-color: #f1f1f1;
-  border-radius: 5px 5px 0 0;
+  border-radius: 3px 3px 0 0;
   border: 1px solid #bbb;
 }
 
@@ -40,12 +39,15 @@ main{
   outline: none;
   cursor: pointer;
   padding: 1.5em;
-  transition: 0.3s;
+  transition: 0.7s;
   min-width: 33%;
 }
 
-.tablinks:hover {
+.tablinks:not(.active):hover{
   background-color: #bbb;
+}
+.tablinks:focus{
+  background-color: #002366 !important;
 }
 
 .active{

@@ -175,7 +175,7 @@ main{
   height: 250px;
 }
 
- #egg{
+ .egg{
    display: block;
    width: 126px;
    height: 180px;

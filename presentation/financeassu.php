@@ -376,8 +376,12 @@
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.datepicker');
   var instances = M.Datepicker.init(elems, {
+    yearRange: '150',
+    maxYear: (new Date()).getFullYear(),
+    firstDay: 1,
     format: 'dd/mm/yyyy',
     i18n: {
+      cancel: ['Annuler'],
       months: [
                 'Janvier',
                 'Février',
@@ -391,9 +395,50 @@ document.addEventListener('DOMContentLoaded', function() {
                 'Octobre',
                 'Novembre',
                 'Decembre'
-              ]
-
+              ],
+      monthsShort: [
+                    'Jan',
+                    'Fev',
+                    'Mar',
+                    'Avr',
+                    'Mai',
+                    'Juin',
+                    'Juil',
+                    'Aou',
+                    'Sep',
+                    'Oct',
+                    'Nov',
+                    'Dec',
+                  ],
+      weekdays: [
+                  'Dimanche',
+                  'Lundi',
+                  'Mardi',
+                  'Mercredi',
+                  'Jeudi',
+                  'Vendredi',
+                  'Samedi'
+                ],
+      weekdaysShort: [
+                      'Dim',
+                      'Lun',
+                      'Mar',
+                      'Mer',
+                      'Jeu',
+                      'Ven',
+                      'Sam'
+      ],
+      weekdaysAbbrev: [
+                        'D',
+                        'L',
+                        'M',
+                        'M',
+                        'J',
+                        'V',
+                        'S'
+      ]
     }
+
   });
 });
 </script>

@@ -69,7 +69,7 @@
 
       <div class="divider-item" id="position">
         <div class="divider-line"></div>
-        <div id="egg"></div>
+        <div class="egg"></div>
         <div class="divider-line"></div>
       </div>
 
@@ -110,7 +110,7 @@
 
       <div class="divider-item" id="position2">
         <div class="divider-line"></div>
-        <div id="egg"></div>
+        <div class="egg"></div>
         <div class="divider-line"></div>
       </div>
 
@@ -134,11 +134,11 @@
             <h3>Bon à savoir</h3>
           </div>
           <div class="info-part">
-            <h4>Quel crédit privilégier lorsqu’on achète un immeuble composé d’un local commercial au rez-de-chaussée et des logements à l’étage ?</h4>
+            <h4>Quel crédit privilégier lorsqu’on achète un immeuble composé d’un local commercial au rez-de-chaussée et des logements à l’étage&nbsp;?/h4>
             <p>Cela dépend de la surface que représente le local dans la surface totale de l’immeuble. En général, si elle est inférieure à 30%, la banque privilégiera un crédit immobilier. Et si elle est supérieure, ce ser un crédit professionnel.</p>
           </div>
           <div class="info-part">
-            <h4>J’emprunte avec ma SCI. Est-ce qu’il faut que je respecte un délai de rétractation ?</h4>
+            <h4>J’emprunte avec ma SCI. Est-ce qu’il faut que je respecte un délai de rétractation&nbsp;?/h4>
             <p>Lorsque l’emprunteur est une personne morale (par exemple une SCI), donc considérée comme « professionnelle », elle ne peut bénéficier d’un délai de rétractation. Dans la pratique, les établissements bancaires peuvent cependant le mettre en place dans leurs contrats.</p>
           </div>
 
@@ -154,7 +154,7 @@
 
       <div class="divider-item" id="position3">
         <div class="divider-line"></div>
-        <div id="egg"></div>
+        <div class="egg"></div>
         <div class="divider-line"></div>
       </div>
 
@@ -191,7 +191,7 @@
 
       <div class="divider-item" id="position4">
         <div class="divider-line"></div>
-        <div id="egg"></div>
+        <div class="egg"></div>
         <div class="divider-line"></div>
       </div>
 

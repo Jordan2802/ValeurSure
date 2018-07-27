@@ -28,12 +28,12 @@
   </div>
 </div>
 <?php
+if (isset($_POST['button'])) {
      $to      = 'sha08dow@hotmail.fr';
      $subject ='ValeurSure : ' .$_POST['objet'];
      $message = $_POST['message'];
      $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
 
-if (isset($_POST['button'])) {
 if(isset($_POST['message'])){
       $position_arobase=strpos($_POST['email'],'@');
       if($position_arobase===false)

@@ -97,7 +97,7 @@
           <div class="input-field">
             <!-- <input type="date" class="line" id="datenaissance1" name="datenaissance1" value="">
             <label for="datenaissance1">Date de naissance:</label> -->
-            <input type="text" class="line" id="datenaissance2" name="datenaissance2" value="">
+            <input type="text" class="line datepicker" id="datenaissance1" name="datenaissance1" value="">
             <label for="datenaissance1">Date de naissance:</label>
           </div>
 
@@ -167,6 +167,7 @@
             <!-- <input type="date" class="line" id="datenaissance2" name="datenaissance2" value="">
             <label for="datenaissance2">Date de naissance:</label> -->
             <input type="text" class="line datepicker" id="datenaissance2" name="datenaissance2" value="">
+            <label for="datenaissance1">Date de naissance:</label>
           </div>
 
           <div class="input-field">

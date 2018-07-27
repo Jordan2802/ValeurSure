@@ -18,12 +18,16 @@ main{
   margin-bottom: 80px;
 }
 
-.section-title{
-  margin-bottom: 50px !important;
+.section-title{;
+  height: 130px !important;
+  margin: 0 !important;
 
   color: #002366;
   font-size: 2em !important;
+  text-align: center;
 }
+
+
 
 
 .form-container h3, .info-part h3, .info-part h4{
@@ -160,10 +164,6 @@ main{
   text-decoration: none;
 }
 
-.section-title{
-  height: 100px !important;
-  text-align: center;
-}
 
 
 .divider-item{

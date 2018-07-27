@@ -3,25 +3,27 @@
 
         <fieldset class="fieldform" id="formpropart1">
 
-          <div class="row">
+
             <div class="input-field">
               <select class="mrmme" id="proprojet" name="proprojet">
-                <option value="activite">Création d'activité</option>
-                <option value="reprise">Reprise d'activité</option>
-                <option value="developpement">Développement d'activité</option>
-                <option value="achatcommerce">Achat de fond de commerce</option>
-                <option value="achatmur">Achat de murs professionnels</option>
-                <option value="achatterrain">Achat de terrain et/ou construction</option>
-                <option value="achatmatos">Achat de matériel/machine/outil</option>
-                <option value="achatvehicule">Achat de véhicule</option>
+                <option class="option" value="activite">Création d'activité</option>
+                <option class="option" value="reprise">Reprise d'activité</option>
+                <option class="option" value="developpement">Développement d'activité</option>
+                <option class="option" value="achatcommerce">Achat de fond de commerce</option>
+                <option class="option" value="achatmur">Achat de murs professionnels</option>
+                <option class="option" value="achatterrain">Achat de terrain et/ou construction</option>
+                <option class="option" value="achatmatos">Achat de matériel/machine/outil</option>
+                <option class="option" value="achatvehicule">Achat de véhicule</option>
               </select>
               <label for="proprojet">Objet du financement</label>
             </div>
-          </div>
+
+
           <div class="input-field">
+            <textarea name="description" class="textarea" id="prodescription" maxlength="100" ></textarea>
             <label for="prodescription">Description du projet: <div id="comptepro1"></div></label>
-            <textarea name="description" class="textarea" id="prodescription" rows="4" cols="80" maxlength="100" noresize></textarea>
           </div>
+
           <div class="input-field">
             <label for="propostal">Code postal:</label>
             <input type="text" class="line" id="propostal" name="postal" value="">

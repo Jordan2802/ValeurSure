@@ -331,10 +331,6 @@
 
   </fieldset>
 
-
-
-
-
   <a type="button" class="envoi btn-large" id="etapesuivanteassu" name="button">étape suivante</a>
 
   <button type="submit" class="envoi btn-large" id="finformassu" name="" value="Fin formulaire">Fin formulaire</button>

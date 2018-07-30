@@ -43,3 +43,12 @@ $(document).ready(function(){
       }
   });
 })
+
+$(document).ready(function(){
+  $('#prodescription').val();
+  M.textareaAutoResize($('#textarea1'));
+
+  $('#procommentaire').val();
+  M.textareaAutoResize($('#textarea1'));
+
+  });

@@ -16,7 +16,7 @@
           </div>
           <div class="input-field">
             <label for="prestaobjet">Objet:</label>
-            <textarea name="prestaobjet" class="textarea" id="prestaobjet" rows="4" cols="80" maxlength="100"></textarea>
+            <textarea name="prestaobjet" class="materialize-textarea" id="prestaobjet" rows="4" cols="80" maxlength="100"></textarea>
           </div>
           <div class="row">
             <div class="input-field">
@@ -31,11 +31,11 @@
           </div>
           <div class="input-field">
             <label for="prestaduree">Durée:</label>
-            <textarea name="prestaduree" class="textarea" id="prestaduree" rows="8" cols="80" maxlength="60"></textarea>
+            <textarea name="prestaduree" class="materialize-textarea" id="prestaduree" rows="8" cols="80" maxlength="60"></textarea>
           </div>
           <div class="input-field">
             <label for="prestalieu">Lieu:</label>
-            <textarea name="prestalieu" class="textarea" id="prestalieu" rows="8" cols="80" maxlength="60"></textarea>
+            <textarea name="prestalieu" class="materialize-textarea" id="prestalieu" rows="8" cols="80" maxlength="60"></textarea>
           </div>
         </fieldset>
 

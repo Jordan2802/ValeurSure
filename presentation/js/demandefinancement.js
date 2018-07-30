@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("#boutonstart").click(function(){
-    $(".choixprojet").show(2000);
+    $(".choixprojet").show(1000);
     $("#boutonstart").hide(500);
   });
 

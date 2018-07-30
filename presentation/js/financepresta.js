@@ -10,4 +10,18 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('select').formSelect();
+
+
+$('#prestaobjet').val();
+M.textareaAutoResize($('#textarea1')
+);
+
+$('#prestaduree').val();
+M.textareaAutoResize($('#textarea1')
+);
+
+$('#prestalieu').val();
+M.textareaAutoResize($('#textarea1')
+);
+
 });

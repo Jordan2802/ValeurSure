@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="input-field">
-            <textarea name="descriptionimmo" class="textarea" id="immodescription" rows="4" cols="80" maxlength="100" ></textarea>
+            <textarea name="descriptionimmo" class="materialize-textarea" id="immodescription" rows="4" cols="80" maxlength="100" ></textarea>
             <label for="immodescription">Description: <div id="compteimmo1"></div></label>
           </div>
 
@@ -55,7 +55,7 @@
           </div>
           <div class="input-field">
             <label for="immocommentaire">Commentaires: <div id="compteimmo2"></div></label>
-            <textarea name="commentaire" class="textarea" id="immocommentaire" rows="4" cols="80" maxlength="200"></textarea>
+            <textarea name="commentaire" class="materialize-textarea" id="immocommentaire" rows="4" cols="80" maxlength="200"></textarea>
           </div>
 
         </fieldset>

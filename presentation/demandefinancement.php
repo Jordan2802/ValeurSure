@@ -22,14 +22,19 @@
 
     <div class="initprojet">
       <p class="textinit">Pour mieux vous accompagner, nous avons besoin de comprendre votre projet</p>
-      <button type="button" name="button" id="boutonstart" class="envoi">J'ai un projet</button><br><br>
+      <a class="waves-effect waves-light btn" id="boutonstart">J'ai un projet</a>
+      <!-- <button type="button" name="button" id="boutonstart" class="envoi">J'ai un projet</button><br><br> -->
     </div>
 
     <div class="choixprojet">
-      <button type="button" name="button" id="boutonpro" class="envoi">Financement Professionnel</button>
+      <a class="waves-effect waves-light btn" id="boutonpro">Financement Professionnel</a>
+      <a class="waves-effect waves-light btn" id="boutonimmo">Financement immobilier</a>
+      <a class="waves-effect waves-light btn" id="boutonassu">Assurances emprunteurs</a>
+      <a class="waves-effect waves-light btn" id="boutonpresta">Prestation de services</a>
+      <!-- <button type="button" name="button" id="boutonpro" class="envoi">Financement Professionnel</button>
       <button type="button" name="button" id="boutonimmo" class="envoi">Financement immobilier</button>
       <button type="button" name="button" id="boutonassu" class="envoi">Assurances emprunteurs</button>
-      <button type="button" name="button" id="boutonpresta" class="envoi">Prestation de services</button>
+      <button type="button" name="button" id="boutonpresta" class="envoi">Prestation de services</button> -->
     </div>
 
     <div class="form-container">

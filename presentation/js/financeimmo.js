@@ -37,4 +37,12 @@ $(document).ready(function(){
 })
 $(document).ready(function(){
   $('select').formSelect();
+
+
+$('#immodescription').val();
+M.textareaAutoResize($('#textarea1'));
+
+$('#immocommentaire').val();
+M.textareaAutoResize($('#textarea1'));
+
 });

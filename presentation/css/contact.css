@@ -31,30 +31,44 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 320px;
 }
 
 main{
   flex:1;
   display: flex !important;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px 10px;
 }
 
 
 .formulaire-contact{
   flex: 1;
-  display: flex !important;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
   background-color: #EDEDED;
   border: 1px solid #bbb;
+  border-radius: 3px;
   -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14);
   box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14);
   text-align: center;
-  padding: 20px;
-  max-width: 700px;
+  margin: 0 20px;
+  max-width: 960px;
 }
 
 .form{
-  width: 80%;
+  width: 40%;
+  min-width: 280px;
+  padding: 1.5rem;
+}
+
+.contact-coord{
+  width: 40%;
+  min-width: 280px;
+  padding: 1rem;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url("https://fonts.googleapis.com/css?family=Cabin");
 .titre-carou {
   font-weight: bold !important;
   text-shadow: 1px 2px 3px black;
@@ -15,15 +15,16 @@ h5 {
   background-color: #002366 !important;
 }
 
-.navbar-fixed, nav{
+.navbar-fixed,
+nav {
   height: 100px !important;
 }
 
 html {
-  font-family: 'Cabin', sans-serif !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
-#carou{
+#carou {
   z-index: 5;
 }
 .slider .indicators .indicator-item.active {
@@ -44,7 +45,7 @@ html {
 .nav-lien {
   font-size: 1.1em !important;
 }
-.right:last-child{
+.right:last-child {
   margin-right: 20px;
 }
 .caption {
@@ -53,4 +54,9 @@ html {
 
 .caption a {
   background-color: #002366 !important;
+}
+
+nav ul a:hover {
+  background-color: rgba(194, 212, 221, 0.527) !important;
+  border-bottom: 3px solid rgb(207, 172, 54);
 }

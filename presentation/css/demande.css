@@ -1,11 +1,11 @@
-body{
+body {
   display: flex;
   flex-direction: column;
 
   min-height: 100vh;
 }
 
-main{
+main {
   flex: 1 1 auto;
   display: flex !important;
   flex-direction: column;
@@ -13,6 +13,7 @@ main{
   align-items: center;
 }
 
-.form-container{
-  width: 90%;
+.form-container {
+  width: 100%;
+  max-width: 980px;
 }

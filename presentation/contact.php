@@ -21,6 +21,10 @@
     <main>
 
       <div class="formulaire-contact">
+        <div class="contact-coord">
+          <h1>Nous contacter&nbsp;:</h1>
+          <p>BLANCHARD TUBIND <br> conseil et courtage pour entrepreneurs <br> tel : 06-49-46-63-93 <br> email : blanchard.tubind@gmail.com </p>
+        </div>
         <form class="form" action="#" method="post">
           <div class="input-field">
           <input type="text" >

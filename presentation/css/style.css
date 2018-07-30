@@ -15,6 +15,10 @@ h5 {
   background-color: #002366 !important;
 }
 
+.navbar-fixed, nav{
+  height: 100px !important;
+}
+
 html {
   font-family: 'Cabin', sans-serif !important;
 }
@@ -49,8 +53,4 @@ html {
 
 .caption a {
   background-color: #002366 !important;
-}
-
-nav{
-  height: 100px !important;
 }

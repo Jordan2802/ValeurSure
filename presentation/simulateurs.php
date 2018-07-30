@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico"/>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/sim.css">
   <link rel="stylesheet" href="css/rapide.css">
@@ -37,15 +38,15 @@ durée ? Obtenez ces informations en quelques clics.</p>
       </div>
 
       <div id="emprunt" class="tabcontent hidden">
-        emprunt D:
+        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
       </div>
 
       <div id="capital" class="tabcontent hidden">
-        capital D:
+        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
       </div>
 
       <div id="mensualite" class="tabcontent hidden">
-        Mensualité D:
+        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
       </div>
     </div>
 

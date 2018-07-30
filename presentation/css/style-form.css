@@ -9,6 +9,7 @@
 .choixprojet{
 	display: none;
 	text-align: center;
+  margin-bottom: 50px;
 }
 .bulle{
   width: 50px;

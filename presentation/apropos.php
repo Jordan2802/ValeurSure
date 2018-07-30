@@ -21,6 +21,10 @@
      <button id="hamburger-button" onclick="cacher();"></button>
    </div>
    </header>
+
+   <main>
+
+   </main>
    <?php
    include('includes/rapide.php');
     ?>

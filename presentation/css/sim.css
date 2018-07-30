@@ -10,11 +10,14 @@ main{
   justify-content: space-around;
   align-items: center;
   flex: 1 0 auto;
+
+  padding: 2em;
 }
 
 
 .selecteur{
-  width: 50%;
+  width: 100%;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
@@ -51,6 +54,8 @@ main{
 }
 
 .active{
+  text-decoration: underline;
+  text-decoration-color: #D18A20;
   letter-spacing: 0.05em;
   color: #fefefe;
   font-weight: bold;

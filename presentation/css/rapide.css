@@ -15,6 +15,12 @@ form {
   font-weight: bold;
 }
 
+.coor{
+  border: 2px solid #bbb;
+  box-shadow: 1px 2px 5px #bbb;
+  margin-bottom: 5px;
+}
+
 .text {
   line-height: 20px;
   text-align: center;

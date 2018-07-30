@@ -38,7 +38,10 @@
   .prestations h2{
     font-size: 2em;
   }
-
+  article {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
@@ -50,6 +53,72 @@
     margin-top: 100vh;
   }
 }
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+	.retourhaut{
+		top: 5px;
+		text-decoration: none;
+	}
+}
+.retourhaut{
+	float: right;
+	font-size: 5rem !important;
+	text-decoration: none;
+	color: white;
+}
+.retourhaut:hover{
+	text-decoration: none;
+	color: #ffa000;
+}
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+
 @media screen and (min-width: 1060px) {
 
 }

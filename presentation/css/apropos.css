@@ -139,13 +139,3 @@ ul {
   width: 40%;
   background-color: #C79400;
 }
-
-
-
-
-@media screen and (max-width: 768px) {
-  article {
-    display: flex;
-    flex-direction: column;
-  }
-}

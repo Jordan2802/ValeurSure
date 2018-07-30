@@ -37,15 +37,15 @@ durée ? Obtenez ces informations en quelques clics.</p>
       </div>
 
       <div id="emprunt" class="tabcontent hidden">
-        emprunt D:
+        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
       </div>
 
       <div id="capital" class="tabcontent hidden">
-        capital D:
+        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
       </div>
 
       <div id="mensualite" class="tabcontent hidden">
-        Mensualité D:
+        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
       </div>
     </div>
 

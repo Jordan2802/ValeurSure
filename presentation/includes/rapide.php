@@ -2,7 +2,7 @@
   <div class="fas fa-envelope-square" onclick="slideTel()"></div>
   <div class="text cache" id="tel">
     <div class="coor">
-      <span id="valeur--coor">Coordonnées ValeurSure:</span> <br> <br>BLANCHARD TUBIND <br> conseil et courtage pour entrepreneurs <br>  <span>tel :</span> 06-49-46-63-93 <br> <span>email :</span> blanchard.tubind@gmail.com <br><br>
+      <span id="valeur--coor">Coordonnées ValeurSure:</span> <br> <br>BLANCHARD TUBIND <br> conseil et courtage pour entrepreneurs <br>  <span>tel :</span> 06-49-46-63-93 <br> <span>email :</span> blanchard.tubind@gmail.com 
     </div>
     <span id="valeur--coor">Nous Contacter :</span>
     <form id="test" method="post">

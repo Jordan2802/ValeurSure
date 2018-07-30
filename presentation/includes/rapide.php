@@ -1,6 +1,6 @@
 <div class="tel" id="tel">
   <div class="fas fa-envelope-square" onclick="slideTel()"></div>
-  <div class="text cache" id="tel"><span id="valeur--coor">Coordonnées ValeurSure:</span> <br> 00-00-00-00-00, adresse@hotmail.fr <br>
+  <div class="text cache" id="tel"><span id="valeur--coor">Coordonnées ValeurSure:</span> <br> <br>BLANCHARD TUBIND <br> conseil et courtage pour entrepreneurs <br>  <span>tel :</span> 06-49-46-63-93 <br> <span>email :</span> blanchard.tubind@gmail.com <br><br>
     <span id="valeur--coor">Nous Contacter :</span>
     <form id="test" method="post">
       <div class="input-field">
@@ -23,7 +23,9 @@
       <textarea class="materialize-textarea" id="message" name="message"></textarea>
       <label for="message">message</label>
     </div>
-      <button class="btn waves-effect waves-light"  type="submit" name="button" id="envoyer" value="Envoyer">Envoyer</button>
+      <button class="btn waves-effect waves-light"  type="submit" name="button" id="envoyer" value="Envoyer">Envoyer
+      <i class="material-icons right">send</i>
+    </button>
     </form>
   </div>
 </div>

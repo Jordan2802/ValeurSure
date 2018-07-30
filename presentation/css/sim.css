@@ -53,9 +53,7 @@ main{
   background-color: #002366 !important;
 }
 
-.active{
-  text-decoration: underline;
-  text-decoration-color: #D18A20;
+.tab .active{
   letter-spacing: 0.05em;
   color: #fefefe;
   font-weight: bold;

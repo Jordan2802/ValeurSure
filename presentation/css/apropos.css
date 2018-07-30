@@ -9,7 +9,7 @@ h2 {
   font-size: 35px;
   margin-bottom: 70px;
   text-align: center;
-  color: #C79400;
+  color: #002366;
 }
 
 ul {
@@ -55,9 +55,11 @@ ul {
 
 .gold_txt {
   color: #C79400;
+  font-weight: bold;
 }
 
 .presentation, .engagements, .valeurs {
+  position: relative;
   background-color: #EDEDED;
   width: 80%;
   padding: 50px;
@@ -67,11 +69,56 @@ ul {
   transition: 0.3s;
   display: flex;
   flex-direction: column;
+  border: 1px solid #bbb;
+  border-radius: 3px;
 }
 
 .presentation:hover, .engagements:hover, .valeurs:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+.bg1{
+  background-image: url(../img/gold_egg.jpg);
+}
+
+.bg2{
+  background-image: url(../img/credis.jpg);
+}
+
+.bg3{
+  background-image: url(../img/up.jpg);
+}
+
+
+.bg1, .bg2, .bg3{
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 250px;
+}
+
+.bg-section{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+
+  z-index: 0;
+
+}
+
+.content{
+  z-index: 1;
+}
+
+
 
 @media screen and (max-width: 768px) {
   article {

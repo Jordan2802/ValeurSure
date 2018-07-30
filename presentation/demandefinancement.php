@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/rapide.css">
     <link rel="stylesheet" href="css/style-form.css">
     <link rel="stylesheet" href="css/demande.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="icon" href="favicon.ico"/>
     <title>Ma demande</title>
   </head>

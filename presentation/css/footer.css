@@ -228,8 +228,9 @@ html{
 	float: right;
 	font-size: 5rem !important;
 	text-decoration: none;
-	color: rgb(42, 33, 181);
+	color: white;
 }
 .retourhaut:hover{
 	text-decoration: none;
+	color: #ffa000;
 }

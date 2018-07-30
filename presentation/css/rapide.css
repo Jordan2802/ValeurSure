@@ -22,10 +22,11 @@ form {
   transition:all 0.5s ease;
 }
 
-.fa-mobile-alt {
+.fa-envelope-square {
   font-size: 50px;
   margin-left: 5px;
   height: 50px;
+  color: #002366;
 }
 
 .tel{
@@ -33,7 +34,7 @@ form {
   justify-content: space-between;
   margin-bottom: 15px;
   position: fixed;
-  top: 25vh;
+  top: 16vh;
   right: 0px;
   z-index: 2;
 }

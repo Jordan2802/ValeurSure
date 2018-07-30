@@ -78,8 +78,10 @@
 
         <a type="button" class="envoi btn-large" id="etapesuivantepresta" name="button">étape suivante</a>
 
-        <button type="submit" class="envoi btn-large" id="finformpresta" name="" value="Fin formulaire">Fin formulaire</button>
-
+        <!-- <button type="submit" class="envoi btn-large" id="finformpresta" name="" value="Fin formulaire">Fin formulaire</button> -->
+        <button class="btn waves-effect waves-light" id="finformpresta" type="submit" name="action">Fin formulaire
+          <i class="material-icons right">send</i>
+        </button>
 
       </form>
       <div class="g-recaptcha" id="cappresta" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>

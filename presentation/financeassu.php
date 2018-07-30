@@ -333,7 +333,9 @@
 
   <a type="button" class="envoi btn-large" id="etapesuivanteassu" name="button">étape suivante</a>
 
-  <button type="submit" class="envoi btn-large" id="finformassu" name="" value="Fin formulaire">Fin formulaire</button>
+  <button type="submit" class="envoi btn-large" id="finformassu" name="" value="Fin formulaire">Fin formulaire
+    <i class="material-icons right">send</i>
+  </button>
 
 </form>
 <div class="g-recaptcha" id="capassu" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>

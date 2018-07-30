@@ -440,7 +440,9 @@
 
         <a type="button" class="envoi btn-large" id="etapesuivante" name="button">étape suivante</a>
 
-        <button type="submit" class="envoi btn-large" id="finform" name="" value="Fin formulaire">Fin formulaire</button>
+        <button type="submit" class="envoi btn-large" id="finform" name="" value="Fin formulaire">Fin formulaire
+          <i class="material-icons right">send</i>
+        </button>
 
 
       </form>

@@ -139,6 +139,7 @@ input:-webkit-autofill {
 }
 .jshide{
 	display: none;
+  margin-bottom: 50px;
 }
 #formassupart2{
 	display: none;

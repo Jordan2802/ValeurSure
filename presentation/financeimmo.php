@@ -234,7 +234,9 @@
 
         <a type="button" class="envoi btn-large" id="etapesuivanteimmo" name="button">étape suivante</a>
 
-        <button type="submit" class="envoi btn-large" id="finformimmo" name="" value="Fin formulaire">Fin formulaire</button>
+        <button class="btn waves-effect waves-light" id="finformimmo" type="submit" name="action">Fin formulaire
+          <i class="material-icons right">send</i>
+        </button>
 
 
       </form>

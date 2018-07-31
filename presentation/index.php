@@ -43,7 +43,7 @@
           </div>
         </li>
         <li>
-          <img src="img/img3.png"> <!-- random image -->
+          <img src="img/image5.jpg"> <!-- random image -->
           <div class="caption right-align amber-text text-darken-2">
             <h3 class="titre-carou">Un projet ? Parlez-en à votre expert.</h3>
             <h5 class=" amber-text "><a href="contact.php" class="waves-effect waves-light btn-large">Plus d'info...</a> </h5>

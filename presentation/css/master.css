@@ -293,13 +293,23 @@ main {
     transform: translate3d(0, 0, 0);
   }
 
-  #categories a {
+  #categories a,
+  .media-twi {
     margin-bottom: 50px;
   }
 
   .section-name,
   .description {
     padding: 1rem 0 2rem 0;
+  }
+
+  .img-2 {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+
+  .media-lin {
+    height: 400px;
   }
 }
 

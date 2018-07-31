@@ -24,4 +24,7 @@ $('#prestalieu').val();
 M.textareaAutoResize($('#textarea1')
 );
 
+$('#prestaobjet, #prestaduree, #prestalieu').characterCounter();
+
+
 });

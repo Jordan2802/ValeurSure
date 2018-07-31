@@ -17,9 +17,7 @@
  <body>
    <header>
    <?php include('includes/nav.php'); ?>
-   <div class="barre-burger">
-     <button id="hamburger-button" onclick="cacher();"></button>
-   </div>
+   
    </header>
 
    <main>

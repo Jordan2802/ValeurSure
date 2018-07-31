@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#boutonstart").click(function(){
     $(".choixprojet").show(200);
-    $("#boutonstart").hide(500);
+    $("#boutonstart").hide();
   });
 
 

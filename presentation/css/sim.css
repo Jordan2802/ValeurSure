@@ -1,10 +1,10 @@
-body{
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-main{
+main {
   display: flex !important;
   flex-direction: column;
   justify-content: space-around;
@@ -14,8 +14,11 @@ main{
   padding: 2em;
 }
 
+.sim-text {
+  margin-bottom: 50px;
+}
 
-.selecteur{
+.selecteur {
   width: 100%;
   max-width: 1000px;
   display: flex;
@@ -24,8 +27,7 @@ main{
   border-radius: 3px;
 }
 
-
-.tab{
+.tab {
   box-sizing: border-box;
   display: flex;
 
@@ -36,7 +38,7 @@ main{
   border: 1px solid #bbb;
 }
 
-.tablinks{
+.tablinks {
   flex-grow: 1;
   border: none;
   outline: none;
@@ -46,21 +48,21 @@ main{
   min-width: 33%;
 }
 
-.tablinks:not(.active):hover{
+.tablinks:not(.active):hover {
   background-color: #bbb;
 }
-.tablinks:focus{
+.tablinks:focus {
   background-color: #002366 !important;
 }
 
-.tab .active{
+.tab .active {
   letter-spacing: 0.05em;
   color: #fefefe;
   font-weight: bold;
   background-color: #002366;
 }
 
-.tabcontent{
+.tabcontent {
   box-sizing: border-box;
   padding: 0.6em;
   border: 1px solid #bbb;
@@ -70,15 +72,16 @@ main{
   border-radius: 0 0 5px 5px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.central-border{
+.central-border {
   border-left: 1px solid #bbb;
   border-right: 1px solid #bbb;
 }
-.fauxsimulateur{
+
+.fauxsimulateur {
   width: inherit;
   height: auto;
 }

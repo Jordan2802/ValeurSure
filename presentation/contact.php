@@ -48,6 +48,30 @@
         </form>
       </div>
 
+      
+      <?php
+      if (isset($_POST['button'])) {
+          $to      = 'sha08dow@hotmail.fr';
+          $subject ='ValeurSure : ' .$_POST['objet'];
+          $message = $_POST['message'];
+          $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
+
+      if(isset($_POST['message'])){
+            $position_arobase=strpos($_POST['email'],'@');
+            if($position_arobase===false)
+                echo '<p id="errormsg"> Attention! Votre email n\'est pas conforme.</p>';
+            else {
+                $retour=mail($to, $subject, $message, $headers);
+                if($retour)
+                    echo '<p>Votre message a été envoyé.</p>';
+                else
+                    echo '<p>Erreur.</p>';
+            }
+        }
+      }
+
+      ?>
+
     </main>
     <footer>
       <?php include('includes/footer.php'); ?>

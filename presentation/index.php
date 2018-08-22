@@ -25,28 +25,28 @@
           <img src="img/image1.jpg"> <!-- random image -->
           <div class="caption left-align amber-text text-darken-2 ">
             <h3 class="titre-carou">Notre métier ? Financer l'activité et le patrimoine de l'Entrepreneur.</h3>
-            <h5 class=" amber-text "><a href="prestation.php" class="waves-effect waves-light btn-large">Plus d'info...</a> </h5>
+            <h5 class=" amber-text "><a href="prestation.php" class="waves-effect waves-light btn-large">J'ai un projet</a> </h5>
           </div>
         </li>
         <li>
           <img src="img/image2.jpg"> <!-- random image -->
           <div class="caption left-align amber-text text-darken-2">
             <h3 class="titre-carou">Gérez voter activité, nous gérons vos finances.</h3>
-            <h5 class=" amber-text "><a href="prestation.php#position4" class="waves-effect waves-light btn-large">Plus d'info...</a> </h5>
+            <h5 class=" amber-text "><a href="prestation.php#position4" class="waves-effect waves-light btn-large">Nos prestations</a> </h5>
           </div>
         </li>
         <li>
           <img src="img/image3.jpg"> <!-- random image -->
           <div class="caption right-align amber-text text-darken-2">
             <h3 class="titre-carou">ValeurSûre, et se financer devient un jeu d'enfant.</h3>
-            <h5 class=" amber-text "><a href="apropos.php#lien-engagement" class="waves-effect waves-light btn-large">Plus d'info...</a> </h5>
+            <h5 class=" amber-text "><a href="apropos.php#lien-engagement" class="waves-effect waves-light btn-large">J'ai un projet</a> </h5>
           </div>
         </li>
         <li>
           <img src="img/image5.jpg"> <!-- random image -->
           <div class="caption right-align amber-text text-darken-2">
             <h3 class="titre-carou">Un projet ? Parlez-en à votre expert.</h3>
-            <h5 class=" amber-text "><a href="contact.php" class="waves-effect waves-light btn-large">Plus d'info...</a> </h5>
+            <h5 class=" amber-text "><a href="contact.php" class="waves-effect waves-light btn-large">Contact</a> </h5>
           </div>
         </li>
       </ul>
@@ -74,7 +74,7 @@ include('includes/rapide.php');
         <a href="" class="anchor">
           <section class="prestations wow fadeInLeftBig">
             <div class="bg1 bg-section"></div>
-    
+
             <div class="content">
               <h2 id="lien-creditpro">Courtier en Finance d'Entreprise</h2>
               <p class="">A la recherche d’une solution de financement à usage professionnel ? Vous êtes au bon endroit. ValeurSûre vous propose un accompagnement sur-mesure car la solution découlera de l’expression de votre besoin et de vos attentes.</p>
@@ -85,7 +85,7 @@ include('includes/rapide.php');
         <a href="" class="anchor">
           <section class="prestations wow fadeInLeftBig">
             <div class="bg2 bg-section"></div>
-    
+
             <div class="content">
               <h2 id="lien-creditpro">Courtier en Crédit Immobilier</h2>
               <p class="">Avant toute chose, évaluez votre capacité d’emprunt pour connaître votre budget avant de rechercher le bien. Cela vous permettra de signer votre compromis en tout sérénité ou de demander des devis en conséquence.</p>
@@ -96,7 +96,7 @@ include('includes/rapide.php');
         <a href="" class="anchor">
           <section class="prestations wow fadeInLeftBig">
             <div class="bg3 bg-section"></div>
-    
+
             <div class="content">
               <h2 id="lien-creditpro">Courtier en Assurances Emprunteurs</h2>
               <p class="">Désormais, il vous est possible de déléguer ce contrat à une société d’assurance externe à la banque et qui sera plus compétitive, tout en proposant des garanties similaires.</p>
@@ -107,7 +107,7 @@ include('includes/rapide.php');
         <a href="" class="anchor">
           <section class="prestations wow fadeInLeftBig">
             <div class="bg4 bg-section"></div>
-    
+
             <div class="content">
               <h2 id="lien-creditpro">Prestation de Services</h2>
               <p class="">On peut maîtriser son métier, proposer des produits et services de qualité mais si on ne gère pas les finances, cela peut être une menace pour la pérennité de son activité.</p>

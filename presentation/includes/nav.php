@@ -12,7 +12,7 @@
         <li><a class="nav-lien" href="./apropos.php">A	propos de ValeurSure</a></li>
         <li><a class="nav-lien" href="./prestation.php">Nos prestations</a></li>
         <li><a class="nav-lien" href="./Simulateurs.php">Simulateurs</a></li>
-        <li><a class="nav-lien" href="./demandefinancement.php">Demande de financement</a></li>
+        <li><a class="nav-lien" href="./demandefinancement.php">J'ai un projet</a></li>
         <li><a class="nav-lien" href="./contact.php">Contact</a></li>
       </ul>
     </div>
@@ -23,6 +23,6 @@
     <li><a class="nav-lien" href="./apropos.php">A	propos de ValeurSure</a></li>
     <li><a class="nav-lien" href="./prestation.php">Nos prestations</a></li>
     <li><a class="nav-lien" href="./Simulateurs.php">Simulateurs</a></li>
-    <li><a class="nav-lien" href="./demandefinancement.php">Demande de financement</a></li>
+    <li><a class="nav-lien" href="./demandefinancement.php">J'ai un projet</a></li>
     <li><a class="nav-lien" href="./contact.php">Contact</a></li>
   </ul>

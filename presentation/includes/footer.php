@@ -17,7 +17,7 @@
 					·
 					<a class="link" href="simulateurs.php">Simulateurs</a>
 					·
-					<a class="link" href="demandefinancement.php">Demande de financement</a>
+					<a class="link" href="demandefinancement.php">J'ai un projet</a>
 					·
 					<a class="link" href="contact.php">Contact</a>
 				</p>

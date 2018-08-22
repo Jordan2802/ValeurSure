@@ -17,7 +17,7 @@
  <body>
    <header>
    <?php include('includes/nav.php'); ?>
-   
+
    </header>
 
    <main>
@@ -57,7 +57,7 @@
 
          <div class="divider-item" id="position">
            <div class="divider-line"></div>
-           <div class="egg"></div>
+           <div class="egg"><img src="img/logo-valeursure-min.png"></div>
            <div class="divider-line"></div>
          </div>
 
@@ -73,7 +73,7 @@
 
         <div class="divider-item" id="position">
           <div class="divider-line"></div>
-          <div class="egg"></div>
+          <div class="egg"><img src="img/logo-valeursure-min.png"></div>
           <div class="divider-line"></div>
         </div>
 

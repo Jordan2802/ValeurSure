@@ -185,17 +185,11 @@ main{
   height: 250px;
 }
 
- .egg{
-   display: block;
-   width: 126px;
-   height: 180px;
-   background-color: #C79400;
-   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
-   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-
-   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-
-   transform: scale(0.2);
+.egg{
+  display: block;
+  width: 126px;
+  height: 180px;
+  transform: scale(0.5);
 }
 
 .divider-line{

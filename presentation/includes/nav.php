@@ -5,7 +5,7 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo"> <img class="logoOeuf" src="img/axa.jpg" alt=""> </a>
+      <a href="#!" class="brand-logo"> <img class="logoOeuf" src="img/logo-valeursure.png" alt=""> </a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="nav-lien" href="./index.php">Accueil</a></li>

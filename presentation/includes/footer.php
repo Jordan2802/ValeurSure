@@ -26,7 +26,7 @@
 
 				<div class="footer-icons">
 					<a href="#"><i class="fab fa-twitter iconsocial"></i></a>
-					<a href="https://fr.linkedin.com/in/blanchard-tubind-b19635110" target="_blank"><i class="fab fa-linkedin-in iconsocial"></i></a>
+					<a href="https://fr.linkedin.com/in/blanchard-tubind-b19635110" onclick="window.open(this.href); return false;"><i class="fab fa-linkedin-in iconsocial"></i></a>
 				</div>
 			</div>
 

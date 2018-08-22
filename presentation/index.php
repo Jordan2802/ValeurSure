@@ -59,7 +59,7 @@ include('includes/rapide.php');
     <main class="first">
       <div class="wow fadeInUpBig intro">
 
-        <div class="info"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>
+        <div class="info-intro"> <q> Le choix d’un Courtier en crédits s’apparente à celui d’un Banquier. Assurez-vous d’avoir le bon interlocuteur, qualifié et compétent, afin de mener à bien votre projet.</q></div>
 
         <div class="introduction">
           Pour financer votre entreprise, il est important de déterminer sa solvabilité. Et pour financer votre patrimoine, il faut vérifier que l’entreprise est suffisamment pérenne pour vous assurer des revenus réguliers. C’est pourquoi tous vos projets de financement,
@@ -71,74 +71,49 @@ include('includes/rapide.php');
 
       <div id="categories">
 
-        <a href="#" class="sec-conseil">
-          <section class="wow fadeInRight">
-            <h2 class="section-name">Conseil</h2>
-            <p class="description show--hover">Conseil en gestion financière d’entreprise : gestion de trésorerie, optimisation fiscale, choix des investissements</p>
+        <a href="" class="anchor">
+          <section class="prestations wow fadeInLeftBig">
+            <div class="bg1 bg-section"></div>
+    
+            <div class="content">
+              <h2 id="lien-creditpro">Courtier en Finance d'Entreprise</h2>
+              <p class="">A la recherche d’une solution de financement à usage professionnel ? Vous êtes au bon endroit. ValeurSûre vous propose un accompagnement sur-mesure car la solution découlera de l’expression de votre besoin et de vos attentes.</p>
+            </div>
           </section>
         </a>
 
-        <a href="#" class="sec-cred-pro">
-          <section class="wow fadeInLeft">
-            <h2 class="section-name">Courtier en crédits professionnels</h2>
-            <p class="description show--hover">Recherche de financements : crédits professionnels, leasing, Crédit-Bail, financement participatif</p>
+        <a href="" class="anchor">
+          <section class="prestations wow fadeInLeftBig">
+            <div class="bg2 bg-section"></div>
+    
+            <div class="content">
+              <h2 id="lien-creditpro">Courtier en Crédit Immobilier</h2>
+              <p class="">Avant toute chose, évaluez votre capacité d’emprunt pour connaître votre budget avant de rechercher le bien. Cela vous permettra de signer votre compromis en tout sérénité ou de demander des devis en conséquence.</p>
+            </div>
           </section>
         </a>
 
-        <a href="#" class="sec-simul">
-          <section class="wow fadeInLeft ">
-            <h2 class="section-name">Simulateurs</h2>
-            <p class="description show--hover">Vous souhaitez connaître vos mensualités, le montant que vous pouvez emprunter et sur quelle durée ? Obtenez ces informations en quelques clics.</p>
-            <!--
-          <div class="selecteur">
-          <select name="" id="">
-          <option value="">Selectionnez un simulateur</option>
-          <option value="cap-emprunt">Capacité d'emprunt</option>
-          <option value="capital">Capital</option>
-          <option value="mensualite">Mensualité</option>
-        </select>
-        <input class="button-simul" type="button" value="Aller au simulateur">
-      </div>
-    -->
+        <a href="" class="anchor">
+          <section class="prestations wow fadeInLeftBig">
+            <div class="bg3 bg-section"></div>
+    
+            <div class="content">
+              <h2 id="lien-creditpro">Courtier en Assurances Emprunteurs</h2>
+              <p class="">Désormais, il vous est possible de déléguer ce contrat à une société d’assurance externe à la banque et qui sera plus compétitive, tout en proposant des garanties similaires.</p>
+            </div>
           </section>
         </a>
 
-        <a href="#" class="sec-assu-empr">
-          <section class="wow fadeInUp ">
-            <h2 class="section-name">Courtier en Assurances Emprunteurs</h2>
-            <p class="description show--hover">Quod et etiam amicitia quidem saepe ad id se quidem utilitates profecta coluntur simulatione quod an coniungendam an profecta amicitia. Proposition d’Assurances Emprunteurs pour les professionnels et les particuliers.</p>
+        <a href="" class="anchor">
+          <section class="prestations wow fadeInLeftBig">
+            <div class="bg4 bg-section"></div>
+    
+            <div class="content">
+              <h2 id="lien-creditpro">Prestation de Services</h2>
+              <p class="">On peut maîtriser son métier, proposer des produits et services de qualité mais si on ne gère pas les finances, cela peut être une menace pour la pérennité de son activité.</p>
+            </div>
           </section>
         </a>
-
-        <section class="wow fadeInRight img-2">
-        </section>
-
-        <a href="#" class="sec-cred-immo">
-          <section class="wow fadeInRight ">
-            <h2 class="section-name">Courtier en crédits immobiliers</h2>
-            <p class="description show--hover">Recherche de financements : crédits immobiliers, crédits à la consommation</p>
-          </section>
-        </a>
-
-        <a href="#" class="sec-formation">
-          <section class="wow fadeInRight ">
-            <h2 class="section-name">Formation</h2>
-            <p class="description show--hover">Formation en finances d’entreprises : Business Plan, approches comptables et financières d’une entreprises</p>
-          </section>
-        </a>
-
-          <section class="wow fadeInLeft media-twi">
-            <a class="twitter-timeline" data-height="5000" href="https://twitter.com/_Valloa_?ref_src=twsrc%5Etfw">Tweets by _Valloa_</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </section>
-
-          <section class="wow fadeInUp media-lin">
-            <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="guillaume-kusberg-046926166"><a class="LI-simple-link" href='https://fr.linkedin.com/in/guillaume-kusberg-046926166?trk=profile-badge'>Guillaume kusberg</a></div>
-          </section>
-
-       <!-- <section class="wow fadeInUp img-1">
-        </section>-->
 
       </div>
 

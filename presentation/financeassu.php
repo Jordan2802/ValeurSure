@@ -340,7 +340,6 @@
 </form>
 <div class="g-recaptcha" id="capassu" data-sitekey="6LchTWIUAAAAAJIQIi7cgdg_JBpmVA9FuQz07ed0"></div>
 
-</div>
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.datepicker');

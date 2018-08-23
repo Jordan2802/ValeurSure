@@ -83,7 +83,7 @@ include('includes/rapide.php');
         </a>
 
         <a href="" class="anchor">
-          <section class="prestations wow fadeInLeftBig">
+          <section class="prestations wow fadeInRightBig">
             <div class="bg2 bg-section"></div>
     
             <div class="content">
@@ -105,7 +105,7 @@ include('includes/rapide.php');
         </a>
 
         <a href="" class="anchor">
-          <section class="prestations wow fadeInLeftBig">
+          <section class="prestations wow fadeInRightBig">
             <div class="bg4 bg-section"></div>
     
             <div class="content">

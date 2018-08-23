@@ -202,16 +202,3 @@ main {
   opacity: 0.2;
   z-index: 0;
 }
-
-@media all and (max-width: 768px) {
-  .show--hover {
-    transform: translate3d(0, 0, 0);
-  }
-  .info-intro {
-    border-right: 0px solid #000;
-    border-bottom: 1px solid #000;
-  }
-  #categories a {
-    width: 100%;
-  }
-}

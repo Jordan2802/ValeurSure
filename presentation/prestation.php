@@ -139,7 +139,7 @@
           <?php
           if (isset($_POST['button'])) {
               $to      = 'sha08dow@hotmail.fr';
-              $subject ='ValeurSure : ' .$_POST['objet'];
+              $subject ='ValeurSure : Formulaire mobile Financement professionnel' .$_POST['objet'];
               $message = $_POST['message'];
               $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
 
@@ -239,7 +239,7 @@
           <?php
           if (isset($_POST['button'])) {
               $to      = 'sha08dow@hotmail.fr';
-              $subject ='ValeurSure : ' .$_POST['objet'];
+              $subject ='ValeurSure : Formulaire mobile Crédit immobilier' .$_POST['objet'];
               $message = $_POST['message'];
               $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
 
@@ -334,7 +334,7 @@
             <?php
             if (isset($_POST['button'])) {
                 $to      = 'sha08dow@hotmail.fr';
-                $subject ='ValeurSure : ' .$_POST['objet'];
+                $subject ='ValeurSure : Formulaire mobile Assurance Emprunteurs' .$_POST['objet'];
                 $message = $_POST['message'];
                 $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
 
@@ -414,7 +414,7 @@
             <?php
             if (isset($_POST['button'])) {
                 $to      = 'sha08dow@hotmail.fr';
-                $subject ='ValeurSure : ' .$_POST['objet'];
+                $subject ='ValeurSure : Formulaire mobile Conseil et prestations de services' .$_POST['objet'];
                 $message = $_POST['message'];
                 $headers = $_POST['nom'].' '.$_POST['prenom']. "\r\n" .$_POST['email'];
 

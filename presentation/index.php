@@ -114,6 +114,14 @@ include('includes/rapide.php');
             </div>
           </section>
         </a>
+        
+
+        <div class="social">
+          <a class="twitter-timeline" href="https://twitter.com/TubindB?ref_src=twsrc%5Etfw">Tweets by TubindB</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+          <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+          <script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/blanchard-tubind-courtier-financement-professionnel" data-format="inline" data-related="false"></script>
+        </div>
 
       </div>
 

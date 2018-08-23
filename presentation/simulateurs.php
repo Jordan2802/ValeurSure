@@ -30,26 +30,6 @@
 durée ? Obtenez ces informations en quelques clics.</p>
     </div>
 
-    <!-- <div class="selecteur">
-      <div class="tab">
-        <button class="tablinks" onclick="openCalc(event, '#emprunt')" id="defaultOpen">Capacité d'emprunt</button>
-        <button class="tablinks central-border" onclick="openCalc(event, '#capital')">Capital</button>
-        <button class="tablinks" onclick="openCalc(event, '#mensualite')">Mensualité</button>
-      </div>
-
-      <div id="emprunt" class="tabcontent hidden">
-        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
-      </div>
-
-      <div id="capital" class="tabcontent hidden">
-        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
-      </div>
-
-      <div id="mensualite" class="tabcontent hidden">
-        <img src="img/simulateur.png" class="fauxsimulateur" alt="simulateur">
-      </div>
-    </div> -->
-
     <div class="simulateur">
       <iframe src="http://suivi.globalcourtage.com/ext/toutes_calculatrices.asp?calc=mensualite&amp;montant=0&amp;duree=240&amp;taux=1,8&amp;apport=20000&amp;color_bg=002366&amp;color_txt=FFFFFF" style="width:100%;height:460px;border:0;" kwframeid="1"></iframe>
     </div>
